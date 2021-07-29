@@ -277,7 +277,7 @@
 <p>​	集中刷新    有 “死时间”</p>
 <p>​	分散刷新    无” 死时间 “    存取周期增长</p>
 <p>​	异步刷新	有短 “死时间 &quot;</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210729204423588.png" alt="image-20210729204423588"></p>
+<p><img data-src="image-20210729204423588.png" alt="image-20210729204423588"></p>
 <p><span class="rainbow">芯片接口数 = 地址线 + 数据线 + 片选线 (DRAM 有行，列片选线)+ 读写控制线 (1-2 根)</span></p>
 <h2 id="只读存储器"><a class="markdownIt-Anchor" href="#只读存储器">#</a> 只读存储器</h2>
 <p>MROM</p>
@@ -289,8 +289,8 @@
 <p>线选法  不需要译码器，线路简单      容易造成地址资源浪费</p>
 <p>片选法</p>
 <p>片选线的连接     cpu 的访存控制信号 MREQ 为低时可访问</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210729211017723.png" alt="image-20210729211017723"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210729211042945.png" alt="image-20210729211042945"></p>
+<p><img data-src="image-20210729211017723.png" alt="image-20210729211017723"></p>
+<p><img data-src="image-20210729211042945.png" alt="image-20210729211042945"></p>
 <h2 id="双端口ram和多模块存储器"><a class="markdownIt-Anchor" href="#双端口ram和多模块存储器">#</a> 双端口 RAM 和多模块存储器</h2>
 <p>双端口 RAM   置” 忙 “信号 BUSY 为 0，由判断逻辑决定暂时关闭一个端口</p>
 <p>单体多字存储器 	每个存储单元存储 m 个字，总线宽度为 m 字</p>

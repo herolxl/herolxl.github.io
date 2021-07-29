@@ -34,7 +34,7 @@
 &lt;p&gt;​	集中刷新    有 “死时间”&lt;/p&gt;
 &lt;p&gt;​	分散刷新    无” 死时间 “    存取周期增长&lt;/p&gt;
 &lt;p&gt;​	异步刷新	有短 “死时间 &amp;quot;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210729204423588.png&#34; alt=&#34;image-20210729204423588&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210729204423588.png&#34; alt=&#34;image-20210729204423588&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;芯片接口数 = 地址线 + 数据线 + 片选线 (DRAM 有行，列片选线)+ 读写控制线 (1-2 根)&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;只读存储器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#只读存储器&#34;&gt;#&lt;/a&gt; 只读存储器&lt;/h2&gt;
 &lt;p&gt;MROM&lt;/p&gt;
@@ -46,8 +46,8 @@
 &lt;p&gt;线选法  不需要译码器，线路简单      容易造成地址资源浪费&lt;/p&gt;
 &lt;p&gt;片选法&lt;/p&gt;
 &lt;p&gt;片选线的连接     cpu 的访存控制信号 MREQ 为低时可访问&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210729211017723.png&#34; alt=&#34;image-20210729211017723&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210729211042945.png&#34; alt=&#34;image-20210729211042945&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210729211017723.png&#34; alt=&#34;image-20210729211017723&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210729211042945.png&#34; alt=&#34;image-20210729211042945&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;双端口ram和多模块存储器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#双端口ram和多模块存储器&#34;&gt;#&lt;/a&gt; 双端口 RAM 和多模块存储器&lt;/h2&gt;
 &lt;p&gt;双端口 RAM   置” 忙 “信号 BUSY 为 0，由判断逻辑决定暂时关闭一个端口&lt;/p&gt;
 &lt;p&gt;单体多字存储器 	每个存储单元存储 m 个字，总线宽度为 m 字&lt;/p&gt;
