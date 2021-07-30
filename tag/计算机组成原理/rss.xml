@@ -5,12 +5,29 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Thu, 29 Jul 2021 20:15:42 +0800</pubDate>
-        <lastBuildDate>Thu, 29 Jul 2021 20:15:42 +0800</lastBuildDate>
+        <pubDate>Thu, 29 Jul 2021 21:27:52 +0800</pubDate>
+        <lastBuildDate>Thu, 29 Jul 2021 21:27:52 +0800</lastBuildDate>
         <category>高等数学</category>
         <category>概率论</category>
         <category>线性代数</category>
         <category>计算机组成原理</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/07/29/%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA%E5%92%8C%E8%BF%90%E7%AE%97/</guid>
+            <title>数据的表示和运算</title>
+            <link>http://example.com/2021/07/29/%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA%E5%92%8C%E8%BF%90%E7%AE%97/</link>
+            <category>计算机组成原理</category>
+            <pubDate>Thu, 29 Jul 2021 21:27:52 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;数制与编码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数制与编码&#34;&gt;#&lt;/a&gt; 数制与编码&lt;/h2&gt;
+&lt;p&gt;ASCII 码   (7 位 2 进制编码，最高位保持为 0，用于奇偶校验位)&lt;/p&gt;
+&lt;p&gt;​	0-31 控制字符    32-126 可印刷字符    32 空格 sp       127DEL 码&lt;/p&gt;
+&lt;p&gt;汉字编码	输入编码，汉字内码，汉字字形码&lt;/p&gt;
+&lt;p&gt;​	国标码 = 区位码 + 2020H      防止与通讯字符冲突&lt;/p&gt;
+&lt;p&gt;​	汉字内码 = 国标码 + 8080H	区分中英字符&lt;/p&gt;
+&lt;h2 id=&#34;定点数的表示与运算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#定点数的表示与运算&#34;&gt;#&lt;/a&gt; 定点数的表示与运算&lt;/h2&gt;
+&lt;p&gt;移码 	只能表示整数，保持数据原有大小顺序&lt;/p&gt;
+&lt;p&gt;补码	 左移补 0，右移补 1&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/07/29/%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F/</guid>
             <title>存储系统</title>
