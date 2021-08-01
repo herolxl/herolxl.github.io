@@ -2,13 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com</id>
     <title>hero的博客</title>
-    <subtitle></subtitle>
-    <icon>http://example.com/images/favicon.ico</icon>
     <link href="http://example.com" />
-    <author>
-      <name>hero</name>
-    </author>
     <updated>2021-07-31T04:10:56.000Z</updated>
+    <category term="高等数学" />
+    <category term="概率论" />
+    <category term="线性代数" />
+    <category term="计算机组成原理" />
     <entry>
         <id>http://example.com/2021/07/31/%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%92%8C%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/</id>
         <title>大数定律和中心极限定理</title>
@@ -18,8 +17,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210731124109015.png&#34; alt=&#34;image-20210731124109015&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210731124132738.png&#34; alt=&#34;image-20210731124132738&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="概率论" scheme="http://example.com/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/" />
+        <category term="概率论" />
         <updated>2021-07-31T04:10:56.000Z</updated>
     </entry>
     <entry>
@@ -37,8 +35,7 @@
 &lt;hr&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210730145711556.png&#34; alt=&#34;image-20210730145711556&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="概率论" scheme="http://example.com/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/" />
+        <category term="概率论" />
         <updated>2021-07-30T05:07:17.000Z</updated>
     </entry>
     <entry>
@@ -55,8 +52,7 @@
 &lt;p&gt;移码 	只能表示整数，保持数据原有大小顺序&lt;/p&gt;
 &lt;p&gt;补码	 左移补 0，右移补 1&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
+        <category term="计算机组成原理" />
         <updated>2021-07-29T13:27:52.000Z</updated>
     </entry>
     <entry>
@@ -107,8 +103,7 @@
 &lt;p&gt;​		低位交叉编址		存储交叉模块数应  m&amp;gt;=T/r         连续存取 m 个字需要的时间  t=T+(m-1) r&lt;/p&gt;
 &lt;p&gt;​				双通道：2 体低位交叉存储器&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
+        <category term="计算机组成原理" />
         <updated>2021-07-29T12:15:42.000Z</updated>
     </entry>
     <entry>
@@ -127,8 +122,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210728215228983.png&#34; alt=&#34;image-20210728215228983&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210728215241859.png&#34; alt=&#34;image-20210728215241859&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="概率论" scheme="http://example.com/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/" />
+        <category term="概率论" />
         <updated>2021-07-28T13:45:18.000Z</updated>
     </entry>
     <entry>
@@ -145,8 +139,7 @@
 &lt;p&gt;指数分布的无记忆性&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210728145220183.png&#34; alt=&#34;image-20210728145220183&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="概率论" scheme="http://example.com/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/" />
+        <category term="概率论" />
         <updated>2021-07-27T11:37:47.000Z</updated>
     </entry>
     <entry>
@@ -163,8 +156,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210726195429690.png&#34; alt=&#34;image-20210726195429690&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210727142134307.png&#34; alt=&#34;image-20210727142134307&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="概率论" scheme="http://example.com/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/" />
+        <category term="概率论" />
         <updated>2021-07-24T12:38:59.000Z</updated>
     </entry>
     <entry>
@@ -179,8 +171,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210724142745559.png&#34; alt=&#34;image-20210724142745559&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210724132350903.png&#34; alt=&#34;image-20210724132350903&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
+        <category term="线性代数" />
         <updated>2021-07-24T05:21:18.000Z</updated>
     </entry>
     <entry>
@@ -198,8 +189,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210723191248493.png&#34; alt=&#34;image-20210723191248493&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210723191349917.png&#34; alt=&#34;image-20210723191349917&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
+        <category term="线性代数" />
         <updated>2021-07-23T10:59:53.000Z</updated>
     </entry>
     <entry>
@@ -223,8 +213,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210720111751107.png&#34; alt=&#34;image-20210720111751107&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210720111817074.png&#34; alt=&#34;image-20210720111817074&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
+        <category term="线性代数" />
         <updated>2021-07-23T06:13:51.000Z</updated>
     </entry>
     <entry>
@@ -243,8 +232,7 @@
 &lt;hr&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210720104758031.png&#34; alt=&#34;image-20210720104758031&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
+        <category term="线性代数" />
         <updated>2021-07-23T06:11:01.000Z</updated>
     </entry>
     <entry>
@@ -256,7 +244,7 @@
 &lt;p&gt;抽象矩阵的逆矩阵&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210716100131281.png&#34; alt=&#34;image-20210716100131281&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
+        <category term="线性代数" />
         <updated>2021-07-23T06:03:44.000Z</updated>
     </entry>
     <entry>
@@ -266,8 +254,7 @@
         <content type="html">&lt;p&gt;极数&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210704210052124.png&#34; alt=&#34;image-20210704210052124&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <category term="高等数学" />
         <updated>2021-07-23T05:53:02.000Z</updated>
     </entry>
     <entry>
@@ -278,8 +265,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210708135157183.png&#34; alt=&#34;image-20210708135157183&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210708135208061.png&#34; alt=&#34;image-20210708135208061&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <category term="高等数学" />
         <updated>2021-07-23T05:50:50.000Z</updated>
     </entry>
     <entry>
@@ -289,8 +275,7 @@
         <content type="html">&lt;p&gt;2 重积分&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210701210537937.png&#34; alt=&#34;image-20210701210537937&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <category term="高等数学" />
         <updated>2021-07-23T05:45:05.000Z</updated>
     </entry>
     <entry>
@@ -305,8 +290,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210605202140203.png&#34; alt=&#34;image-20210605202140203&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210609104134603.png&#34; alt=&#34;image-20210609104134603&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <category term="高等数学" />
         <updated>2021-07-23T05:42:20.000Z</updated>
     </entry>
     <entry>
@@ -320,8 +304,7 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210604165751795.png&#34; alt=&#34;image-20210604165751795&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210604174624930.png&#34; alt=&#34;image-20210604174624930&#34;&gt;&lt;/p&gt;
 </content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <category term="高等数学" />
         <updated>2021-07-23T05:27:32.000Z</updated>
     </entry>
     <entry>

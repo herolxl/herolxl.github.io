@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>hero的博客 • Posts by &#34;计算机组成原理&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 29 Jul 2021 21:27:52 +0800</pubDate>
+        <lastBuildDate>Thu, 29 Jul 2021 21:27:52 +0800</lastBuildDate>
+        <category>高等数学</category>
+        <category>概率论</category>
+        <category>线性代数</category>
+        <category>计算机组成原理</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/07/29/%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA%E5%92%8C%E8%BF%90%E7%AE%97/</guid>
+            <title>数据的表示和运算</title>
+            <link>http://example.com/2021/07/29/%E6%95%B0%E6%8D%AE%E7%9A%84%E8%A1%A8%E7%A4%BA%E5%92%8C%E8%BF%90%E7%AE%97/</link>
+            <category>计算机组成原理</category>
+            <pubDate>Thu, 29 Jul 2021 21:27:52 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;数制与编码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数制与编码&#34;&gt;#&lt;/a&gt; 数制与编码&lt;/h2&gt;
+&lt;p&gt;ASCII 码   (7 位 2 进制编码，最高位保持为 0，用于奇偶校验位)&lt;/p&gt;
+&lt;p&gt;​	0-31 控制字符    32-126 可印刷字符    32 空格 sp       127DEL 码&lt;/p&gt;
+&lt;p&gt;汉字编码	输入编码，汉字内码，汉字字形码&lt;/p&gt;
+&lt;p&gt;​	国标码 = 区位码 + 2020H      防止与通讯字符冲突&lt;/p&gt;
+&lt;p&gt;​	汉字内码 = 国标码 + 8080H	区分中英字符&lt;/p&gt;
+&lt;h2 id=&#34;定点数的表示与运算&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#定点数的表示与运算&#34;&gt;#&lt;/a&gt; 定点数的表示与运算&lt;/h2&gt;
+&lt;p&gt;移码 	只能表示整数，保持数据原有大小顺序&lt;/p&gt;
+&lt;p&gt;补码	 左移补 0，右移补 1&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/07/29/%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F/</guid>
+            <title>存储系统</title>
+            <link>http://example.com/2021/07/29/%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F/</link>
+            <category>计算机组成原理</category>
+            <pubDate>Thu, 29 Jul 2021 20:15:42 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;存储器概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#存储器概述&#34;&gt;#&lt;/a&gt; 存储器概述&lt;/h2&gt;
+&lt;p&gt;主存，辅存，高速缓冲存储器&lt;/p&gt;
+&lt;p&gt;RAM&lt;/p&gt;
+&lt;p&gt;ROM&lt;/p&gt;
+&lt;p&gt;SAM (顺序存取，磁带)&lt;/p&gt;
+&lt;p&gt;DAM (直接存取，磁盘，光盘)&lt;/p&gt;
+&lt;p&gt;存储容量：存储字数 × 字长（如 1M×8 位）&lt;br&gt;
+单位成本：每位价格 = 总成本 / 总容量。&lt;br&gt;
+存储速度：数据传输率 = 数据的宽度 / 存储周期&lt;/p&gt;
+&lt;p&gt;数据的传输率： 1 秒 主存 进出的数据的最大的数量&lt;/p&gt;
+&lt;p&gt;①存取时间（Ta）：存取时间是指从启动一次存储器操作到完成该操作所经历&lt;br&gt;
+的时间，分为读出时间和写入时间。&lt;br&gt;
+②存取周期（Tm）：存取周期又称为读写周期或访问周期。它是指存储器进行一次完整的读写操作所需的全部时间，即连续两次独立地访问存储器操作（读或写操作）之间所需的最小时间间隔。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;存取周期 = 存取时间 + 回复时间&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;③主存带宽（Bm）：主存带宽又称数据传输率，表示每秒从主存进出信息的最大数量，单位为字 / 秒、字节 / 秒（B/s）或位 / 秒（b/s）&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;半导体随机存储器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#半导体随机存储器&#34;&gt;#&lt;/a&gt; 半导体随机存储器&lt;/h2&gt;
+&lt;p&gt;SRAM&lt;/p&gt;
+&lt;p&gt;DRAM  地址复用技术   电容上的电荷一般只能维持 1-2ms   通常取 2ms 为刷新周期&lt;/p&gt;
+&lt;p&gt;​	集中刷新    有 “死时间”&lt;/p&gt;
+&lt;p&gt;​	分散刷新    无” 死时间 “    存取周期增长&lt;/p&gt;
+&lt;p&gt;​	异步刷新	有短 “死时间 &amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210729204423588.png&#34; alt=&#34;image-20210729204423588&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;芯片接口数 = 地址线 + 数据线 + 片选线 (DRAM 有行，列片选线)+ 读写控制线 (1-2 根)&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;只读存储器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#只读存储器&#34;&gt;#&lt;/a&gt; 只读存储器&lt;/h2&gt;
+&lt;p&gt;MROM&lt;/p&gt;
+&lt;p&gt;PROM&lt;/p&gt;
+&lt;p&gt;EPROM&lt;/p&gt;
+&lt;p&gt;Flash Memory (写速度比读速度慢)&lt;/p&gt;
+&lt;p&gt;SSD&lt;/p&gt;
+&lt;h2 id=&#34;主存储器与cup的连接&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#主存储器与cup的连接&#34;&gt;#&lt;/a&gt; 主存储器与 cup 的连接&lt;/h2&gt;
+&lt;p&gt;线选法  不需要译码器，线路简单      容易造成地址资源浪费&lt;/p&gt;
+&lt;p&gt;片选法&lt;/p&gt;
+&lt;p&gt;片选线的连接     cpu 的访存控制信号 MREQ 为低时可访问&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210729211017723.png&#34; alt=&#34;image-20210729211017723&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210729211042945.png&#34; alt=&#34;image-20210729211042945&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;双端口ram和多模块存储器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#双端口ram和多模块存储器&#34;&gt;#&lt;/a&gt; 双端口 RAM 和多模块存储器&lt;/h2&gt;
+&lt;p&gt;双端口 RAM   置” 忙 “信号 BUSY 为 0，由判断逻辑决定暂时关闭一个端口&lt;/p&gt;
+&lt;p&gt;单体多字存储器 	每个存储单元存储 m 个字，总线宽度为 m 字&lt;/p&gt;
+&lt;p&gt;多模块存储器&lt;/p&gt;
+&lt;p&gt;​		高位交叉编制     不符合程序运行的局部性原理&lt;/p&gt;
+&lt;p&gt;​		低位交叉编址		存储交叉模块数应  m&amp;gt;=T/r         连续存取 m 个字需要的时间  t=T+(m-1) r&lt;/p&gt;
+&lt;p&gt;​				双通道：2 体低位交叉存储器&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
