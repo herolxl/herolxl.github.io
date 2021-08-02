@@ -43,6 +43,7 @@
 &lt;/div&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210802150010995.png&#34; alt=&#34;image-20210802150010995&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;有效性：两者 E 相同时，才可用 D 比较&lt;/p&gt;
 &lt;p&gt;一致性 ：切比雪夫不等式，辛勤大数定理等&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210802151625789.png&#34; alt=&#34;image-20210802151625789&#34;&gt;&lt;/p&gt;

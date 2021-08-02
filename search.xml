@@ -389,6 +389,7 @@
 </div>
 <p><img data-src="image-20210802150010995.png" alt="image-20210802150010995"></p>
 <div class="note warning">
+<p>有效性：两者 E 相同时，才可用 D 比较</p>
 <p>一致性 ：切比雪夫不等式，辛勤大数定理等</p>
 </div>
 <p><img data-src="image-20210802151625789.png" alt="image-20210802151625789"></p>
