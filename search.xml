@@ -339,8 +339,47 @@
 <p>Cache 未命中时</p>
 <p>1. 写分配法  		加载主存块到 Cache 中（通常和写回法配合）</p>
 <p>2. 非写分配法（通常和全写法配合）</p>
-<ol start="3">
-<li class="correct">下列叙述正确的是 <span class="gap"></span> 。 {.quiz}    - 虚函数只能定义成无参函数    - 虚函数不能有返回值    - 能定义虚构造函数    - A、B、C 都不对</li>
+<hr>
+<h2 id="title-练习题与答案quiz-true"><a class="anchor" href="#title-练习题与答案quiz-true">#</a> title: 练习题与答案<br>
+ quiz: true</h2>
+<ol>
+<li class="quiz true">
+<p>编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。</p>
+</li>
+<li class="quiz multi">
+<p>有基类  <code>SHAPE</code> ，派生类  <code>CIRCLE</code> ，声明如下变量： </p>
+<figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tr><td data-num="1"></td><td><pre>SHAPE shape1<span class="token punctuation">,</span><span class="token operator">*</span>p1<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>CIRCLE circle1<span class="token punctuation">,</span><span class="token operator">*</span>q1<span class="token punctuation">;</span></pre></td></tr></table></figure><p>下列哪些项是 “派生类对象替换基类对象”。</p>
+<ul class="options">
+<li class="correct"><code>p1=&amp;circle1;</code> </li>
+<li><code>q1=&amp;shape1;</code></li>
+<li class="correct"><code>shape1=circle1;</code> </li>
+<li><code>circle1=shape1;</code></li>
+</ul>
+<blockquote>
+<ul class="options">
+<li>✔️ 令基类对象的指针指向派生类对象</li>
+<li>❌ 派生类指针指向基类的引用</li>
+<li>✔️ 派生类对象给基类对象赋值</li>
+<li>❌ 基类对象给派生类对象赋值</li>
+</ul>
+</blockquote>
+</li>
+<li class="quiz">
+<p>下列叙述正确的是 <span class="gap"></span> 。</p>
+<ul class="options">
+<li>虚函数只能定义成无参函数</li>
+<li>虚函数不能有返回值</li>
+<li>能定义虚构造函数</li>
+<li class="correct">A、B、C 都不对</li>
+</ul>
+</li>
+<li class="quiz fill">
+<p>如果定义  <code>int e=8; double f=6.4, g=8.9;</code> ，则表达式  <code>f+int (e/3*int (f+g)/2)%4</code>  的值为 <span class="gap">9.4</span>。</p>
+<blockquote>
+<p>注意运算顺序和数据类型<br>
+<span class="mistake"> 8.4</span></p>
+</blockquote>
+</li>
 </ol>
 <p class="quiz">1. 主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。</p>
 <ul class="correct">
