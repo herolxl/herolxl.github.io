@@ -339,6 +339,9 @@
 <p>Cache 未命中时</p>
 <p>1. 写分配法  		加载主存块到 Cache 中（通常和写回法配合）</p>
 <p>2. 非写分配法（通常和全写法配合）</p>
+<ol start="3">
+<li class="correct">下列叙述正确的是 <span class="gap"></span> 。 {.quiz}    - 虚函数只能定义成无参函数    - 虚函数不能有返回值    - 能定义虚构造函数    - A、B、C 都不对</li>
+</ol>
 <p class="quiz">1. 主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。</p>
 <ul class="correct">
 <li>12MB+400KB</li>
