@@ -339,9 +339,7 @@
 <p>Cache 未命中时</p>
 <p>1. 写分配法  		加载主存块到 Cache 中（通常和写回法配合）</p>
 <p>2. 非写分配法（通常和全写法配合）</p>
-<hr>
-<p>title: 练习题与答案</p>
-<hr>
+<p>--- title: 练习题与答案 quiz: true ---</p>
 <p class="quiz">1. 主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。</p>
 <ul class="correct">
 <li>12MB+400KB</li>
@@ -362,6 +360,22 @@
 <p>映射表应该不算在 Cache 的容量中</p>
 <p>a=a+n;		注意 a 被访问了两次</p>
 </div>
+<h2 id="虚拟存储器"><a class="anchor" href="#虚拟存储器">#</a> 虚拟存储器</h2>
+<h5 id="页式虚拟存储器"><a class="anchor" href="#页式虚拟存储器">#</a> 页式虚拟存储器</h5>
+<p>页表基地址</p>
+<p>TLB（快表）: 存放在高速缓冲存储器中</p>
+<p><img data-src="image-20210805131716600.png" alt="image-20210805131716600"></p>
+<p><img data-src="image-20210805132044874.png" alt="image-20210805132044874"></p>
+<p>缺点：容易造成浪费，不是逻辑上独立的实体，处理，保护，共享不及段式虚拟存储器。</p>
+<h5 id="段式虚拟存储器"><a class="anchor" href="#段式虚拟存储器">#</a> 段式虚拟存储器</h5>
+<p>优点：具有逻辑独立性，便于编译，管理，修改和保护，以及多道程序的共享</p>
+<h5 id="段页式虚拟存储器"><a class="anchor" href="#段页式虚拟存储器">#</a> 段页式虚拟存储器</h5>
+<p>缺点：两次查表，系统开销大</p>
+<div class="note info">
+<p>Cache 全由硬件实现，是硬件存储器，对所有程序员透明。</p>
+<p>虚拟存储器由 OS 和硬件共同实现，是逻辑上的存储器，对系统程序员不透明，但对应用程序员透明</p>
+</div>
+<p><img data-src="image-20210805135325048.png" alt="image-20210805135325048"></p>
 ]]></content>
       <categories>
         <category>考研</category>

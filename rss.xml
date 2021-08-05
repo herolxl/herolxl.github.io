@@ -204,9 +204,7 @@
 &lt;p&gt;Cache 未命中时&lt;/p&gt;
 &lt;p&gt;1. 写分配法  		加载主存块到 Cache 中（通常和写回法配合）&lt;/p&gt;
 &lt;p&gt;2. 非写分配法（通常和全写法配合）&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;title: 练习题与答案&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;--- title: 练习题与答案 quiz: true ---&lt;/p&gt;
 &lt;p class=&#34;quiz&#34;&gt;1. 主存 12MB,Cache400KB，则该存储系统的容量为 &lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。&lt;/p&gt;
 &lt;ul class=&#34;correct&#34;&gt;
 &lt;li&gt;12MB+400KB&lt;/li&gt;
@@ -227,6 +225,22 @@
 &lt;p&gt;映射表应该不算在 Cache 的容量中&lt;/p&gt;
 &lt;p&gt;a=a+n;		注意 a 被访问了两次&lt;/p&gt;
 &lt;/div&gt;
+&lt;h2 id=&#34;虚拟存储器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虚拟存储器&#34;&gt;#&lt;/a&gt; 虚拟存储器&lt;/h2&gt;
+&lt;h5 id=&#34;页式虚拟存储器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#页式虚拟存储器&#34;&gt;#&lt;/a&gt; 页式虚拟存储器&lt;/h5&gt;
+&lt;p&gt;页表基地址&lt;/p&gt;
+&lt;p&gt;TLB（快表）: 存放在高速缓冲存储器中&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210805131716600.png&#34; alt=&#34;image-20210805131716600&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210805132044874.png&#34; alt=&#34;image-20210805132044874&#34;&gt;&lt;/p&gt;
+&lt;p&gt;缺点：容易造成浪费，不是逻辑上独立的实体，处理，保护，共享不及段式虚拟存储器。&lt;/p&gt;
+&lt;h5 id=&#34;段式虚拟存储器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#段式虚拟存储器&#34;&gt;#&lt;/a&gt; 段式虚拟存储器&lt;/h5&gt;
+&lt;p&gt;优点：具有逻辑独立性，便于编译，管理，修改和保护，以及多道程序的共享&lt;/p&gt;
+&lt;h5 id=&#34;段页式虚拟存储器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#段页式虚拟存储器&#34;&gt;#&lt;/a&gt; 段页式虚拟存储器&lt;/h5&gt;
+&lt;p&gt;缺点：两次查表，系统开销大&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;Cache 全由硬件实现，是硬件存储器，对所有程序员透明。&lt;/p&gt;
+&lt;p&gt;虚拟存储器由 OS 和硬件共同实现，是逻辑上的存储器，对系统程序员不透明，但对应用程序员透明&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210805135325048.png&#34; alt=&#34;image-20210805135325048&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
