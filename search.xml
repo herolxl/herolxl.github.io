@@ -339,7 +339,9 @@
 <p>Cache 未命中时</p>
 <p>1. 写分配法  		加载主存块到 Cache 中（通常和写回法配合）</p>
 <p>2. 非写分配法（通常和全写法配合）</p>
-<p>--- title: 练习题与答案 quiz: true ---</p>
+<hr>
+<h2 id="title-练习题与答案quiz-true"><a class="anchor" href="#title-练习题与答案quiz-true">#</a> title: 练习题与答案<br>
+ quiz: true</h2>
 <p class="quiz">1. 主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。</p>
 <ul class="correct">
 <li>12MB+400KB</li>
