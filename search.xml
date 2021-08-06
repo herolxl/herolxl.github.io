@@ -342,22 +342,24 @@
 <hr>
 <h2 id="title-练习题与答案quiz-true"><a class="anchor" href="#title-练习题与答案quiz-true">#</a> title: 练习题与答案<br>
  quiz: true</h2>
-<p class="quiz">1. 主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。</p>
-<ul class="correct">
+<ol start="3">
+<li class="quiz">主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。
+<ul class="options">
 <li>12MB+400KB</li>
 <li>12MB-400KB</li>
 <li>400KB</li>
-<li class="options">12MB</li>
+<li class="correct">12MB</li>
 </ul>
-<ol start="2">
-<li class="quiz">主存容量时 Cache 的 4096 倍，Cache 背分为 64 块，使用直接映射，映射表的大小为（不考虑一直维护性与替换控制位）<span class="gap"></span> 。</li>
-</ol>
-<ul class="correct">
+</li>
+<li class="quiz">主存容量时 Cache 的 4096 倍，Cache 背分为 64 块，使用直接映射，映射表的大小为（不考虑一直维护性与替换控制位）<span class="gap"></span> 。
+<ul class="options">
 <li>6*4096bit</li>
 <li>64*12bit</li>
 <li>6*4097bit</li>
-<li class="options">64*13bit</li>
+<li class="correct">64*13bit</li>
 </ul>
+</li>
+</ol>
 <div class="note info">
 <p>映射表应该不算在 Cache 的容量中</p>
 <p>a=a+n;		注意 a 被访问了两次</p>
