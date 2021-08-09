@@ -10,8 +10,22 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sun, 01 Aug 2021 17:59:51 +0800</pubDate>
-        <lastBuildDate>Sun, 01 Aug 2021 17:59:51 +0800</lastBuildDate>
+        <pubDate>Sun, 08 Aug 2021 12:23:05 +0800</pubDate>
+        <lastBuildDate>Sun, 08 Aug 2021 12:23:05 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/08/08/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD/</guid>
+            <title>函数极限与连续</title>
+            <link>http://example.com/2021/08/08/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD/</link>
+            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+            <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+            <pubDate>Sun, 08 Aug 2021 12:23:05 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;image-20210809124656514.png&#34; alt=&#34;image-20210809124656514&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;求极限会用到 拉格朗日中值定理&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210809125544665.png&#34; alt=&#34;image-20210809125544665&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210809125845673.png&#34; alt=&#34;image-20210809125845673&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;周期函数求极限会用到 夹逼&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/08/01/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
             <title>数理统计</title>

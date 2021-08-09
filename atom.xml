@@ -8,7 +8,21 @@
     <author>
       <name>hero</name>
     </author>
-    <updated>2021-08-01T09:59:51.000Z</updated>
+    <updated>2021-08-08T04:23:05.000Z</updated>
+    <entry>
+        <id>http://example.com/2021/08/08/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD/</id>
+        <title>函数极限与连续</title>
+        <link rel="alternate" href="http://example.com/2021/08/08/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20210809124656514.png&#34; alt=&#34;image-20210809124656514&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;求极限会用到 拉格朗日中值定理&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210809125544665.png&#34; alt=&#34;image-20210809125544665&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210809125845673.png&#34; alt=&#34;image-20210809125845673&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;周期函数求极限会用到 夹逼&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <updated>2021-08-08T04:23:05.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2021/08/01/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</id>
         <title>数理统计</title>

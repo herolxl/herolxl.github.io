@@ -497,4 +497,20 @@
         <tag>概率论</tag>
       </tags>
   </entry>
+  <entry>
+    <title>函数极限与连续</title>
+    <url>/2021/08/08/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD/</url>
+    <content><![CDATA[<p><img data-src="image-20210809124656514.png" alt="image-20210809124656514"></p>
+<p><span class="rainbow">求极限会用到 拉格朗日中值定理</span></p>
+<p><img data-src="image-20210809125544665.png" alt="image-20210809125544665"></p>
+<p><img data-src="image-20210809125845673.png" alt="image-20210809125845673"></p>
+<p><span class="rainbow">周期函数求极限会用到 夹逼</span></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
 </search>
