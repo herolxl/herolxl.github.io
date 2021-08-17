@@ -340,26 +340,18 @@
 <p>1. 写分配法  		加载主存块到 Cache 中（通常和写回法配合）</p>
 <p>2. 非写分配法（通常和全写法配合）</p>
 <hr>
-<h2 id="title-练习题与答案quiz-true"><a class="anchor" href="#title-练习题与答案quiz-true">#</a> title: 练习题与答案<br>
- quiz: true</h2>
-<ol start="3">
-<li class="quiz">主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。
-<ul class="options">
-<li>12MB+400KB</li>
-<li>12MB-400KB</li>
-<li>400KB</li>
-<li class="correct">12MB</li>
-</ul>
-</li>
-<li class="quiz">主存容量时 Cache 的 4096 倍，Cache 背分为 64 块，使用直接映射，映射表的大小为（不考虑一直维护性与替换控制位）<span class="gap"></span> 。
-<ul class="options">
-<li>6*4096bit</li>
-<li>64*12bit</li>
-<li>6*4097bit</li>
-<li class="correct">64*13bit</li>
-</ul>
-</li>
-</ol>
+<p class="options correct">title: 练习题与答案<br>
+ 3. 主存 12MB,Cache400KB，则该存储系统的容量为 <span class="gap"></span> 。 {.quiz}<br>
+- 12MB+400KB<br>
+- 12MB-400KB<br>
+- 400KB<br>
+- 12MB{.correct}<br>
+{.options}<br>
+ 10. 主存容量时 Cache 的 4096 倍，Cache 背分为 64 块，使用直接映射，映射表的大小为（不考虑一直维护性与替换控制位）<span class="gap"></span> 。 {.quiz}<br>
+- 6<em>4096bit<br>
+- 64</em>12bit<br>
+- 6<em>4097bit<br>
+- 64</em>13bit</p>
 <div class="note info">
 <p>映射表应该不算在 Cache 的容量中</p>
 <p>a=a+n;		注意 a 被访问了两次</p>
@@ -564,6 +556,33 @@
       </categories>
       <tags>
         <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>指令系统</title>
+    <url>/2021/08/17/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h2 id="指令格式"><a class="anchor" href="#指令格式">#</a> 指令格式</h2>
+<p>零地址（仅用在堆栈计算机中，操作数隐含在栈顶和次站顶中）</p>
+<p>一地址（隐含操作数由 ACC 累加器提供，结果页保存在 ACC 中）</p>
+<p>二地址（常用于算数和逻辑运算指令，给出目的操作数，源操作数，结果保存在目的操作数）</p>
+<p>三地址（op--A1--A2--A3 (结果)）</p>
+<p>四地址（op--A1--A2--A3 (结果)--A4 (下址)）</p>
+<h5 id="扩展操作码指令格式"><a class="anchor" href="#扩展操作码指令格式">#</a> 扩展操作码指令格式</h5>
+<p>1. 不允许短码是长码的前缀，</p>
+<p>2. 各指令的操作码一定不能重复</p>
+<p>使用频率高用短码，低用长码</p>
+<h5 id="指令的操作类型"><a class="anchor" href="#指令的操作类型">#</a> 指令的操作类型</h5>
+<p>数据传输</p>
+<p>算数和逻辑运算</p>
+<p>移位操作</p>
+<p>转移操作（无条件转移 jmp，条件转移 branch，调用 call，返回 ret，陷阱 trap）</p>
+<p>输入输出操作</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>计算机组成原理</tag>
       </tags>
   </entry>
 </search>
