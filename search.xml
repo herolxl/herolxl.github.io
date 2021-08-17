@@ -577,6 +577,44 @@
 <p>移位操作</p>
 <p>转移操作（无条件转移 jmp，条件转移 branch，调用 call，返回 ret，陷阱 trap）</p>
 <p>输入输出操作</p>
+<ol start="3">
+<li class="quiz">下面不属于程序控制指令的是<span class="gap"></span> 。
+<ul class="options">
+<li>无条件转移指令</li>
+<li>条件转移指令</li>
+<li>循环指令</li>
+<li class="correct">中断隐指令</li>
+</ul>
+</li>
+</ol>
+<h2 id="指令寻址方式"><a class="anchor" href="#指令寻址方式">#</a> 指令寻址方式</h2>
+<p>指令寻址</p>
+<p>1. 顺序寻址（程序计数器 PC+1）</p>
+<p>2. 跳跃寻址（通过转移类指令实现）</p>
+<h5 id="常见的数据寻址方式"><a class="anchor" href="#常见的数据寻址方式">#</a> 常见的数据寻址方式</h5>
+<p>1. 隐含寻址（累加器 ACC）</p>
+<p>2. 立即寻址</p>
+<p>3. 直接寻址</p>
+<p>4. 间接寻址（可扩大寻址范围，一般问到扩大寻址范围时，通常指的时寄存器间接寻址）</p>
+<p>5. 寄存器寻址</p>
+<p>6. 寄存器间接寻址</p>
+<p>7. 相对寻址（EA=(PC)+A【(PC)=X+2】，广泛应用与转移指令）</p>
+<p>8. 基址寻址（可采用专用寄存器或通用寄存器，使用通用寄存器需要指定。基址寄存器面向操作系统，内容无法改变）</p>
+<p>基址寻址有利于多道程序设计，可用于编制浮动程序</p>
+<p>9. 变址寻址（可采用专用寄存器或通用寄存器，变址寄存器面向用户，内容可变，形式地址 A 不变）</p>
+<p>适合编制循环程序</p>
+<p>10. 堆栈寻址</p>
+<p><img data-src="image-20210817235821784.png" alt="image-20210817235821784"></p>
+<p><img data-src="image-20210817235910008.png" alt="image-20210817235910008"></p>
+<p><img data-src="image-20210817235933213.png" alt="image-20210817235933213"></p>
+<p><img data-src="image-20210817235952367.png" alt="image-20210817235952367"></p>
+<p><span class="rainbow">先间址后变址 = 先对 A 进行间址</span></p>
+<h2 id="cisc和risc的概念"><a class="anchor" href="#cisc和risc的概念">#</a> CISC 和 RISC 的概念</h2>
+<p><img data-src="image-20210818001938656.png" alt="image-20210818001938656"></p>
+<p><img data-src="image-20210818001958688.png" alt="image-20210818001958688"></p>
+<p><span class="rainbow">CISC 增强指令的功能</span></p>
+<hr>
+<p><img data-src="image-20210818002639969.png" alt="image-20210818002639969"></p>
 ]]></content>
       <categories>
         <category>考研</category>

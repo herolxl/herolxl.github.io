@@ -29,6 +29,44 @@
 &lt;p&gt;移位操作&lt;/p&gt;
 &lt;p&gt;转移操作（无条件转移 jmp，条件转移 branch，调用 call，返回 ret，陷阱 trap）&lt;/p&gt;
 &lt;p&gt;输入输出操作&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li class=&#34;quiz&#34;&gt;下面不属于程序控制指令的是&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;无条件转移指令&lt;/li&gt;
+&lt;li&gt;条件转移指令&lt;/li&gt;
+&lt;li&gt;循环指令&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;中断隐指令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;指令寻址方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#指令寻址方式&#34;&gt;#&lt;/a&gt; 指令寻址方式&lt;/h2&gt;
+&lt;p&gt;指令寻址&lt;/p&gt;
+&lt;p&gt;1. 顺序寻址（程序计数器 PC+1）&lt;/p&gt;
+&lt;p&gt;2. 跳跃寻址（通过转移类指令实现）&lt;/p&gt;
+&lt;h5 id=&#34;常见的数据寻址方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常见的数据寻址方式&#34;&gt;#&lt;/a&gt; 常见的数据寻址方式&lt;/h5&gt;
+&lt;p&gt;1. 隐含寻址（累加器 ACC）&lt;/p&gt;
+&lt;p&gt;2. 立即寻址&lt;/p&gt;
+&lt;p&gt;3. 直接寻址&lt;/p&gt;
+&lt;p&gt;4. 间接寻址（可扩大寻址范围，一般问到扩大寻址范围时，通常指的时寄存器间接寻址）&lt;/p&gt;
+&lt;p&gt;5. 寄存器寻址&lt;/p&gt;
+&lt;p&gt;6. 寄存器间接寻址&lt;/p&gt;
+&lt;p&gt;7. 相对寻址（EA=(PC)+A【(PC)=X+2】，广泛应用与转移指令）&lt;/p&gt;
+&lt;p&gt;8. 基址寻址（可采用专用寄存器或通用寄存器，使用通用寄存器需要指定。基址寄存器面向操作系统，内容无法改变）&lt;/p&gt;
+&lt;p&gt;基址寻址有利于多道程序设计，可用于编制浮动程序&lt;/p&gt;
+&lt;p&gt;9. 变址寻址（可采用专用寄存器或通用寄存器，变址寄存器面向用户，内容可变，形式地址 A 不变）&lt;/p&gt;
+&lt;p&gt;适合编制循环程序&lt;/p&gt;
+&lt;p&gt;10. 堆栈寻址&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210817235821784.png&#34; alt=&#34;image-20210817235821784&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210817235910008.png&#34; alt=&#34;image-20210817235910008&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210817235933213.png&#34; alt=&#34;image-20210817235933213&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210817235952367.png&#34; alt=&#34;image-20210817235952367&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;先间址后变址 = 先对 A 进行间址&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cisc和risc的概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cisc和risc的概念&#34;&gt;#&lt;/a&gt; CISC 和 RISC 的概念&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210818001938656.png&#34; alt=&#34;image-20210818001938656&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210818001958688.png&#34; alt=&#34;image-20210818001958688&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;CISC 增强指令的功能&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210818002639969.png&#34; alt=&#34;image-20210818002639969&#34;&gt;&lt;/p&gt;
 </content>
         <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
         <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
