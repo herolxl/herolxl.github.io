@@ -8,7 +8,46 @@
     <author>
       <name>hero</name>
     </author>
-    <updated>2021-08-18T06:44:53.000Z</updated>
+    <updated>2021-08-19T11:27:06.000Z</updated>
+    <entry>
+        <id>http://example.com/2021/08/19/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%EF%BC%8C%E5%BE%AE%E5%88%86%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F/</id>
+        <title>一元函数微分学的应用--中值定理，微分等式与不等式</title>
+        <link rel="alternate" href="http://example.com/2021/08/19/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%EF%BC%8C%E5%BE%AE%E5%88%86%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F/"/>
+        <content type="html">&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;拉格朗日，泰勒，最大值最小值的运用是难点&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819193036058.png&#34; alt=&#34;image-20210819193036058&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819194054894.png&#34; alt=&#34;image-20210819194054894&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819194112998.png&#34; alt=&#34;image-20210819194112998&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819194125218.png&#34; alt=&#34;image-20210819194125218&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819194414179.png&#34; alt=&#34;image-20210819194414179&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;商的逆用是重点&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819194427845.png&#34; alt=&#34;image-20210819194427845&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819194443841.png&#34; alt=&#34;image-20210819194443841&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819204119292.png&#34; alt=&#34;image-20210819204119292&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819204231366.png&#34; alt=&#34;image-20210819204231366&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819210821695.png&#34; alt=&#34;image-20210819210821695&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819210836050.png&#34; alt=&#34;image-20210819210836050&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819210848138.png&#34; alt=&#34;image-20210819210848138&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;将 F (X) 设为 f (x) 的积分是难点&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210819223316473.png&#34; alt=&#34;image-20210819223316473&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;想不到啊，心累&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210820103108200.png&#34; alt=&#34;image-20210820103108200&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210820110232758.png&#34; alt=&#34;image-20210820110232758&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210820110248624.png&#34; alt=&#34;image-20210820110248624&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210821214017674.png&#34; alt=&#34;image-20210821214017674&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210821224448272.png&#34; alt=&#34;image-20210821224448272&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210821232747835.png&#34; alt=&#34;image-20210821232747835&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210822163307541.png&#34; alt=&#34;image-20210822163307541&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210822163324667.png&#34; alt=&#34;image-20210822163324667&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <updated>2021-08-19T11:27:06.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2021/08/18/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E5%87%A0%E4%BD%95%E5%BA%94%E7%94%A8/</id>
         <title>一元函数微分学的应用--几何应用</title>
@@ -106,6 +145,9 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210817164436613.png&#34; alt=&#34;image-20210817164436613&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210817164308953.png&#34; alt=&#34;image-20210817164308953&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210817170011994.png&#34; alt=&#34;image-20210817170011994&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;莱布尼兹公式和展开式比较重要&lt;/p&gt;
+&lt;/div&gt;
 </content>
         <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
         <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
@@ -129,12 +171,12 @@
         <id>http://example.com/2021/08/09/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/</id>
         <title>数列极限</title>
         <link rel="alternate" href="http://example.com/2021/08/09/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/"/>
-        <content type="html">&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210809135555549.png&#34; alt=&#34;image-20210809135555549&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210810122500554.png&#34; alt=&#34;image-20210810122500554&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210810122517520.png&#34; alt=&#34;image-20210810122517520&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210810122534174.png&#34; alt=&#34;image-20210810122534174&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210812121354388.png&#34; alt=&#34;image-20210812121354388&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210812121918399.png&#34; alt=&#34;image-20210812121918399&#34;&gt;&lt;/p&gt;
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20210809135555549.png&#34; alt=&#34;image-20210809135555549&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210810122500554.png&#34; alt=&#34;image-20210810122500554&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210810122517520.png&#34; alt=&#34;image-20210810122517520&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210810122534174.png&#34; alt=&#34;image-20210810122534174&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210812121354388.png&#34; alt=&#34;image-20210812121354388&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210812121918399.png&#34; alt=&#34;image-20210812121918399&#34;&gt;&lt;/p&gt;
 </content>
         <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
         <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
@@ -528,16 +570,5 @@
 </content>
         <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
         <updated>2021-07-23T06:03:44.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2021/07/23/%E6%9E%81%E6%95%B0/</id>
-        <title>Pole number</title>
-        <link rel="alternate" href="http://example.com/2021/07/23/%E6%9E%81%E6%95%B0/"/>
-        <content type="html">&lt;p&gt;极数&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210704210052124.png&#34; alt=&#34;image-20210704210052124&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-        <updated>2021-07-23T05:53:02.000Z</updated>
     </entry>
 </feed>

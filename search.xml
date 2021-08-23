@@ -508,12 +508,12 @@
   <entry>
     <title>数列极限</title>
     <url>/2021/08/09/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/</url>
-    <content><![CDATA[<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210809135555549.png" alt="image-20210809135555549"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210810122500554.png" alt="image-20210810122500554"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210810122517520.png" alt="image-20210810122517520"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210810122534174.png" alt="image-20210810122534174"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210812121354388.png" alt="image-20210812121354388"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210812121918399.png" alt="image-20210812121918399"></p>
+    <content><![CDATA[<p><img data-src="image-20210809135555549.png" alt="image-20210809135555549"></p>
+<p><img data-src="image-20210810122500554.png" alt="image-20210810122500554"></p>
+<p><img data-src="image-20210810122517520.png" alt="image-20210810122517520"></p>
+<p><img data-src="image-20210810122534174.png" alt="image-20210810122534174"></p>
+<p><img data-src="image-20210812121354388.png" alt="image-20210812121354388"></p>
+<p><img data-src="image-20210812121918399.png" alt="image-20210812121918399"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -550,6 +550,9 @@
 <p><img data-src="image-20210817164436613.png" alt="image-20210817164436613"></p>
 <p><img data-src="image-20210817164308953.png" alt="image-20210817164308953"></p>
 <p><img data-src="image-20210817170011994.png" alt="image-20210817170011994"></p>
+<div class="note info">
+<p>莱布尼兹公式和展开式比较重要</p>
+</div>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -638,6 +641,47 @@
 <p><img data-src="image-20210819135911268.png" alt="image-20210819135911268"></p>
 <p><span class="rainbow">不要害怕复杂的求导</span></p>
 <p><img data-src="image-20210819171934320.png" alt="image-20210819171934320"></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一元函数微分学的应用--中值定理，微分等式与不等式</title>
+    <url>/2021/08/19/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%EF%BC%8C%E5%BE%AE%E5%88%86%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F/</url>
+    <content><![CDATA[<p><span class="rainbow">拉格朗日，泰勒，最大值最小值的运用是难点</span></p>
+<p><img data-src="image-20210819193036058.png" alt="image-20210819193036058"></p>
+<p><img data-src="image-20210819194054894.png" alt="image-20210819194054894"></p>
+<p><img data-src="image-20210819194112998.png" alt="image-20210819194112998"></p>
+<p><img data-src="image-20210819194125218.png" alt="image-20210819194125218"></p>
+<hr>
+<p><img data-src="image-20210819194414179.png" alt="image-20210819194414179"></p>
+<div class="note info">
+<p>商的逆用是重点</p>
+</div>
+<p><img data-src="image-20210819194427845.png" alt="image-20210819194427845"></p>
+<p><img data-src="image-20210819194443841.png" alt="image-20210819194443841"></p>
+<p><img data-src="image-20210819204119292.png" alt="image-20210819204119292"></p>
+<p><img data-src="image-20210819204231366.png" alt="image-20210819204231366"></p>
+<p><img data-src="image-20210819210821695.png" alt="image-20210819210821695"></p>
+<p><img data-src="image-20210819210836050.png" alt="image-20210819210836050"></p>
+<p><img data-src="image-20210819210848138.png" alt="image-20210819210848138"></p>
+<p><span class="rainbow">将 F (X) 设为 f (x) 的积分是难点</span></p>
+<hr>
+<p><img data-src="image-20210819223316473.png" alt="image-20210819223316473"></p>
+<p><span class="rainbow">想不到啊，心累</span></p>
+<p><img data-src="image-20210820103108200.png" alt="image-20210820103108200"></p>
+<hr>
+<p><img data-src="image-20210820110232758.png" alt="image-20210820110232758"></p>
+<p><img data-src="image-20210820110248624.png" alt="image-20210820110248624"></p>
+<p><img data-src="image-20210821214017674.png" alt="image-20210821214017674"></p>
+<p><img data-src="image-20210821224448272.png" alt="image-20210821224448272"></p>
+<p><img data-src="image-20210821232747835.png" alt="image-20210821232747835"></p>
+<p><img data-src="image-20210822163307541.png" alt="image-20210822163307541"></p>
+<p><img data-src="image-20210822163324667.png" alt="image-20210822163324667"></p>
 ]]></content>
       <categories>
         <category>考研</category>
