@@ -8,7 +8,24 @@
     <author>
       <name>hero</name>
     </author>
-    <updated>2021-08-19T11:27:06.000Z</updated>
+    <updated>2021-08-23T14:24:06.000Z</updated>
+    <entry>
+        <id>http://example.com/2021/08/23/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/</id>
+        <title>一元函数积分学</title>
+        <link rel="alternate" href="http://example.com/2021/08/23/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20210823223228819.png&#34; alt=&#34;image-20210823223228819&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210823223244965.png&#34; alt=&#34;image-20210823223244965&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;f (x) 为周期函数，f (x) 的导也为周期函数&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210824003219519.png&#34; alt=&#34;image-20210824003219519&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210824143452310.png&#34; alt=&#34;image-20210824143452310&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210824143529644.png&#34; alt=&#34;image-20210824143529644&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <updated>2021-08-23T14:24:06.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2021/08/19/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%EF%BC%8C%E5%BE%AE%E5%88%86%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F/</id>
         <title>一元函数微分学的应用--中值定理，微分等式与不等式</title>
@@ -558,17 +575,5 @@
         <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
         <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
         <updated>2021-07-23T06:11:01.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2021/07/23/%E7%9F%A9%E9%98%B5/</id>
-        <title>matrix</title>
-        <link rel="alternate" href="http://example.com/2021/07/23/%E7%9F%A9%E9%98%B5/"/>
-        <content type="html">&lt;p&gt;计算 A^n, 可以对 A 进行分解&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210716114229456.png&#34; alt=&#34;image-20210716114229456&#34;&gt;&lt;/p&gt;
-&lt;p&gt;抽象矩阵的逆矩阵&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210716100131281.png&#34; alt=&#34;image-20210716100131281&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
-        <updated>2021-07-23T06:03:44.000Z</updated>
     </entry>
 </feed>
