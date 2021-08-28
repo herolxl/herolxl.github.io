@@ -8,7 +8,40 @@
     <author>
       <name>hero</name>
     </author>
-    <updated>2021-08-26T06:48:16.000Z</updated>
+    <updated>2021-08-27T08:38:53.000Z</updated>
+    <entry>
+        <id>http://example.com/2021/08/27/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6-%E7%A7%AF%E5%88%86%E7%AD%89%E5%BC%8F%E5%92%8C%E4%B8%8D%E7%AD%89%E5%BC%8F/</id>
+        <title>一元函数积分学-积分等式和不等式</title>
+        <link rel="alternate" href="http://example.com/2021/08/27/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6-%E7%A7%AF%E5%88%86%E7%AD%89%E5%BC%8F%E5%92%8C%E4%B8%8D%E7%AD%89%E5%BC%8F/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20210827181449923.png&#34; alt=&#34;image-20210827181449923&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827181506330.png&#34; alt=&#34;image-20210827181506330&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;可作为结论&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827181527508.png&#34; alt=&#34;image-20210827181527508&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827181304362.png&#34; alt=&#34;image-20210827181304362&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;数形结合，通过观察下图发现 f (x) 由两段组成，所以用两次拉格朗日&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827181718601.png&#34; alt=&#34;image-20210827181718601&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827201400634.png&#34; alt=&#34;image-20210827201400634&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827201537654.png&#34; alt=&#34;image-20210827201537654&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827204521432.png&#34; alt=&#34;image-20210827204521432&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827211231875.png&#34; alt=&#34;image-20210827211231875&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827211154379.png&#34; alt=&#34;image-20210827211154379&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827211204250.png&#34; alt=&#34;image-20210827211204250&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210827232237114.png&#34; alt=&#34;image-20210827232237114&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210828145304265.png&#34; alt=&#34;image-20210828145304265&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210828145320865.png&#34; alt=&#34;image-20210828145320865&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;注意数形结合&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210828145352590.png&#34; alt=&#34;image-20210828145352590&#34;&gt;&lt;/p&gt;
+</content>
+        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
+        <updated>2021-08-27T08:38:53.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2021/08/26/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%E7%9A%84%E5%87%A0%E4%BD%95%E5%BA%94%E7%94%A8/</id>
         <title>一元函数积分学的几何应用</title>
@@ -565,24 +598,5 @@
         <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
         <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
         <updated>2021-07-24T05:21:18.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2021/07/23/%E7%89%B9%E5%BE%81%E5%80%BC%E4%B8%8E%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</id>
-        <title>特征值与特征向量</title>
-        <link rel="alternate" href="http://example.com/2021/07/23/%E7%89%B9%E5%BE%81%E5%80%BC%E4%B8%8E%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/"/>
-        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20210723190124784.png&#34; alt=&#34;image-20210723190124784&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723190141386.png&#34; alt=&#34;image-20210723190141386&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723190228473.png&#34; alt=&#34;image-20210723190228473&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723190258166.png&#34; alt=&#34;image-20210723190258166&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723190312101.png&#34; alt=&#34;image-20210723190312101&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723190418966.png&#34; alt=&#34;image-20210723190418966&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723190647098.png&#34; alt=&#34;image-20210723190647098&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723190952762.png&#34; alt=&#34;image-20210723190952762&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723191248493.png&#34; alt=&#34;image-20210723191248493&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210723191349917.png&#34; alt=&#34;image-20210723191349917&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
-        <updated>2021-07-23T10:59:53.000Z</updated>
     </entry>
 </feed>
