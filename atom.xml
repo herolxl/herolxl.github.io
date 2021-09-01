@@ -13,7 +13,14 @@
         <id>http://example.com/2021/08/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/</id>
         <title>多元函数微分学</title>
         <link rel="alternate" href="http://example.com/2021/08/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/"/>
-        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20210830203707186.png&#34; alt=&#34;image-20210830203707186&#34;&gt;&lt;/p&gt;
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;主要可微的证明，偏导数的连续，链式求导法则，方程组求导，多元函数的极值，泰勒公式&lt;/p&gt;
+&lt;p&gt;给出偏微分方程，求原函数，与一元函数微分方程类似&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210901160326160.png&#34; alt=&#34;image-20210901160326160&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210901160343851.png&#34; alt=&#34;image-20210901160343851&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;设 y=kx&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210830203707186.png&#34; alt=&#34;image-20210830203707186&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210830203727627.png&#34; alt=&#34;image-20210830203727627&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210830155251953.png&#34; alt=&#34;image-20210830155251953&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210830155316602.png&#34; alt=&#34;image-20210830155316602&#34;&gt;&lt;/p&gt;
