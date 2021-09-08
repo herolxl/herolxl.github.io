@@ -881,4 +881,54 @@
         <tag>高等数学</tag>
       </tags>
   </entry>
+  <entry>
+    <title>中央处理器</title>
+    <url>/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>微分方程</title>
+    <url>/2021/09/05/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<div class="note info">
+<p>重点是换元</p>
+</div>
+<p><img data-src="image-20210905170302528.png" alt="image-20210905170302528"></p>
+<p><img data-src="image-20210905170313250.png" alt="image-20210905170313250"></p>
+<p><img data-src="image-20210905170341667.png" alt="image-20210905170341667"></p>
+<p><img data-src="image-20210905170453887.png" alt="image-20210905170453887"></p>
+<hr>
+<p><img data-src="image-20210905170515042.png" alt="image-20210905170515042"></p>
+<hr>
+<p><img data-src="image-20210905170710011.png" alt="image-20210905170710011"></p>
+<p><span class="rainbow">dy 前面有 x 的话，可以先解 dx/dy</span></p>
+<p><img data-src="image-20210905225645731.png" alt="image-20210905225645731"></p>
+<p><img data-src="image-20210907100113164.png" alt="image-20210907100113164"></p>
+<p><img data-src="image-20210907100124879.png" alt="image-20210907100124879"></p>
+<p><img data-src="image-20210907100135038.png" alt="image-20210907100135038"></p>
+<p><img data-src="image-20210907100956222.png" alt="image-20210907100956222"></p>
+<p><img data-src="image-20210908134309483.png" alt="image-20210908134309483"></p>
+<p><img data-src="image-20210908134436881.png" alt="image-20210908134436881"></p>
+<p><span class="rainbow">没学明白</span></p>
+<p><img data-src="image-20210908134558622.png" alt="image-20210908134558622"></p>
+<p><img data-src="image-20210908135134707.png" alt="image-20210908135134707"></p>
+<p><img data-src="image-20210908135151463.png" alt="image-20210908135151463"></p>
+<hr>
+<p><img data-src="image-20210908135829969.png" alt="image-20210908135829969"></p>
+<p><img data-src="image-20210908135910159.png" alt="image-20210908135910159"></p>
+<p><img data-src="image-20210908140053526.png" alt="image-20210908140053526"></p>
+<hr>
+<p><img data-src="image-20210908140750330.png" alt="image-20210908140750330"></p>
+<p><img data-src="image-20210908140824017.png" alt="image-20210908140824017"></p>
+<hr>
+<p><img data-src="image-20210908144038903.png" alt="image-20210908144038903"></p>
+<p><img data-src="image-20210908144132513.png" alt="image-20210908144132513"></p>
+<p><span class="rainbow">积分时别忘了 C</span></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
 </search>
