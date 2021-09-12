@@ -11,8 +11,11 @@
             "url": "http://example.com/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/",
             "title": "中央处理器",
             "date_published": "2021-09-07T01:16:53.000Z",
-            "content_html": "",
-            "tags": []
+            "content_html": "<h2 id=\"cpu的功能和结构\"><a class=\"anchor\" href=\"#cpu的功能和结构\">#</a> CPU 的功能和结构</h2>\n<h5 id=\"运算器\"><a class=\"anchor\" href=\"#运算器\">#</a> 运算器</h5>\n<p>算数逻辑单元</p>\n<p>暂存寄存器（对应用程序员透明）</p>\n<p>累加寄存器</p>\n<p>通用寄存器，程序状态字寄存器（用户可见）</p>\n<p>移位器，计数器</p>\n<h5 id=\"控制器\"><a class=\"anchor\" href=\"#控制器\">#</a> 控制器</h5>\n<p>程序计数器（汇编语言程序员可见）</p>\n<p>指令寄存器，存储器地址寄存器，存储器数据寄存器（，用户汇编语言程序员不可见）</p>\n<p>指令译码器，时序系统，位操作控制信号发生器</p>\n<hr>\n<p><span class=\"rainbow\">n 位 cpu 是指数据总线 n 条</span></p>\n<hr>\n<h2 id=\"指令执行过程\"><a class=\"anchor\" href=\"#指令执行过程\">#</a> 指令执行过程</h2>\n<p>定长，不定长机器周期</p>\n<p>取值周期（包含对指令译码），间址周期，执行周期，中断周期</p>\n<p>4 个标志触发器 FE,IND,EX,INT（控制信号：1-&gt;FE,1-&gt;IND....）</p>\n<p><span class=\"rainbow\">中断周期的进栈操作是将 sp-1</span></p>\n<h5 id=\"指令执行方案\"><a class=\"anchor\" href=\"#指令执行方案\">#</a> 指令执行方案</h5>\n<p>单指令周期，多指令周期，流水线方案</p>\n<p><span class=\"rainbow\">从时间上，cpu 通过指令周期的不同阶段区分指令与数据</span></p>\n<p><span class=\"rainbow\">从空间上，cpu 通过数据流向判断，指令从内存流向控制器，数据从内存流向运算器</span></p>\n<p><img data-src=\"C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210912102623183.png\" alt=\"image-20210912102623183\"></p>\n<hr>\n<h2 id=\"数据通路的功能和基本机构\"><a class=\"anchor\" href=\"#数据通路的功能和基本机构\">#</a> 数据通路的功能和基本机构</h2>\n<p>单总线方式：结构简单，但数据传输存在较多的冲突问题，一个时钟周期内可以完成多个相兼容的位操作</p>\n<p>三总线方式</p>\n<p>专用数据通路方式</p>\n<p>cpu 内部总线：实现容易，内部简单，性能低，有交多冲突</p>\n<p><span class=\"rainbow\">使能状态 = 允许</span></p>\n<ol start=\"3\">\n<li class=\"quiz\">单周期处理器中所有的指令的指令周期位一个时钟周期，下列关于单周期处理器的叙述错误的是<span class=\"gap\"></span> 。\n<ul class=\"options\">\n<li>处理器时钟频率低</li>\n<li>在指令执行过程中控制信号不变</li>\n<li>每条指令的 cpi 为 1</li>\n<li class=\"correct\">可采用单总线结构数据通路</li>\n</ul>\n</li>\n</ol>\n<hr>\n<p>。。题目</p>\n<hr>\n<h2 id=\"控制器的功能和原理\"><a class=\"anchor\" href=\"#控制器的功能和原理\">#</a> 控制器的功能和原理</h2>\n<h4 id=\"硬布线控制器一般用于risc执行速度快扩充指令困难\"><a class=\"anchor\" href=\"#硬布线控制器一般用于risc执行速度快扩充指令困难\">#</a> 硬布线控制器（一般用于 RISC，执行速度快，扩充指令困难）</h4>\n",
+            "tags": [
+                "考研",
+                "计算机组成原理"
+            ]
         },
         {
             "id": "http://example.com/2021/09/05/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/",

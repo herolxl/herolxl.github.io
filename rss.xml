@@ -16,8 +16,56 @@
             <guid isPermalink="true">http://example.com/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/</guid>
             <title>中央处理器</title>
             <link>http://example.com/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/</link>
+            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+            <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
             <pubDate>Tue, 07 Sep 2021 09:16:53 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
+            <description><![CDATA[ &lt;h2 id=&#34;cpu的功能和结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cpu的功能和结构&#34;&gt;#&lt;/a&gt; CPU 的功能和结构&lt;/h2&gt;
+&lt;h5 id=&#34;运算器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算器&#34;&gt;#&lt;/a&gt; 运算器&lt;/h5&gt;
+&lt;p&gt;算数逻辑单元&lt;/p&gt;
+&lt;p&gt;暂存寄存器（对应用程序员透明）&lt;/p&gt;
+&lt;p&gt;累加寄存器&lt;/p&gt;
+&lt;p&gt;通用寄存器，程序状态字寄存器（用户可见）&lt;/p&gt;
+&lt;p&gt;移位器，计数器&lt;/p&gt;
+&lt;h5 id=&#34;控制器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#控制器&#34;&gt;#&lt;/a&gt; 控制器&lt;/h5&gt;
+&lt;p&gt;程序计数器（汇编语言程序员可见）&lt;/p&gt;
+&lt;p&gt;指令寄存器，存储器地址寄存器，存储器数据寄存器（，用户汇编语言程序员不可见）&lt;/p&gt;
+&lt;p&gt;指令译码器，时序系统，位操作控制信号发生器&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;n 位 cpu 是指数据总线 n 条&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;指令执行过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#指令执行过程&#34;&gt;#&lt;/a&gt; 指令执行过程&lt;/h2&gt;
+&lt;p&gt;定长，不定长机器周期&lt;/p&gt;
+&lt;p&gt;取值周期（包含对指令译码），间址周期，执行周期，中断周期&lt;/p&gt;
+&lt;p&gt;4 个标志触发器 FE,IND,EX,INT（控制信号：1-&amp;gt;FE,1-&amp;gt;IND....）&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;中断周期的进栈操作是将 sp-1&lt;/span&gt;&lt;/p&gt;
+&lt;h5 id=&#34;指令执行方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#指令执行方案&#34;&gt;#&lt;/a&gt; 指令执行方案&lt;/h5&gt;
+&lt;p&gt;单指令周期，多指令周期，流水线方案&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;从时间上，cpu 通过指令周期的不同阶段区分指令与数据&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;从空间上，cpu 通过数据流向判断，指令从内存流向控制器，数据从内存流向运算器&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210912102623183.png&#34; alt=&#34;image-20210912102623183&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;数据通路的功能和基本机构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据通路的功能和基本机构&#34;&gt;#&lt;/a&gt; 数据通路的功能和基本机构&lt;/h2&gt;
+&lt;p&gt;单总线方式：结构简单，但数据传输存在较多的冲突问题，一个时钟周期内可以完成多个相兼容的位操作&lt;/p&gt;
+&lt;p&gt;三总线方式&lt;/p&gt;
+&lt;p&gt;专用数据通路方式&lt;/p&gt;
+&lt;p&gt;cpu 内部总线：实现容易，内部简单，性能低，有交多冲突&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;使能状态 = 允许&lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li class=&#34;quiz&#34;&gt;单周期处理器中所有的指令的指令周期位一个时钟周期，下列关于单周期处理器的叙述错误的是&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;处理器时钟频率低&lt;/li&gt;
+&lt;li&gt;在指令执行过程中控制信号不变&lt;/li&gt;
+&lt;li&gt;每条指令的 cpi 为 1&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;可采用单总线结构数据通路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;。。题目&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;控制器的功能和原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#控制器的功能和原理&#34;&gt;#&lt;/a&gt; 控制器的功能和原理&lt;/h2&gt;
+&lt;h4 id=&#34;硬布线控制器一般用于risc执行速度快扩充指令困难&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#硬布线控制器一般用于risc执行速度快扩充指令困难&#34;&gt;#&lt;/a&gt; 硬布线控制器（一般用于 RISC，执行速度快，扩充指令困难）&lt;/h4&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/09/05/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</guid>
