@@ -160,19 +160,42 @@
 <p><img data-src="image-20210704210052124.png" alt="image-20210704210052124"></p>
 <hr>
 <h2 id="第2论复习"><a class="anchor" href="#第2论复习">#</a> 第 2 论复习</h2>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210909141645907.png" alt="image-20210909141645907"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210909141659496.png" alt="image-20210909141659496"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210909162742482.png" alt="image-20210909162742482"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210909162751368.png" alt="image-20210909162751368"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210909163021171.png" alt="image-20210909163021171"></p>
+<p><img data-src="image-20210909141645907.png" alt="image-20210909141645907"></p>
+<p><img data-src="image-20210909141659496.png" alt="image-20210909141659496"></p>
+<p><img data-src="image-20210909162742482.png" alt="image-20210909162742482"></p>
+<p><img data-src="image-20210909162751368.png" alt="image-20210909162751368"></p>
+<p><img data-src="image-20210909163021171.png" alt="image-20210909163021171"></p>
 <hr>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210909164053586.png" alt="image-20210909164053586"></p>
+<p><img data-src="image-20210909164053586.png" alt="image-20210909164053586"></p>
 <p><span class="rainbow">注意 lnx 比 x 小很多</span></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210909163137741.png" alt="image-20210909163137741"></p>
+<p><img data-src="image-20210909163137741.png" alt="image-20210909163137741"></p>
 <hr>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210910103916746.png" alt="image-20210910103916746"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210910103933770.png" alt="image-20210910103933770"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210910104648461.png" alt="image-20210910104648461"></p>
+<p><img data-src="image-20210910103916746.png" alt="image-20210910103916746"></p>
+<p><img data-src="image-20210910103933770.png" alt="image-20210910103933770"></p>
+<p><img data-src="image-20210910104648461.png" alt="image-20210910104648461"></p>
+<hr>
+<h4 id="求和问题"><a class="anchor" href="#求和问题">#</a> 求和问题</h4>
+<p><img data-src="image-20210912144002103.png" alt="image-20210912144002103"></p>
+<p><img data-src="image-20210912143855530.png" alt="image-20210912143855530"></p>
+<p><img data-src="image-20210912150618736.png" alt="image-20210912150618736"></p>
+<p><span class="rainbow">可将 1/2 看成 x</span></p>
+<p><img data-src="image-20210912152210473.png" alt="image-20210912152210473"></p>
+<p><img data-src="image-20210912152229021.png" alt="image-20210912152229021"></p>
+<hr>
+<p><img data-src="image-20210913105113494.png" alt="image-20210913105113494"></p>
+<p><span class="rainbow">碰到这种最好不要拆分，利用求导和积分</span></p>
+<hr>
+<p><img data-src="image-20210914125100598.png" alt="image-20210914125100598"></p>
+<hr>
+<h4 id="傅里叶级数"><a class="anchor" href="#傅里叶级数">#</a> 傅里叶级数。。。</h4>
+<p><img data-src="image-20210918145519243.png" alt="image-20210918145519243"></p>
+<p><img data-src="image-20210918145528199.png" alt="image-20210918145528199"></p>
+<hr>
+<p><img data-src="image-20210918151622993.png" alt="image-20210918151622993"></p>
+<p><img data-src="image-20210918151649971.png" alt="image-20210918151649971"></p>
+<hr>
+<p><img data-src="image-20210918155014963.png" alt="image-20210918155014963"></p>
+<p><img data-src="image-20210918155029273.png" alt="image-20210918155029273"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -990,6 +1013,48 @@
 <p><img data-src="image-20210908144038903.png" alt="image-20210908144038903"></p>
 <p><img data-src="image-20210908144132513.png" alt="image-20210908144132513"></p>
 <p><span class="rainbow">积分时别忘了 C</span></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多元函数积分学预备知识</title>
+    <url>/2021/09/18/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h4 id="空间曲线的切线与法平面"><a class="anchor" href="#空间曲线的切线与法平面">#</a> 空间曲线的切线与法平面</h4>
+<p><img data-src="image-20210918135647271.png" alt="image-20210918135647271"></p>
+<p>可直接转化为参数方程</p>
+<h4 id="空间曲面的切平面和法向量"><a class="anchor" href="#空间曲面的切平面和法向量">#</a> 空间曲面的切平面和法向量</h4>
+<p><img data-src="image-20210918135837687.png" alt="image-20210918135837687"></p>
+<p><span class="rainbow">2 维参数方程可直接转化为隐式方程</span></p>
+<h4 id="空间曲线在平面上的投影"><a class="anchor" href="#空间曲线在平面上的投影">#</a> 空间曲线在平面上的投影</h4>
+<p>1. 在坐标面上：直接消去对应的值</p>
+<p>2. 在任意面上投影的方向向量：与投影平面的法向量做外积等</p>
+<h4 id="旋转曲面"><a class="anchor" href="#旋转曲面">#</a> 旋转曲面</h4>
+<p><img data-src="image-20210918140206768.png" alt="image-20210918140206768"></p>
+<h4 id="向量的运算"><a class="anchor" href="#向量的运算">#</a> 向量的运算</h4>
+<p><img data-src="image-20210918140314286.png" alt="image-20210918140314286"></p>
+<h4 id="平面直线及位置关系"><a class="anchor" href="#平面直线及位置关系">#</a> 平面直线及位置关系</h4>
+<p><img data-src="image-20210918140501959.png" alt="image-20210918140501959"></p>
+<p><img data-src="image-20210918140520685.png" alt="image-20210918140520685"></p>
+<p><img data-src="image-20210918140646053.png" alt="image-20210918140646053"></p>
+<p><span class="rainbow">平面与直线的夹角小于 90°</span></p>
+<h4 id="场论初步"><a class="anchor" href="#场论初步">#</a> 场论初步</h4>
+<p><img data-src="image-20210918140857494.png" alt="image-20210918140857494"></p>
+<p><img data-src="image-20210918140913130.png" alt="image-20210918140913130"></p>
+<hr>
+<p><img data-src="image-20210918141032116.png" alt="image-20210918141032116"></p>
+<p><span class="rainbow">偏导与微分</span></p>
+<p><img data-src="image-20210918143116391.png" alt="image-20210918143116391"></p>
+<hr>
+<p><img data-src="image-20210918143421790.png" alt="image-20210918143421790"></p>
+<p><span class="rainbow">绕 x 轴旋转，y²=y²+z²</span></p>
+<p><img data-src="image-20210918143600498.png" alt="image-20210918143600498"></p>
+<p><img data-src="image-20210918143616611.png" alt="image-20210918143616611"></p>
+<p><span class="rainbow">这样操作简化计算</span></p>
 ]]></content>
       <categories>
         <category>考研</category>

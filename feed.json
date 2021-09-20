@@ -7,6 +7,17 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2021/09/18/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/",
+            "url": "http://example.com/2021/09/18/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/",
+            "title": "多元函数积分学预备知识",
+            "date_published": "2021-09-18T05:15:27.000Z",
+            "content_html": "<h4 id=\"空间曲线的切线与法平面\"><a class=\"anchor\" href=\"#空间曲线的切线与法平面\">#</a> 空间曲线的切线与法平面</h4>\n<p><img data-src=\"image-20210918135647271.png\" alt=\"image-20210918135647271\"></p>\n<p>可直接转化为参数方程</p>\n<h4 id=\"空间曲面的切平面和法向量\"><a class=\"anchor\" href=\"#空间曲面的切平面和法向量\">#</a> 空间曲面的切平面和法向量</h4>\n<p><img data-src=\"image-20210918135837687.png\" alt=\"image-20210918135837687\"></p>\n<p><span class=\"rainbow\">2 维参数方程可直接转化为隐式方程</span></p>\n<h4 id=\"空间曲线在平面上的投影\"><a class=\"anchor\" href=\"#空间曲线在平面上的投影\">#</a> 空间曲线在平面上的投影</h4>\n<p>1. 在坐标面上：直接消去对应的值</p>\n<p>2. 在任意面上投影的方向向量：与投影平面的法向量做外积等</p>\n<h4 id=\"旋转曲面\"><a class=\"anchor\" href=\"#旋转曲面\">#</a> 旋转曲面</h4>\n<p><img data-src=\"image-20210918140206768.png\" alt=\"image-20210918140206768\"></p>\n<h4 id=\"向量的运算\"><a class=\"anchor\" href=\"#向量的运算\">#</a> 向量的运算</h4>\n<p><img data-src=\"image-20210918140314286.png\" alt=\"image-20210918140314286\"></p>\n<h4 id=\"平面直线及位置关系\"><a class=\"anchor\" href=\"#平面直线及位置关系\">#</a> 平面直线及位置关系</h4>\n<p><img data-src=\"image-20210918140501959.png\" alt=\"image-20210918140501959\"></p>\n<p><img data-src=\"image-20210918140520685.png\" alt=\"image-20210918140520685\"></p>\n<p><img data-src=\"image-20210918140646053.png\" alt=\"image-20210918140646053\"></p>\n<p><span class=\"rainbow\">平面与直线的夹角小于 90°</span></p>\n<h4 id=\"场论初步\"><a class=\"anchor\" href=\"#场论初步\">#</a> 场论初步</h4>\n<p><img data-src=\"image-20210918140857494.png\" alt=\"image-20210918140857494\"></p>\n<p><img data-src=\"image-20210918140913130.png\" alt=\"image-20210918140913130\"></p>\n<hr>\n<p><img data-src=\"image-20210918141032116.png\" alt=\"image-20210918141032116\"></p>\n<p><span class=\"rainbow\">偏导与微分</span></p>\n<p><img data-src=\"image-20210918143116391.png\" alt=\"image-20210918143116391\"></p>\n<hr>\n<p><img data-src=\"image-20210918143421790.png\" alt=\"image-20210918143421790\"></p>\n<p><span class=\"rainbow\">绕 x 轴旋转，y²=y²+z²</span></p>\n<p><img data-src=\"image-20210918143600498.png\" alt=\"image-20210918143600498\"></p>\n<p><img data-src=\"image-20210918143616611.png\" alt=\"image-20210918143616611\"></p>\n<p><span class=\"rainbow\">这样操作简化计算</span></p>\n",
+            "tags": [
+                "考研",
+                "高等数学"
+            ]
+        },
+        {
             "id": "http://example.com/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/",
             "url": "http://example.com/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/",
             "title": "中央处理器",
@@ -213,17 +224,6 @@
             "tags": [
                 "考研",
                 "计算机组成原理"
-            ]
-        },
-        {
-            "id": "http://example.com/2021/07/28/%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/",
-            "url": "http://example.com/2021/07/28/%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/",
-            "title": "多维随机变量及其分布",
-            "date_published": "2021-07-28T13:45:18.000Z",
-            "content_html": "<p><img data-src=\"image-20210728214859685.png\" alt=\"image-20210728214859685\"></p>\n<p><img data-src=\"image-20210728214947403.png\" alt=\"image-20210728214947403\"></p>\n<hr>\n<p><img data-src=\"image-20210728215031728.png\" alt=\"image-20210728215031728\"></p>\n<p><img data-src=\"image-20210728215055678.png\" alt=\"image-20210728215055678\"></p>\n<p><img data-src=\"image-20210728215104648.png\" alt=\"image-20210728215104648\"></p>\n<p><img data-src=\"image-20210728215122035.png\" alt=\"image-20210728215122035\"></p>\n<p><img data-src=\"image-20210728215135654.png\" alt=\"image-20210728215135654\"></p>\n<p><img data-src=\"image-20210728215158854.png\" alt=\"image-20210728215158854\"></p>\n<p><img data-src=\"image-20210728215228983.png\" alt=\"image-20210728215228983\"></p>\n<p><img data-src=\"image-20210728215241859.png\" alt=\"image-20210728215241859\"></p>\n",
-            "tags": [
-                "考研",
-                "概率论"
             ]
         }
     ]
