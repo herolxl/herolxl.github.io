@@ -1063,4 +1063,75 @@
         <tag>高等数学</tag>
       </tags>
   </entry>
+  <entry>
+    <title>多元函数积分学（仅数一）</title>
+    <url>/2021/09/20/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%EF%BC%88%E4%BB%85%E6%95%B0%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h4 id="球面坐标系"><a class="anchor" href="#球面坐标系">#</a> 球面坐标系</h4>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210920145254164.png" alt="image-20210920145254164"></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>总线</title>
+    <url>/2021/09/20/%E6%80%BB%E7%BA%BF/</url>
+    <content><![CDATA[<h2 id="总线概叙"><a class="anchor" href="#总线概叙">#</a> 总线概叙</h2>
+<p>特点：分时，共享</p>
+<p>特性：机械特性，电气特性，功能特性，时间特性</p>
+<p>总线的猝发传送方式：在一个总线周期内传送地址连续的多个数据字</p>
+<p>总线分类：片选总线，系统总线，通信总线（外部总线）</p>
+<hr>
+<p>单总线</p>
+<p>双总线：主存总线，I/O 总线</p>
+<p>三总线：主存总线，I/O 总线，DMA（直接内存访问）总线</p>
+<hr>
+<p>总线周期：申请阶段，寻址阶段，传输阶段和结束阶段</p>
+<p>总线时钟周期 = 机器时钟周期</p>
+<p>总线工作频率：时钟频率 / N</p>
+<p>总线时钟频率</p>
+<p>信号线数：地址总线，数据总线，控制总线三种信号线的总和称为信号线数</p>
+<p><span class="rainbow">并行总线传输比串行总线传输速度快</span></p>
+<ol start="3">
+<li class="quiz">下列关于多总线结构的叙述中错误的是<span class="gap"></span> 。
+<ul class="options">
+<li>靠近 cpu 的总线速度快</li>
+<li>存储器总线可支持突发传送方式</li>
+<li>总线之间通过桥接器相连</li>
+<li class="correct">PCI-Express16 采用并行传输方式</li>
+<li><img data-src="$CABB%5BOFGCJ8$SUKJ%5D62K4V.jpg" alt="img"></li>
+</ul>
+</li>
+</ol>
+<h2 id="总线事务和定时"><a class="anchor" href="#总线事务和定时">#</a> 总线事务和定时</h2>
+<p>申请分配阶段：总线主模块提出申请，经总线仲裁机构将下一传输周期的总线使用权授予某一申请者</p>
+<p>寻址阶段：主模块通过总线发出本次要访问的从模块的地址及有关命令</p>
+<p>传输阶段：主模块和从模块进行数据交换 (单向或双向)</p>
+<p>结束阶段</p>
+<h5 id="同步定时方式"><a class="anchor" href="#同步定时方式">#</a> 同步定时方式</h5>
+<p>采用统一时钟信号，在一个总线周期内，可以进行一次数据传送</p>
+<p>优点：传输速度快</p>
+<p>缺点：主从设备属于强制性同步，可靠性差</p>
+<h5 id="异步定时方式"><a class="anchor" href="#异步定时方式">#</a> 异步定时方式</h5>
+<p>没有统一的时钟信号，通过握手信号实现定时控制</p>
+<p>不互锁方式：</p>
+<p>半互锁方式</p>
+<p>全互锁方式：主设备发出 “请求” 信号后，必须在从设备 “回答” 后才撤销 “请求” 信号；从设备发出 “回答” 信号后，必须在获知主设备 “请求” 信号已撤销后，再撤销其 “回答” 信号</p>
+<p><img data-src="image-20210921103739428.png" alt="image-20210921103739428"></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>计算机组成原理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>输入/输出系统</title>
+    <url>/2021/09/20/%E8%BE%93%E5%85%A5-%E8%BE%93%E5%87%BA%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
 </search>
