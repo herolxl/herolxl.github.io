@@ -145,6 +145,33 @@
 <p><img data-src="image-20210720104724573.png" alt="image-20210720104724573"></p>
 <hr>
 <p><img data-src="image-20210720104758031.png" alt="image-20210720104758031"></p>
+<hr>
+<h2 id="第2轮复习"><a class="anchor" href="#第2轮复习">#</a> 第 2 轮复习</h2>
+<p><img data-src="image-20210930134452556.png" alt=" "></p>
+<h5 id="非齐次线性方程组"><a class="anchor" href="#非齐次线性方程组">#</a> 非齐次线性方程组</h5>
+<p>行列式要不等于 0</p>
+<p><img data-src="image-20210930134522592.png" alt="image-20210930134522592"></p>
+<p><img data-src="image-20210930135136346.png" alt="image-20210930135136346"></p>
+<p><img data-src="image-20210930143136298.png" alt="image-20210930143136298"></p>
+<p><img data-src="image-20210930143149029.png" alt="image-20210930143149029"></p>
+<hr>
+<p><img data-src="image-20210930143714157.png" alt="image-20210930143714157"></p>
+<p><img data-src="image-20210930143725136.png" alt="image-20210930143725136"></p>
+<p>::info</p>
+<p>注意，通过解向量反求系数矩阵时，系数矩阵不是通解的样子</p>
+<p>::</p>
+<p><img data-src="image-20210930153451726.png" alt="image-20210930153451726"></p>
+<hr>
+<h2 id="线性方程组的几何意义"><a class="anchor" href="#线性方程组的几何意义">#</a> 线性方程组的几何意义</h2>
+<p><img data-src="image-20210930154203340.png" alt="image-20210930154203340"></p>
+<p><img data-src="image-20210930154239766.png" alt="image-20210930154239766"></p>
+<p><img data-src="image-20210930154250898.png" alt="image-20210930154250898"></p>
+<p>[1. 如果有解，则三个平面必交于一点或一线；</p>
+<p>2. 秩为 2 则三个平面的法向量在同一平面内，秩为 1 则桑平面的法向量平行；</p>
+<p class="rainbow">3. 若任意两个向量线性无关则。。。。]</p>
+<hr>
+<p><img data-src="image-20211002143250865.png" alt="image-20211002143250865"></p>
+<p><span class="rainbow">可以用方程组的解</span></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -244,13 +271,64 @@
       </tags>
   </entry>
   <entry>
-    <title>matrix</title>
+    <title>矩阵</title>
     <url>/2021/07/23/%E7%9F%A9%E9%98%B5/</url>
     <content><![CDATA[<p>计算 A^n, 可以对 A 进行分解</p>
 <p><img data-src="image-20210716114229456.png" alt="image-20210716114229456"></p>
 <p>抽象矩阵的逆矩阵</p>
 <p><img data-src="image-20210716100131281.png" alt="image-20210716100131281"></p>
+<hr>
+<h2 id="第2论复习"><a class="anchor" href="#第2论复习">#</a> 第 2 论复习</h2>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926200037689.png" alt="image-20210926200037689"></p>
+<p><span class="rainbow">秩为 1，一定可以拆成两个</span></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926201339844.png" alt="image-20210926201339844"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926204541744.png" alt="image-20210926204541744"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927105911065.png" alt="image-20210927105911065"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926232034286.png" alt="image-20210926232034286"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926234502507.png" alt="image-20210926234502507"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926235136809.png" alt="image-20210926235136809"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927093829408.png" alt="image-20210927093829408"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927110146314.png" alt="image-20210927110146314"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927124802118.png" alt="image-20210927124802118"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927125435566.png" alt="image-20210927125435566"></p>
+<h2 id="矩阵方程"><a class="anchor" href="#矩阵方程">#</a> 矩阵方程</h2>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927154521685.png" alt="image-20210927154521685"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927154543725.png" alt="image-20210927154543725"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927154559413.png" alt="image-20210927154559413"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927160525226.png" alt="image-20210927160525226"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927204819684.png" alt="image-20210927204819684"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927204754380.png" alt="image-20210927204754380"></p>
+<hr>
+<p><span class="rainbow">作为结论</span></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927213025616.png" alt="image-20210927213025616"></p>
+<p><span class="rainbow">这波操作可以的</span></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927213945815.png" alt="image-20210927213945815"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927214831786.png" alt="image-20210927214831786"></p>
+<p>![img](file:///C:\Users\zz\AppData\Roaming\Tencent\QQ\Temp\8NI]BW0PO4TA0ASP3)QAS8N.jpg)<img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210927214855837.png" alt="image-20210927214855837"></p>
+<p>![img](file:///C:\Users\zz\AppData\Roaming\Tencent\QQ\Temp\8NI]BW0PO4TA0ASP3)QAS8N.jpg)</p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928140306729.png" alt="image-20210928140306729"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928140407293.png" alt="image-20210928140407293"></p>
+<h2 id="矩阵的秩"><a class="anchor" href="#矩阵的秩">#</a> 矩阵的秩</h2>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928165324678.png" alt="image-20210928165324678"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928171749803.png" alt="image-20210928171749803"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928171733082.png" alt="image-20210928171733082"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928172653955.png" alt="image-20210928172653955"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928174328974.png" alt="image-20210928174328974"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928175614591.png" alt="image-20210928175614591"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928175624470.png" alt="image-20210928175624470"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210928180626112.png" alt="image-20210928180626112"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210929092211280.png" alt="image-20210929092211280"></p>
 ]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
       <tags>
         <tag>线性代数</tag>
       </tags>
@@ -1358,6 +1436,50 @@
       </categories>
       <tags>
         <tag>计算机组成原理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>几种常见的空间图形</title>
+    <url>/2021/09/26/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E7%A9%BA%E9%97%B4%E5%9B%BE%E5%BD%A2/</url>
+    <content><![CDATA[<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926085928910.png" alt="image-20210926085928910"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926090536981.png" alt="image-20210926090536981"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926090607583.png" alt="image-20210926090607583"></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>高等数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>行列式</title>
+    <url>/2021/09/26/%E8%A1%8C%E5%88%97%E5%BC%8F/</url>
+    <content><![CDATA[<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926105834477.png" alt="image-20210926105834477"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926110021570.png" alt=" "></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926134342100.png" alt="image-20210926134342100"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926112731960.png" alt="image-20210926112731960"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926114959041.png" alt="image-20210926114959041"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926113931510.png" alt="image-20210926113931510"></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926112742335.png" alt="image-20210926112742335"></p>
+<h2 id="抽象行列式的计算"><a class="anchor" href="#抽象行列式的计算">#</a> 抽象行列式的计算</h2>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926142715643.png" alt="image-20210926142715643"></p>
+<p>矩阵的性质，相似理论等</p>
+<hr>
+<p><span class="rainbow">注意爪形的计算</span></p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926153823858.png" alt="image-20210926153823858"></p>
+<h2 id="代数余子式"><a class="anchor" href="#代数余子式">#</a> 代数余子式</h2>
+<p>矩阵和特征值。。。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>线性代数</tag>
       </tags>
   </entry>
 </search>
