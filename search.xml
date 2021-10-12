@@ -88,14 +88,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Vector group</title>
+    <title>向量组</title>
     <url>/2021/07/23/%E5%90%91%E9%87%8F%E7%BB%84/</url>
     <content><![CDATA[<p>向量组</p>
 <p><img data-src="image-20210720105227994.png" alt="image-20210720105227994"></p>
+<p><span class="rainbow">一个向量由其他向量线性表出时可以全为 0</span></p>
 <hr>
 <p><img data-src="image-20210720105326268.png" alt="image-20210720105326268"></p>
 <p>需要证明</p>
 <p><img data-src="image-20210720105402278.png" alt="image-20210720105402278"></p>
+<p><span class="rainbow">注意表法唯一</span></p>
 <p><img data-src="image-20210720105419598.png" alt="image-20210720105419598"></p>
 <p><img data-src="image-20210720105442036.png" alt="image-20210720105442036"></p>
 <p><img data-src="image-20210720105918439.png" alt="image-20210720105918439"></p>
@@ -104,8 +106,14 @@
 <p><img data-src="image-20210720110031908.png" alt="image-20210720110031908"></p>
 <hr>
 <p><img data-src="image-20210720111659340.png" alt="image-20210720111659340"></p>
+<p><span class="rainbow">注意线性无关</span></p>
 <p><img data-src="image-20210720111751107.png" alt="image-20210720111751107"></p>
 <p><img data-src="image-20210720111817074.png" alt="image-20210720111817074"></p>
+<h2 id="第2轮复习"><a class="anchor" href="#第2轮复习">#</a> 第 2 轮复习</h2>
+<p><img data-src="image-20211008103427917.png" alt="image-20211008103427917"></p>
+<p><img data-src="image-20211008110636697.png" alt="image-20211008110636697"></p>
+<p><img data-src="image-20211008164404812.png" alt="image-20211008164404812"></p>
+<p><img data-src="image-20211008164348066.png" alt="image-20211008164348066"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -268,6 +276,21 @@
 <p><img data-src="image-20210723190952762.png" alt="image-20210723190952762"></p>
 <p><img data-src="image-20210723191248493.png" alt="image-20210723191248493"></p>
 <p><img data-src="image-20210723191349917.png" alt="image-20210723191349917"></p>
+<hr>
+<h2 id="第2轮复习"><a class="anchor" href="#第2轮复习">#</a> 第 2 轮复习</h2>
+<p><span class="rainbow">主要：线性无关的定义，f (lanna) 的使用，转化为特征值的式子</span></p>
+<p><img data-src="image-20211009154119393.png" alt="image-20211009154119393"></p>
+<p><img data-src="image-20211009154139549.png" alt="image-20211009154139549"></p>
+<p><img data-src="image-20211009154654194.png" alt="image-20211009154654194"></p>
+<p><img data-src="image-20211009155336224.png" alt="image-20211009155336224"></p>
+<p><img data-src="image-20211009160052068.png" alt="image-20211009160052068"></p>
+<p><img data-src="image-20211009182740963.png" alt="image-20211009182740963"></p>
+<p><img data-src="image-20211009185221101.png" alt="image-20211009185221101"></p>
+<hr>
+<p><img data-src="image-20211009204536855.png" alt="image-20211009204536855"></p>
+<p><img data-src="image-20211009210653109.png" alt="image-20211009210653109"></p>
+<p><img data-src="image-20211009210709494.png" alt="image-20211009210709494"></p>
+<p><span class="rainbow">特征值全相同的矩阵，其特征向量为任意值</span></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -1481,6 +1504,34 @@
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926153823858.png" alt="image-20210926153823858"></p>
 <h2 id="代数余子式"><a class="anchor" href="#代数余子式">#</a> 代数余子式</h2>
 <p>矩阵和特征值。。。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>线性代数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>相似理论</title>
+    <url>/2021/10/11/%E7%9B%B8%E4%BC%BC%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<p><span class="rainbow">一定要注意是不是单位向量</span></p>
+<p><span class="rainbow">实对乘矩阵不同特征值的特征向量相互正交</span></p>
+<p><img data-src="image-20211011105111165.png" alt="image-20211011105111165"></p>
+<p><img data-src="image-20211011105129684.png" alt="image-20211011105129684"></p>
+<p><span class="rainbow">AP=PB，P 可逆，则 A,B 相似</span></p>
+<p>4 个性质</p>
+<p><img data-src="image-20211011203108513.png" alt="image-20211011203108513"></p>
+<p>正交化</p>
+<p><img data-src="image-20211011210843148.png" alt="image-20211011210843148"></p>
+<hr>
+<p><img data-src="image-20211011213003959.png" alt="image-20211011213003959"></p>
+<p><span class="rainbow">任意实对称矩阵，都可由两个正交向量相乘的矩阵加上他的反制矩阵组成，所以必有特征值：k，-k，0</span></p>
+<p><img data-src="image-20211011213559807.png" alt="image-20211011213559807"></p>
+<p><img data-src="image-20211012095208574.png" alt="image-20211012095208574"></p>
+<p><span class="rainbow">方程组也可以特征值来求</span></p>
+<p><img data-src="image-20211012150502145.png" alt="image-20211012150502145"></p>
+<p><img data-src="image-20211012150426162.png" alt="image-20211012150426162"></p>
 ]]></content>
       <categories>
         <category>考研</category>
