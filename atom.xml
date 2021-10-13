@@ -15,6 +15,8 @@
         <link rel="alternate" href="http://example.com/2021/10/11/%E7%9B%B8%E4%BC%BC%E7%90%86%E8%AE%BA/"/>
         <content type="html">&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;一定要注意是不是单位向量&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;实对乘矩阵不同特征值的特征向量相互正交&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;如果一个矩阵的特征值没有 0，则这个矩阵可逆&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;相似必有相同的特征值，反之则不然，因为可能不能相似对角化&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20211011105111165.png&#34; alt=&#34;image-20211011105111165&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20211011105129684.png&#34; alt=&#34;image-20211011105129684&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;AP=PB，P 可逆，则 A,B 相似&lt;/span&gt;&lt;/p&gt;
@@ -30,6 +32,11 @@
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;方程组也可以特征值来求&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20211012150502145.png&#34; alt=&#34;image-20211012150502145&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20211012150426162.png&#34; alt=&#34;image-20211012150426162&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211013110405267.png&#34; alt=&#34;image-20211013110405267&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211013110624690.png&#34; alt=&#34;image-20211013110624690&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211013110647808.png&#34; alt=&#34;image-20211013110647808&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211013110722470.png&#34; alt=&#34;image-20211013110722470&#34;&gt;&lt;/p&gt;
 </content>
         <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
         <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />

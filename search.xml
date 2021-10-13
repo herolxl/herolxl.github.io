@@ -1517,6 +1517,8 @@
     <url>/2021/10/11/%E7%9B%B8%E4%BC%BC%E7%90%86%E8%AE%BA/</url>
     <content><![CDATA[<p><span class="rainbow">一定要注意是不是单位向量</span></p>
 <p><span class="rainbow">实对乘矩阵不同特征值的特征向量相互正交</span></p>
+<p><span class="rainbow">如果一个矩阵的特征值没有 0，则这个矩阵可逆</span></p>
+<p><span class="rainbow">相似必有相同的特征值，反之则不然，因为可能不能相似对角化</span></p>
 <p><img data-src="image-20211011105111165.png" alt="image-20211011105111165"></p>
 <p><img data-src="image-20211011105129684.png" alt="image-20211011105129684"></p>
 <p><span class="rainbow">AP=PB，P 可逆，则 A,B 相似</span></p>
@@ -1532,6 +1534,11 @@
 <p><span class="rainbow">方程组也可以特征值来求</span></p>
 <p><img data-src="image-20211012150502145.png" alt="image-20211012150502145"></p>
 <p><img data-src="image-20211012150426162.png" alt="image-20211012150426162"></p>
+<hr>
+<p><img data-src="image-20211013110405267.png" alt="image-20211013110405267"></p>
+<p><img data-src="image-20211013110624690.png" alt="image-20211013110624690"></p>
+<p><img data-src="image-20211013110647808.png" alt="image-20211013110647808"></p>
+<p><img data-src="image-20211013110722470.png" alt="image-20211013110722470"></p>
 ]]></content>
       <categories>
         <category>考研</category>
