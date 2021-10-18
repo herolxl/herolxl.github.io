@@ -19,7 +19,9 @@
             <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
             <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
             <pubDate>Mon, 11 Oct 2021 10:27:26 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;一定要注意是不是单位向量&lt;/span&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211014141754934.png&#34; alt=&#34;image-20211014141754934&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;P 相当于列操作，P 的逆相当于同等操作的行操作&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;一定要注意是不是单位向量&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;实对乘矩阵不同特征值的特征向量相互正交&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;如果一个矩阵的特征值没有 0，则这个矩阵可逆&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;相似必有相同的特征值，反之则不然，因为可能不能相似对角化&lt;/span&gt;&lt;/p&gt;
@@ -52,23 +54,23 @@
             <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
             <category term="线性代数" scheme="http://example.com/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" />
             <pubDate>Sun, 26 Sep 2021 10:42:42 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926105834477.png&#34; alt=&#34;image-20210926105834477&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926110021570.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926134342100.png&#34; alt=&#34;image-20210926134342100&#34;&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;image-20210926105834477.png&#34; alt=&#34;image-20210926105834477&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926110021570.png&#34; alt=&#34; &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926134342100.png&#34; alt=&#34;image-20210926134342100&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926112731960.png&#34; alt=&#34;image-20210926112731960&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926114959041.png&#34; alt=&#34;image-20210926114959041&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926112731960.png&#34; alt=&#34;image-20210926112731960&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926114959041.png&#34; alt=&#34;image-20210926114959041&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926113931510.png&#34; alt=&#34;image-20210926113931510&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926113931510.png&#34; alt=&#34;image-20210926113931510&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926112742335.png&#34; alt=&#34;image-20210926112742335&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926112742335.png&#34; alt=&#34;image-20210926112742335&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;抽象行列式的计算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#抽象行列式的计算&#34;&gt;#&lt;/a&gt; 抽象行列式的计算&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926142715643.png&#34; alt=&#34;image-20210926142715643&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926142715643.png&#34; alt=&#34;image-20210926142715643&#34;&gt;&lt;/p&gt;
 &lt;p&gt;矩阵的性质，相似理论等&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;注意爪形的计算&lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210926153823858.png&#34; alt=&#34;image-20210926153823858&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20210926153823858.png&#34; alt=&#34;image-20210926153823858&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;代数余子式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代数余子式&#34;&gt;#&lt;/a&gt; 代数余子式&lt;/h2&gt;
 &lt;p&gt;矩阵和特征值。。。&lt;/p&gt;
  ]]></description>
