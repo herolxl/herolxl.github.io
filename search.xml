@@ -90,6 +90,23 @@
 <hr>
 <p><img data-src="image-20211018213506346.png" alt="image-20211018213506346"></p>
 <p><img data-src="image-20211018220610653.png" alt="image-20211018220610653"></p>
+<hr>
+<p><img data-src="image-20211019140644201.png" alt="image-20211019140644201"></p>
+<p><img data-src="image-20211019140713046.png" alt="image-20211019140713046"></p>
+<p><span class="rainbow">凑成 n-m，再用 e^2 的级数</span></p>
+<h3 id="出错习题"><a class="anchor" href="#出错习题">#</a> 出错习题</h3>
+<p><img data-src="image-20211019185420122.png" alt="image-20211019185420122"></p>
+<p><img data-src="image-20211019185538420.png" alt="image-20211019185538420"></p>
+<hr>
+<h2 id="一维随机变量函数及分布"><a class="anchor" href="#一维随机变量函数及分布">#</a> 一维随机变量函数及分布</h2>
+<p><span class="rainbow">所求概率为求和形式，一般用级数或者莱布尼兹公式化简</span></p>
+<p><span class="rainbow">Y=F (x) 的分布函数 --&gt;F (y)=y</span></p>
+<p><img data-src="image-20211019184756231.png" alt="image-20211019184756231"></p>
+<p><img data-src="image-20211019162005810.png" alt="image-20211019162005810"></p>
+<p><img data-src="image-20211020193925234.png" alt="image-20211020193925234"></p>
+<p><img data-src="image-20211020193947195.png" alt="image-20211020193947195"></p>
+<p><img data-src="image-20211020194000962.png" alt="image-20211020194000962"></p>
+<p><img data-src="image-20211020194014047.png" alt="image-20211020194014047"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -466,6 +483,24 @@
 <p><img data-src="image-20210728215158854.png" alt="image-20210728215158854"></p>
 <p><img data-src="image-20210728215228983.png" alt="image-20210728215228983"></p>
 <p><img data-src="image-20210728215241859.png" alt="image-20210728215241859"></p>
+<h2 id="第2轮复习"><a class="anchor" href="#第2轮复习">#</a> 第 2 轮复习</h2>
+<p><span class="rainbow">注意转换后的范围</span></p>
+<p><img data-src="image-20211020141930207.png" alt="image-20211020141930207"></p>
+<p><img data-src="image-20211019200234332.png" alt="image-20211019200234332"></p>
+<p><img data-src="image-20211019200256009.png" alt="image-20211019200256009"></p>
+<p><img data-src="image-20211019200314340.png" alt="image-20211019200314340"></p>
+<p><img data-src="image-20211019200330964.png" alt="image-20211019200330964"></p>
+<h5 id="2-维正态分布的结论"><a class="anchor" href="#2-维正态分布的结论">#</a> 2 维正态分布的结论</h5>
+<p><img data-src="image-20211019200447235.png" alt="image-20211019200447235"></p>
+<hr>
+<p><img data-src="image-20211019201154446.png" alt="image-20211019201154446"></p>
+<p><img data-src="image-20211020134744876.png" alt="image-20211020134744876"></p>
+<hr>
+<p><span class="rainbow">随机变量序列的可加性：泊松分布，正态分布，2 项分布</span></p>
+<p><img data-src="image-20211020194449072.png" alt="image-20211020194449072"></p>
+<p><img data-src="image-20211020194513618.png" alt="image-20211020194513618"></p>
+<p><img data-src="image-20211020194527373.png" alt="image-20211020194527373"></p>
+<p><img data-src="image-20211020194542870.png" alt="image-20211020194542870"></p>
 ]]></content>
       <categories>
         <category>考研</category>
