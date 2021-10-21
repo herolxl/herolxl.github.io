@@ -501,6 +501,9 @@
 <p><img data-src="image-20211020194513618.png" alt="image-20211020194513618"></p>
 <p><img data-src="image-20211020194527373.png" alt="image-20211020194527373"></p>
 <p><img data-src="image-20211020194542870.png" alt="image-20211020194542870"></p>
+<hr>
+<h2 id="多维随机变量函数及其分布"><a class="anchor" href="#多维随机变量函数及其分布">#</a> 多维随机变量函数及其分布</h2>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211020213053860.png" alt="image-20211020213053860"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -1088,7 +1091,8 @@
   <entry>
     <title>多元函数微分学</title>
     <url>/2021/08/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/</url>
-    <content><![CDATA[<div class="note info">
+    <content><![CDATA[<p><img data-src="image-20211021092335232.png" alt="image-20211021092335232"></p>
+<div class="note info">
 <p>主要可微的证明，偏导数的连续，链式求导法则，方程组求导，多元函数的极值，泰勒公式</p>
 <p>给出偏微分方程，求原函数，与一元函数微分方程类似</p>
 </div>

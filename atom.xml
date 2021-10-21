@@ -517,7 +517,8 @@
         <id>http://example.com/2021/08/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/</id>
         <title>多元函数微分学</title>
         <link rel="alternate" href="http://example.com/2021/08/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/"/>
-        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20211021092335232.png&#34; alt=&#34;image-20211021092335232&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;主要可微的证明，偏导数的连续，链式求导法则，方程组求导，多元函数的极值，泰勒公式&lt;/p&gt;
 &lt;p&gt;给出偏微分方程，求原函数，与一元函数微分方程类似&lt;/p&gt;
 &lt;/div&gt;
