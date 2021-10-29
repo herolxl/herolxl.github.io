@@ -10,8 +10,15 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 11 Oct 2021 10:27:26 +0800</pubDate>
-        <lastBuildDate>Mon, 11 Oct 2021 10:27:26 +0800</lastBuildDate>
+        <pubDate>Fri, 29 Oct 2021 15:54:32 +0800</pubDate>
+        <lastBuildDate>Fri, 29 Oct 2021 15:54:32 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/10/29/%E7%BB%9F%E8%AE%A1%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/</guid>
+            <title>统计量及其分布</title>
+            <link>http://example.com/2021/10/29/%E7%BB%9F%E8%AE%A1%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/</link>
+            <pubDate>Fri, 29 Oct 2021 15:54:32 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/10/11/%E7%9B%B8%E4%BC%BC%E7%90%86%E8%AE%BA/</guid>
             <title>相似理论</title>
@@ -833,21 +840,6 @@
 &lt;p&gt;&lt;img data-src=&#34;image-20210816195659032.png&#34; alt=&#34;image-20210816195659032&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210816195727290.png&#34; alt=&#34;image-20210816195727290&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210816203821766.png&#34; alt=&#34;image-20210816203821766&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2021/08/09/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/</guid>
-            <title>数列极限</title>
-            <link>http://example.com/2021/08/09/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/</link>
-            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-            <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-            <pubDate>Mon, 09 Aug 2021 13:37:15 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;image-20210809135555549.png&#34; alt=&#34;image-20210809135555549&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210810122500554.png&#34; alt=&#34;image-20210810122500554&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210810122517520.png&#34; alt=&#34;image-20210810122517520&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210810122534174.png&#34; alt=&#34;image-20210810122534174&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210812121354388.png&#34; alt=&#34;image-20210812121354388&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210812121918399.png&#34; alt=&#34;image-20210812121918399&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

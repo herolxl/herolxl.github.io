@@ -8,7 +8,14 @@
     <author>
       <name>hero</name>
     </author>
-    <updated>2021-10-11T02:27:26.000Z</updated>
+    <updated>2021-10-29T07:54:32.000Z</updated>
+    <entry>
+        <id>http://example.com/2021/10/29/%E7%BB%9F%E8%AE%A1%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/</id>
+        <title>统计量及其分布</title>
+        <link rel="alternate" href="http://example.com/2021/10/29/%E7%BB%9F%E8%AE%A1%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/"/>
+        <content type="html"></content>
+        <updated>2021-10-29T07:54:32.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2021/10/11/%E7%9B%B8%E4%BC%BC%E7%90%86%E8%AE%BA/</id>
         <title>相似理论</title>
@@ -831,20 +838,5 @@
         <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
         <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
         <updated>2021-08-16T02:48:17.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/2021/08/09/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/</id>
-        <title>数列极限</title>
-        <link rel="alternate" href="http://example.com/2021/08/09/%E6%95%B0%E5%88%97%E6%9E%81%E9%99%90/"/>
-        <content type="html">&lt;p&gt;&lt;img data-src=&#34;image-20210809135555549.png&#34; alt=&#34;image-20210809135555549&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210810122500554.png&#34; alt=&#34;image-20210810122500554&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210810122517520.png&#34; alt=&#34;image-20210810122517520&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210810122534174.png&#34; alt=&#34;image-20210810122534174&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210812121354388.png&#34; alt=&#34;image-20210812121354388&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210812121918399.png&#34; alt=&#34;image-20210812121918399&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-        <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-        <updated>2021-08-09T05:37:15.000Z</updated>
     </entry>
 </feed>
