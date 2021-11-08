@@ -781,6 +781,7 @@
 <p>有效性：两者 E 相同时，才可用 D 比较</p>
 <p>一致性 ：切比雪夫不等式，辛勤大数定理等</p>
 </div>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211031094117855.png" alt="image-20211031094117855"></p>
 <p><img data-src="image-20210802151625789.png" alt="image-20210802151625789"></p>
 <div class="note danger">
 <p>管他娘的讲的什么</p>
@@ -796,6 +797,29 @@
 <p><span class="rainbow">求方差等可能会用到</span></p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mrow><msup><mi>i</mi><mn>2</mn></msup><mi mathvariant="normal">/</mi><mi>n</mi></mrow><mo>=</mo><mo stretchy="false">(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mi mathvariant="normal">/</mi><mn>6</mn></mrow><annotation encoding="application/x-tex">\sum_{i=1}^n{i^2/n}=(2n+1)(n+1)/6
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.929066em;vertical-align:-1.277669em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6513970000000002em;"><span style="top:-1.872331em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.050005em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3000050000000005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.277669em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">i</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathnormal">n</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">2</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mord">/</span><span class="mord">6</span></span></span></span></span></p>
+<hr>
+<h2 id="第2轮复习"><a class="anchor" href="#第2轮复习">#</a> 第 2 轮复习</h2>
+<h4 id="统计量及其分布"><a class="anchor" href="#统计量及其分布">#</a> 统计量及其分布</h4>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155615785.png" alt="image-20211029155615785"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155627759.png" alt="image-20211029155627759"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029181016411.png" alt="image-20211029181016411"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155727590.png" alt="image-20211029155727590"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155739271.png" alt="image-20211029155739271"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029184106914.png" alt="image-20211029184106914"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029184126659.png" alt="image-20211029184126659"></p>
+<h4 id="参数估计和假设验证"><a class="anchor" href="#参数估计和假设验证">#</a> 参数估计和假设验证</h4>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030184757018.png" alt="image-20211030184757018"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030184811279.png" alt="image-20211030184811279"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193818210.png" alt="image-20211030193818210"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193837161.png" alt="image-20211030193837161"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193844638.png" alt="image-20211030193844638"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030205631213.png" alt="image-20211030205631213"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030205643587.png" alt="image-20211030205643587"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030205658306.png" alt="image-20211030205658306"></p>
+<hr>
+<p><span class="rainbow">有点绕啊</span></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211031162636318.png" alt="image-20211031162636318"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211031162658843.png" alt="image-20211031162658843"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -1702,5 +1726,252 @@
     <title>统计量及其分布</title>
     <url>/2021/10/29/%E7%BB%9F%E8%AE%A1%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>进程管理</title>
+    <url>/2021/11/04/%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h2 id="进程与线程"><a class="anchor" href="#进程与线程">#</a> 进程与线程</h2>
+<h5 id="进程的概念与特征"><a class="anchor" href="#进程的概念与特征">#</a> 进程的概念与特征</h5>
+<p>进程实现了操作系统的 并发性和共享性</p>
+<p>进程映像：程序段，数据段，PCB</p>
+<p><span class="label primary">创建进程实质上是创建 PCB</span></p>
+<p><span class="label info">进程是程序在数据集上的运行过程</span></p>
+<p>进程特征：动态，并发，独立，异步，结构性</p>
+<h5 id="进程的状态与转换"><a class="anchor" href="#进程的状态与转换">#</a> 进程的状态与转换</h5>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211104232451442.png" alt="image-20211104232451442"></p>
+<p><span class="label warning">I/O 请求应改为事件等待，因为还有资源等待</span></p>
+<p>每个状态主要是看 cpu 与其他资源是否齐全</p>
+<p>运行态 -&gt; 阻塞态（主动）</p>
+<p>阻塞态 -&gt; 就绪态（被动）</p>
+<h5 id="进程控制"><a class="anchor" href="#进程控制">#</a> 进程控制</h5>
+<p><span class="label primary">关中断，开中断实现原语的一气呵成</span></p>
+<p>一般把进程控制用的程序段称为原语</p>
+<p>用户 登录系统，作业调度，系统提供服务，用户程序的应用请求都会引起进程的创建</p>
+<p><span class="label primary">PCB 申请失败则进程创建失败，若资源不足，不是创建失败，而是处于阻塞态</span></p>
+<p>进程的终止：正常结束，异常结束，外界干预</p>
+<p>对于普通的进程而言，其创建，撤销及要求由系统设备完成的 I/O 操作，都是利用系统调用进入内核，再由内核程序处理</p>
+<p>进程切换要保存处机上下文（程序计数器和其他寄存器）</p>
+<p><span class="label warning">注意进程切换和处理机模式切换时不同的</span></p>
+<p>::info</p>
+<p>调度和切换的区别：调度是决策行为，切换是执行行为</p>
+<p>::</p>
+<h5 id="进程的组织"><a class="anchor" href="#进程的组织">#</a> 进程的组织</h5>
+<p>进程控制块：</p>
+<p>​	进程描述信息：进程标识符，用户标识符</p>
+<p>​	进程管理信息：进程状态，优先级，首地址等</p>
+<p>​	资源分配清单：代码段制作，数据段指针，堆栈段指针</p>
+<p>​	处理及相关信息：各寄存器</p>
+<p>PCB 组织方式：链接方式，索引方式</p>
+<h5 id="进程的通信"><a class="anchor" href="#进程的通信">#</a> 进程的通信</h5>
+<p>PV 操作是低级通信方式</p>
+<p>共享存储：低级方式的共享基于数据结构的共享，高级方式的共享基于存储区的共享</p>
+<p>消息传递：直接通信方式（挂在消息队列上），间接通信方式（放在邮箱）</p>
+<p>管道通信：共享文件（pipe 文件或管道）</p>
+<p><span class="label info">半双工通信，从管道读取数据时一次性操作，数据一旦被读取，就被抛弃</span></p>
+<h5 id="线程概念和多线程模型"><a class="anchor" href="#线程概念和多线程模型">#</a> 线程概念和多线程模型</h5>
+<p>线程 ：轻量级进程，是一个基本的 cpu 执行单元，也是程序执行流的最小单元，由线程 id，程序计数器，寄存器集合，堆栈组成</p>
+<p>线程是独立调度的基本单位，进程是资源调度的基本单位</p>
+<p>线程可提高系统的并发性</p>
+<p>线程切换比进程切换的开销更小</p>
+<p>进程通信需要同步互斥手段辅佐，线程可直接读写进程数据段进行通信</p>
+<p><span class="label info">用户级线程：线程管理工作都由应用系统完成，应用程序可以通过线程库设计成多线程</span></p>
+<p><span class="label info">内核级线程：线程管理工作都由内核完成</span></p>
+<p>多对一模型：效率高，各线程不能并行，一旦阻塞整个进程会被阻塞</p>
+<p>一对一模型：并发能力强，用户态和内核态的切换开销大 <span class="rainbow">操作系统为每个用户级线程建立一个线程控制块</span></p>
+<p>多对多模型</p>
+<hr>
+<p><span class="rainbow">2 进制代码和常量放在正文段，动态分配的存储区在数据堆段，临时使用的变量在数据栈段</span></p>
+<p><span class="rainbow">同一进程或不同进程的线程都能并发执行</span></p>
+<p><span class="rainbow">父进程与子进程不共享虚拟地址空间</span></p>
+<ol start="3">
+<li class="quiz">系统动态 DLL 库中的系统线程，被不同的进程调用，它们是 [] 的进程 {.gap} 。
+<ul class="options">
+<li>不同</li>
+<li class="correct">相同</li>
+<li>可能相同，不同</li>
+<li>不能被调用</li>
+</ul>
+</li>
+<li class="quiz">以下描述中，不是多线程系统的特长的是<span class="gap"></span> 。
+<ul class="options">
+<li>利用线程并行的执行矩阵乘法运算</li>
+<li class="correct">键盘驱动程序为每个正在运行的应用配备一个线程，用以响应键盘输入</li>
+<li>web 服务器利用线程响应 HTTP 请求</li>
+<li>基于 GUI 的调式程序用不同的线程分别处理用户输入</li>
+</ul>
+</li>
+<li class="quiz">以下关于线程的描述错误的是<span class="gap"></span> 。
+<ul class="options">
+<li>内核级线程的调度由操作系统来完成</li>
+<li class="correct">操作系统为每个用户级线程创建一个线程控制块</li>
+<li>用户级线程间的切换比内核级切换效率高</li>
+<li>用户级线程可以在不支持内核级线程的操作系统上实现</li>
+</ul>
+</li>
+<li class="quiz">以下关于管道通信的描述正确的是<span class="gap"></span> 。
+<ul class="options">
+<li>一个管道可以实现双向数据传输</li>
+<li class="correct">进程堆管道进行读操作和写操作都有可能被阻塞</li>
+<li>管道容量只受到磁盘容量大小限制</li>
+<li>一个管道只能由一个读进程或一个写进程对其操作</li>
+</ul>
+</li>
+</ol>
+<h2 id="处理机调度"><a class="anchor" href="#处理机调度">#</a> 处理机调度</h2>
+<h5 id="调度的概念"><a class="anchor" href="#调度的概念">#</a> 调度的概念</h5>
+<p>作业调度 （高级调度）：每个作业只调入调出一次  次数少</p>
+<p>内存调度（中级调度） ：进程进入挂起态（提高内存利用率和系统吞吐量） 次数中</p>
+<p>进程调度（低级调度） ：次数多</p>
+<h5 id="调度的时机"><a class="anchor" href="#调度的时机">#</a> 调度的时机</h5>
+<p>不能进行进程调度的情况</p>
+<p>1. 在处理中断的过程中</p>
+<p>2. 进程在操作系统内核临界区</p>
+<p>3. 其他需要完全屏蔽中断的原子操作过程中</p>
+<p><span class="rainbow">进程处于临界区可以进行处理机调度</span></p>
+<h5 id="进程调度方式"><a class="anchor" href="#进程调度方式">#</a> 进程调度方式</h5>
+<p>非剥夺式（适用于大多批处理系统，不适合分时系统和实时系统）</p>
+<p>剥夺式</p>
+<h5 id="调度的性能"><a class="anchor" href="#调度的性能">#</a> 调度的性能</h5>
+<p>cpu 利用率</p>
+<p>系统吞吐量：单位时间的作业完成数</p>
+<p>周转时间：作业完成时间 - 作业提交时间</p>
+<p>带权周转时间：作业周转时间 / 作业运行时间</p>
+<p>等待时间</p>
+<p>响应时间</p>
+<h5 id="调度算法"><a class="anchor" href="#调度算法">#</a> 调度算法</h5>
+<p>先来先服务（FCFS）：算法简单，但是效率低，对长作业比较有利，但对短作业不利，有利于 CPU 繁忙型作业，不利于 I/O 繁忙型作业。</p>
+<p>短作业优先（SJF）（可抢，可不抢）：1）对长作业不利，造成<strong>饥饿现象</strong>（2）没有考虑作业的紧迫性，因而不能保证紧迫性作业会被及时处理。（3）作业长短是由用户提供的预估时间而定的，因而无法做到真正的短作业优先。</p>
+<p><span class="rainbow">在所有进程都几乎同时到达或者是抢占式时，平均等待时间和周转时间最小</span></p>
+<p>优先级调度算法（可抢，可不抢）<strong>饥饿</strong>：</p>
+<p>1. 系统进程 &gt; 用户进程<br>
+ 2. 交互型进程 &gt; 非交互型进程<br>
+ 3.I/O 进程 &gt; 计算型进程（CPU 繁忙型）</p>
+<p>高响应比优先（非抢）： <strong>响应比 =（等待时间 + 要求服务时间）/ 要求服务时间</strong></p>
+<p>时间片轮转（RR）(抢占式算法): 默认新到达的进程先进入队列，刚完成时间片的进程后进入队列</p>
+<p>多级反馈队列调度（抢占）：</p>
+<p>（1）终端型作业用户，短作业优先。<br>
+（2）短批处理作业用户，周转时间短。<br>
+（3）长批处理作业用户：不会长期得不到处理 **（但是会导致饥饿）**。</p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211106231028476.png" alt="image-20211106231028476"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211106231047537.png" alt="image-20211106231047537"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211106231123597.png" alt="image-20211106231123597"></p>
+<h2 id="进程同步"><a class="anchor" href="#进程同步">#</a> 进程同步</h2>
+<h4 id="进程同步的概念"><a class="anchor" href="#进程同步的概念">#</a> 进程同步的概念</h4>
+<p>（1）进入区：进程是否可以进入临界区，若能进入临界区则设置正在访问临界区的标志。<br>
+（2）临界区：可以访问临界资源的代码。<br>
+（3）退出区：将正在访问临界区的标志清除。<br>
+（4）剩余区：代码中的其余部分。</p>
+<p>为禁止两个进程同时进入临界区，同步机制应该遵循以下规则：<br>
+（1）空闲让进。<br>
+（2）忙则等待。<br>
+（3）有限等待。<br>
+（4）让权等待。</p>
+<h4 id="实现临界区互斥的基本方法"><a class="anchor" href="#实现临界区互斥的基本方法">#</a> 实现临界区互斥的基本方法</h4>
+<h5 id="软件方法"><a class="anchor" href="#软件方法">#</a> 软件方法</h5>
+<p>单标志检查法：只能交替进入，违背空闲让进</p>
+<p>双标志先检查法：可能同时进入临界区，违背忙则等待</p>
+<p>双标志后检查法：可能相互谦让，造成饥饿</p>
+<p>Peterson：未解决让权等待</p>
+<figure class="highlight c"><figcaption data-lang="c"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">//Pi 进程</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  	flag<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>true<span class="token punctuation">;</span>turn<span class="token operator">=</span>j<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>	<span class="token keyword">while</span><span class="token punctuation">(</span>flag<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">&amp;&amp;</span>turn<span class="token operator">=</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>	<span class="token comment">// 临界区操作 j</span></pre></td></tr><tr><td data-num="5"></td><td><pre>	flag<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>false<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>	<span class="token comment">// 剩余区</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token comment">//Pj 进程</span></pre></td></tr><tr><td data-num="8"></td><td><pre>  	flag<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">=</span>true<span class="token punctuation">;</span>turn<span class="token operator">=</span>i<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="9"></td><td><pre>	<span class="token keyword">while</span><span class="token punctuation">(</span>flag<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">&amp;&amp;</span>turn<span class="token operator">=</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre>	<span class="token comment">// 临界区操作</span></pre></td></tr><tr><td data-num="11"></td><td><pre>	flag<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">=</span>false<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>	<span class="token comment">// 剩余区</span></pre></td></tr></table></figure><h5 id="硬件方式"><a class="anchor" href="#硬件方式">#</a> 硬件方式</h5>
+<p>中断屏蔽</p>
+<p>TestAndSet 指令</p>
+<p>Swap 指令</p>
+<h5 id="信号量"><a class="anchor" href="#信号量">#</a> 信号量</h5>
+<p>整形信号量</p>
+<figure class="highlight c"><figcaption data-lang="c"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">wait</span><span class="token punctuation">(</span>S<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token keyword">while</span><span class="token punctuation">(</span>S<span class="token operator">&lt;=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    S<span class="token operator">=</span>S<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><p>记录信号量</p>
+<figure class="highlight c"><figcaption data-lang="c"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">void</span> <span class="token function">wait</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">S</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    S<span class="token punctuation">.</span>value<span class="token operator">--</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">if</span><span class="token punctuation">(</span>S<span class="token punctuation">.</span>value<span class="token operator">&lt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token comment">// 注意 & lt;0</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        S<span class="token punctuation">.</span>list<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>P<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token function">block</span><span class="token punctuation">(</span>P<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 阻塞</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token keyword">void</span> <span class="token function">signal</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">S</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token comment">// 注意 & lt;=0</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    S<span class="token punctuation">.</span>value<span class="token operator">++</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token keyword">if</span><span class="token punctuation">(</span>S<span class="token punctuation">.</span>value<span class="token operator">&lt;=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="11"></td><td><pre>        S<span class="token punctuation">.</span>list<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span>P<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>        <span class="token function">wakeup</span><span class="token punctuation">(</span>P<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h4 id="管程"><a class="anchor" href="#管程">#</a> 管程</h4>
+<p>（1）管程的名称。<br>
+（2）局部于管程的共享结构数据说明。<br>
+（3）对该数据结构进行操作的一组过程 (函数)。<br>
+（4）对局部于管程内部的共享数据设置初始值的语句。</p>
+<p>管程把对共享资源的操作封装起来，管程内的共享数据结构只能被管程内的过程所访问。</p>
+<p>每次仅允许一个进程进入管程，从而实现进程互斥。</p>
+<h5 id="条件变量"><a class="anchor" href="#条件变量">#</a> 条件变量</h5>
+<p>x.wait：当 x 对应的条件不满足时，正在调用管程的进程调用 x.wait 将自己插入到 x 条件的等待队列，并释放管程，此时其他进程可以使用该管程。<br>
+x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一个因 x 条件而阻塞的进程。<br>
+条件变量与信号量的比较：<br>
+相似点：条件变量的 wait/signal 操作类似于信号量的 P/V 操作，可以实现进程的阻塞和唤醒。<br>
+不同点：条件变量是 “没有值的”，仅实现了 “排队等待” 的功能；而信号量是 “有值的”，信号量反映了剩余资源的数目，而在管程中剩余资源数用共享数据结构记录。</p>
+<h4 id="经典同步问题"><a class="anchor" href="#经典同步问题">#</a> 经典同步问题</h4>
+<h5 id="生产者与消费者模型"><a class="anchor" href="#生产者与消费者模型">#</a> 生产者与消费者模型</h5>
+<p>注意 mutex 和 empty（或 full）的先后顺序，会造成死锁</p>
+<h5 id="读者与写者问题"><a class="anchor" href="#读者与写者问题">#</a> 读者与写者问题</h5>
+<figure class="highlight c"><figcaption data-lang="c"></figcaption><table><tr><td data-num="1"></td><td><pre>semaphore rmutex <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> wmutex <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">// 互斥锁</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">int</span> readcount <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">void</span> <span class="token function">reader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>     <span class="token keyword">do</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>         <span class="token comment">//P(w);</span></pre></td></tr><tr><td data-num="6"></td><td><pre>          <span class="token function">P</span><span class="token punctuation">(</span>rmutex<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 关锁</span></pre></td></tr><tr><td data-num="7"></td><td><pre>          <span class="token keyword">if</span> <span class="token punctuation">(</span>readcount <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token function">wait</span><span class="token punctuation">(</span>wmutex<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 把写操作锁住，只需要在第一次读时</span></pre></td></tr><tr><td data-num="8"></td><td><pre>          readcount<span class="token operator">++</span><span class="token punctuation">;</span><span class="token comment">// 读者数目 + 1</span></pre></td></tr><tr><td data-num="9"></td><td><pre>          <span class="token function">V</span><span class="token punctuation">(</span>rmutex<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 开锁</span></pre></td></tr><tr><td data-num="10"></td><td><pre>         <span class="token comment">//V(w);</span></pre></td></tr><tr><td data-num="11"></td><td><pre>          <span class="token function">read</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre></pre></td></tr><tr><td data-num="13"></td><td><pre>          <span class="token function">P</span><span class="token punctuation">(</span>rmutex<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 关锁</span></pre></td></tr><tr><td data-num="14"></td><td><pre>          readcount<span class="token operator">--</span><span class="token punctuation">;</span><span class="token comment">// 读者数目 - 1</span></pre></td></tr><tr><td data-num="15"></td><td><pre>          <span class="token keyword">if</span> <span class="token punctuation">(</span>readcount <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token function">V</span><span class="token punctuation">(</span>wmutex<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 没有读者，执行写操作</span></pre></td></tr><tr><td data-num="16"></td><td><pre>          <span class="token function">V</span><span class="token punctuation">(</span>rmutex<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 开锁</span></pre></td></tr><tr><td data-num="17"></td><td><pre>     <span class="token punctuation">&#125;</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>TRUE<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="18"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="19"></td><td><pre><span class="token keyword">void</span> <span class="token function">writer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="20"></td><td><pre>     <span class="token keyword">do</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="21"></td><td><pre>         <span class="token comment">//P(w);</span></pre></td></tr><tr><td data-num="22"></td><td><pre>          <span class="token function">P</span><span class="token punctuation">(</span>rmutex<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="23"></td><td><pre>          <span class="token function">write</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="24"></td><td><pre>          <span class="token function">V</span><span class="token punctuation">(</span>rmutex<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="25"></td><td><pre>         <span class="token comment">//V(w);</span></pre></td></tr><tr><td data-num="26"></td><td><pre>     <span class="token punctuation">&#125;</span> <span class="token keyword">while</span> <span class="token punctuation">(</span>TRUE<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="27"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><p>会造成饥饿问题，加上注释部分可实现<strong>相对公平</strong></p>
+<h5 id="哲学家进餐问题"><a class="anchor" href="#哲学家进餐问题">#</a> 哲学家进餐问题</h5>
+<p>会造成死锁</p>
+<p>解决方案：1. 同时拿起左右两根筷子</p>
+<p>2. 偶数哲学家先拿左筷子，奇数哲学家先拿右筷子</p>
+<p>3. 只允许 n-1 个人拿筷子</p>
+<h5 id="吸烟者问题"><a class="anchor" href="#吸烟者问题">#</a> 吸烟者问题</h5>
+<p>将不同材料整合为一个材料的思想</p>
+<p>其他实现比较简单</p>
+<hr>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107233843200.png" alt="image-20211107233843200"><span class="rainbow"> 互斥信号量初值为 1</span></p>
+<p><span class="rainbow">多个进程在任意时刻可共享的代码为可重入代码（纯码）（不可修改的代码）</span></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107233806315.png" alt="image-20211107233806315"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234055791.png" alt="image-20211107234055791"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234025816.png" alt="image-20211107234025816"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234208255.png" alt="image-20211107234208255"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234235556.png" alt="image-20211107234235556"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234257386.png" alt="image-20211107234257386"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234316820.png" alt="image-20211107234316820"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234336105.png" alt="image-20211107234336105"></p>
+<h2 id="死锁"><a class="anchor" href="#死锁">#</a> 死锁</h2>
+<p>死锁产生的原因有：1. 系统资源的竞争。2. 进程推进顺序非法。<br>
+死锁产生的必要条件：1. 互斥条件：2. 不可剥夺条件 3. 请求并保持条件 4. 循环等待条件<br>
+::info</p>
+<p>死锁检测，死锁避免，死锁预防</p>
+<p>对死锁的处理从宽到严，并发性从大到小</p>
+<p>::</p>
+<h4 id="死锁预防"><a class="anchor" href="#死锁预防">#</a> 死锁预防</h4>
+<h5 id="破坏互斥条件使临界资源共享不现实"><a class="anchor" href="#破坏互斥条件使临界资源共享不现实">#</a> 破坏互斥条件 (使临界资源共享，不现实)</h5>
+<h5 id="破坏不剥夺条件"><a class="anchor" href="#破坏不剥夺条件">#</a> 破坏不剥夺条件</h5>
+<p>实现比较复杂，反复剥夺会增加系统开销，降低系统吞吐量，适合 cpu，寄存器等容易回复的资源</p>
+<h5 id="破坏请求并保持条件"><a class="anchor" href="#破坏请求并保持条件">#</a> 破坏请求并保持条件</h5>
+<p>采用预先静态分配方法，即进程在运行前就一次性申请完所有资源。<br>
+特点：实现简单，但是资源被严重浪费，甚至可能导致进程饥饿。</p>
+<h5 id="破坏循环等待条件"><a class="anchor" href="#破坏循环等待条件">#</a> 破坏循环等待条件</h5>
+<p>采用顺序资源分配法，首先给系统资源进行编号，规定每个进程按照编号递增的顺序对资源进行申请，同类资源一次性申请完。</p>
+<p>当使用资源顺序和规定顺序不同，会造成浪费</p>
+<h4 id="死锁避免"><a class="anchor" href="#死锁避免">#</a> 死锁避免</h4>
+<p><span class="rainbow">并非所有不安全状态都为死锁状态</span></p>
+<h5 id="银行家算法"><a class="anchor" href="#银行家算法">#</a> 银行家算法</h5>
+<p>要注意先判断<strong>所需资源数</strong>和<strong>申请资源数</strong></p>
+<p>还有<strong>安全性算法</strong></p>
+<h4 id="死锁检测和解除"><a class="anchor" href="#死锁检测和解除">#</a> 死锁检测和解除</h4>
+<h5 id="资源分配图"><a class="anchor" href="#资源分配图">#</a> 资源分配图</h5>
+<p>请求边，分配边</p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108000010609.png" alt="image-20211108000010609"></p>
+<h5 id="死锁定理"><a class="anchor" href="#死锁定理">#</a> 死锁定理</h5>
+<p>在资源分配图中找到分配满足的进程，然后消去其请求边与分配边，如果最后所有边都可以被消除，那么就是可以简化的，不存在死锁，否则存在死锁。</p>
+<h5 id="死锁解除"><a class="anchor" href="#死锁解除">#</a> 死锁解除</h5>
+<p>资源剥夺法：挂起某些死锁进程，抢占资源，将这些资源分配给其他死锁进程，但是要防止挂起时间过长。<br>
+撤销进程法：强制撤销部分甚至全部死锁进程，并且剥夺他们的资源，撤销原则可以根据优先级和撤销进程的代价进行。<br>
+进程回退法：让一个或者多个进程回退到足以回避死锁的地步，进程回退时，自动释放资源而非剥夺，要求系统保持进程历史信息，设置还原点。</p>
+<hr>
+<p><span class="rainbow">银行家算法不能检测死锁（哎）</span></p>
+<ol start="3">
+<li class="quiz">引入多道程序技术的前提之一是系统具有 {.gap} 
+<ul class="options">
+<li>多个 cpu</li>
+<li class="correct">中断功能</li>
+<li>多个终端</li>
+<li>不分时功能</li>
+</ul>
+</li>
+</ol>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001058938.png" alt="image-20211108001058938"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001112463.png" alt="image-20211108001112463"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001501032.png" alt="image-20211108001501032"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001524691.png" alt="image-20211108001524691"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001542686.png" alt="image-20211108001542686"></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>操作系统</tag>
+      </tags>
   </entry>
 </search>

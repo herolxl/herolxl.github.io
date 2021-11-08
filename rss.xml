@@ -10,8 +10,253 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Fri, 29 Oct 2021 15:54:32 +0800</pubDate>
-        <lastBuildDate>Fri, 29 Oct 2021 15:54:32 +0800</lastBuildDate>
+        <pubDate>Thu, 04 Nov 2021 23:06:40 +0800</pubDate>
+        <lastBuildDate>Thu, 04 Nov 2021 23:06:40 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/11/04/%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86/</guid>
+            <title>进程管理</title>
+            <link>http://example.com/2021/11/04/%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86/</link>
+            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+            <category term="操作系统" scheme="http://example.com/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" />
+            <pubDate>Thu, 04 Nov 2021 23:06:40 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;进程与线程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程与线程&#34;&gt;#&lt;/a&gt; 进程与线程&lt;/h2&gt;
+&lt;h5 id=&#34;进程的概念与特征&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程的概念与特征&#34;&gt;#&lt;/a&gt; 进程的概念与特征&lt;/h5&gt;
+&lt;p&gt;进程实现了操作系统的 并发性和共享性&lt;/p&gt;
+&lt;p&gt;进程映像：程序段，数据段，PCB&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label primary&#34;&gt;创建进程实质上是创建 PCB&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label info&#34;&gt;进程是程序在数据集上的运行过程&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;进程特征：动态，并发，独立，异步，结构性&lt;/p&gt;
+&lt;h5 id=&#34;进程的状态与转换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程的状态与转换&#34;&gt;#&lt;/a&gt; 进程的状态与转换&lt;/h5&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211104232451442.png&#34; alt=&#34;image-20211104232451442&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;I/O 请求应改为事件等待，因为还有资源等待&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;每个状态主要是看 cpu 与其他资源是否齐全&lt;/p&gt;
+&lt;p&gt;运行态 -&amp;gt; 阻塞态（主动）&lt;/p&gt;
+&lt;p&gt;阻塞态 -&amp;gt; 就绪态（被动）&lt;/p&gt;
+&lt;h5 id=&#34;进程控制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程控制&#34;&gt;#&lt;/a&gt; 进程控制&lt;/h5&gt;
+&lt;p&gt;&lt;span class=&#34;label primary&#34;&gt;关中断，开中断实现原语的一气呵成&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;一般把进程控制用的程序段称为原语&lt;/p&gt;
+&lt;p&gt;用户 登录系统，作业调度，系统提供服务，用户程序的应用请求都会引起进程的创建&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label primary&#34;&gt;PCB 申请失败则进程创建失败，若资源不足，不是创建失败，而是处于阻塞态&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;进程的终止：正常结束，异常结束，外界干预&lt;/p&gt;
+&lt;p&gt;对于普通的进程而言，其创建，撤销及要求由系统设备完成的 I/O 操作，都是利用系统调用进入内核，再由内核程序处理&lt;/p&gt;
+&lt;p&gt;进程切换要保存处机上下文（程序计数器和其他寄存器）&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label warning&#34;&gt;注意进程切换和处理机模式切换时不同的&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;::info&lt;/p&gt;
+&lt;p&gt;调度和切换的区别：调度是决策行为，切换是执行行为&lt;/p&gt;
+&lt;p&gt;::&lt;/p&gt;
+&lt;h5 id=&#34;进程的组织&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程的组织&#34;&gt;#&lt;/a&gt; 进程的组织&lt;/h5&gt;
+&lt;p&gt;进程控制块：&lt;/p&gt;
+&lt;p&gt;​	进程描述信息：进程标识符，用户标识符&lt;/p&gt;
+&lt;p&gt;​	进程管理信息：进程状态，优先级，首地址等&lt;/p&gt;
+&lt;p&gt;​	资源分配清单：代码段制作，数据段指针，堆栈段指针&lt;/p&gt;
+&lt;p&gt;​	处理及相关信息：各寄存器&lt;/p&gt;
+&lt;p&gt;PCB 组织方式：链接方式，索引方式&lt;/p&gt;
+&lt;h5 id=&#34;进程的通信&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程的通信&#34;&gt;#&lt;/a&gt; 进程的通信&lt;/h5&gt;
+&lt;p&gt;PV 操作是低级通信方式&lt;/p&gt;
+&lt;p&gt;共享存储：低级方式的共享基于数据结构的共享，高级方式的共享基于存储区的共享&lt;/p&gt;
+&lt;p&gt;消息传递：直接通信方式（挂在消息队列上），间接通信方式（放在邮箱）&lt;/p&gt;
+&lt;p&gt;管道通信：共享文件（pipe 文件或管道）&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label info&#34;&gt;半双工通信，从管道读取数据时一次性操作，数据一旦被读取，就被抛弃&lt;/span&gt;&lt;/p&gt;
+&lt;h5 id=&#34;线程概念和多线程模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线程概念和多线程模型&#34;&gt;#&lt;/a&gt; 线程概念和多线程模型&lt;/h5&gt;
+&lt;p&gt;线程 ：轻量级进程，是一个基本的 cpu 执行单元，也是程序执行流的最小单元，由线程 id，程序计数器，寄存器集合，堆栈组成&lt;/p&gt;
+&lt;p&gt;线程是独立调度的基本单位，进程是资源调度的基本单位&lt;/p&gt;
+&lt;p&gt;线程可提高系统的并发性&lt;/p&gt;
+&lt;p&gt;线程切换比进程切换的开销更小&lt;/p&gt;
+&lt;p&gt;进程通信需要同步互斥手段辅佐，线程可直接读写进程数据段进行通信&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label info&#34;&gt;用户级线程：线程管理工作都由应用系统完成，应用程序可以通过线程库设计成多线程&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;label info&#34;&gt;内核级线程：线程管理工作都由内核完成&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;多对一模型：效率高，各线程不能并行，一旦阻塞整个进程会被阻塞&lt;/p&gt;
+&lt;p&gt;一对一模型：并发能力强，用户态和内核态的切换开销大 &lt;span class=&#34;rainbow&#34;&gt;操作系统为每个用户级线程建立一个线程控制块&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;多对多模型&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;2 进制代码和常量放在正文段，动态分配的存储区在数据堆段，临时使用的变量在数据栈段&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;同一进程或不同进程的线程都能并发执行&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;父进程与子进程不共享虚拟地址空间&lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li class=&#34;quiz&#34;&gt;系统动态 DLL 库中的系统线程，被不同的进程调用，它们是 [] 的进程 {.gap} 。
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;不同&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;相同&lt;/li&gt;
+&lt;li&gt;可能相同，不同&lt;/li&gt;
+&lt;li&gt;不能被调用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;以下描述中，不是多线程系统的特长的是&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;利用线程并行的执行矩阵乘法运算&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;键盘驱动程序为每个正在运行的应用配备一个线程，用以响应键盘输入&lt;/li&gt;
+&lt;li&gt;web 服务器利用线程响应 HTTP 请求&lt;/li&gt;
+&lt;li&gt;基于 GUI 的调式程序用不同的线程分别处理用户输入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;以下关于线程的描述错误的是&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;内核级线程的调度由操作系统来完成&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;操作系统为每个用户级线程创建一个线程控制块&lt;/li&gt;
+&lt;li&gt;用户级线程间的切换比内核级切换效率高&lt;/li&gt;
+&lt;li&gt;用户级线程可以在不支持内核级线程的操作系统上实现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;以下关于管道通信的描述正确的是&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;一个管道可以实现双向数据传输&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;进程堆管道进行读操作和写操作都有可能被阻塞&lt;/li&gt;
+&lt;li&gt;管道容量只受到磁盘容量大小限制&lt;/li&gt;
+&lt;li&gt;一个管道只能由一个读进程或一个写进程对其操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;处理机调度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#处理机调度&#34;&gt;#&lt;/a&gt; 处理机调度&lt;/h2&gt;
+&lt;h5 id=&#34;调度的概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#调度的概念&#34;&gt;#&lt;/a&gt; 调度的概念&lt;/h5&gt;
+&lt;p&gt;作业调度 （高级调度）：每个作业只调入调出一次  次数少&lt;/p&gt;
+&lt;p&gt;内存调度（中级调度） ：进程进入挂起态（提高内存利用率和系统吞吐量） 次数中&lt;/p&gt;
+&lt;p&gt;进程调度（低级调度） ：次数多&lt;/p&gt;
+&lt;h5 id=&#34;调度的时机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#调度的时机&#34;&gt;#&lt;/a&gt; 调度的时机&lt;/h5&gt;
+&lt;p&gt;不能进行进程调度的情况&lt;/p&gt;
+&lt;p&gt;1. 在处理中断的过程中&lt;/p&gt;
+&lt;p&gt;2. 进程在操作系统内核临界区&lt;/p&gt;
+&lt;p&gt;3. 其他需要完全屏蔽中断的原子操作过程中&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;进程处于临界区可以进行处理机调度&lt;/span&gt;&lt;/p&gt;
+&lt;h5 id=&#34;进程调度方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程调度方式&#34;&gt;#&lt;/a&gt; 进程调度方式&lt;/h5&gt;
+&lt;p&gt;非剥夺式（适用于大多批处理系统，不适合分时系统和实时系统）&lt;/p&gt;
+&lt;p&gt;剥夺式&lt;/p&gt;
+&lt;h5 id=&#34;调度的性能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#调度的性能&#34;&gt;#&lt;/a&gt; 调度的性能&lt;/h5&gt;
+&lt;p&gt;cpu 利用率&lt;/p&gt;
+&lt;p&gt;系统吞吐量：单位时间的作业完成数&lt;/p&gt;
+&lt;p&gt;周转时间：作业完成时间 - 作业提交时间&lt;/p&gt;
+&lt;p&gt;带权周转时间：作业周转时间 / 作业运行时间&lt;/p&gt;
+&lt;p&gt;等待时间&lt;/p&gt;
+&lt;p&gt;响应时间&lt;/p&gt;
+&lt;h5 id=&#34;调度算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#调度算法&#34;&gt;#&lt;/a&gt; 调度算法&lt;/h5&gt;
+&lt;p&gt;先来先服务（FCFS）：算法简单，但是效率低，对长作业比较有利，但对短作业不利，有利于 CPU 繁忙型作业，不利于 I/O 繁忙型作业。&lt;/p&gt;
+&lt;p&gt;短作业优先（SJF）（可抢，可不抢）：1）对长作业不利，造成&lt;strong&gt;饥饿现象&lt;/strong&gt;（2）没有考虑作业的紧迫性，因而不能保证紧迫性作业会被及时处理。（3）作业长短是由用户提供的预估时间而定的，因而无法做到真正的短作业优先。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;在所有进程都几乎同时到达或者是抢占式时，平均等待时间和周转时间最小&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;优先级调度算法（可抢，可不抢）&lt;strong&gt;饥饿&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;1. 系统进程 &amp;gt; 用户进程&lt;br&gt;
+ 2. 交互型进程 &amp;gt; 非交互型进程&lt;br&gt;
+ 3.I/O 进程 &amp;gt; 计算型进程（CPU 繁忙型）&lt;/p&gt;
+&lt;p&gt;高响应比优先（非抢）： &lt;strong&gt;响应比 =（等待时间 + 要求服务时间）/ 要求服务时间&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;时间片轮转（RR）(抢占式算法): 默认新到达的进程先进入队列，刚完成时间片的进程后进入队列&lt;/p&gt;
+&lt;p&gt;多级反馈队列调度（抢占）：&lt;/p&gt;
+&lt;p&gt;（1）终端型作业用户，短作业优先。&lt;br&gt;
+（2）短批处理作业用户，周转时间短。&lt;br&gt;
+（3）长批处理作业用户：不会长期得不到处理 **（但是会导致饥饿）**。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211106231028476.png&#34; alt=&#34;image-20211106231028476&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211106231047537.png&#34; alt=&#34;image-20211106231047537&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211106231123597.png&#34; alt=&#34;image-20211106231123597&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;进程同步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程同步&#34;&gt;#&lt;/a&gt; 进程同步&lt;/h2&gt;
+&lt;h4 id=&#34;进程同步的概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进程同步的概念&#34;&gt;#&lt;/a&gt; 进程同步的概念&lt;/h4&gt;
+&lt;p&gt;（1）进入区：进程是否可以进入临界区，若能进入临界区则设置正在访问临界区的标志。&lt;br&gt;
+（2）临界区：可以访问临界资源的代码。&lt;br&gt;
+（3）退出区：将正在访问临界区的标志清除。&lt;br&gt;
+（4）剩余区：代码中的其余部分。&lt;/p&gt;
+&lt;p&gt;为禁止两个进程同时进入临界区，同步机制应该遵循以下规则：&lt;br&gt;
+（1）空闲让进。&lt;br&gt;
+（2）忙则等待。&lt;br&gt;
+（3）有限等待。&lt;br&gt;
+（4）让权等待。&lt;/p&gt;
+&lt;h4 id=&#34;实现临界区互斥的基本方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现临界区互斥的基本方法&#34;&gt;#&lt;/a&gt; 实现临界区互斥的基本方法&lt;/h4&gt;
+&lt;h5 id=&#34;软件方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#软件方法&#34;&gt;#&lt;/a&gt; 软件方法&lt;/h5&gt;
+&lt;p&gt;单标志检查法：只能交替进入，违背空闲让进&lt;/p&gt;
+&lt;p&gt;双标志先检查法：可能同时进入临界区，违背忙则等待&lt;/p&gt;
+&lt;p&gt;双标志后检查法：可能相互谦让，造成饥饿&lt;/p&gt;
+&lt;p&gt;Peterson：未解决让权等待&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//Pi 进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  	flag&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;true&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;turn&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;flag&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;turn&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 临界区操作 j&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	flag&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;false&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 剩余区&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//Pj 进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  	flag&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;true&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;turn&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;flag&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;turn&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 临界区操作&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	flag&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;false&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 剩余区&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h5 id=&#34;硬件方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#硬件方式&#34;&gt;#&lt;/a&gt; 硬件方式&lt;/h5&gt;
+&lt;p&gt;中断屏蔽&lt;/p&gt;
+&lt;p&gt;TestAndSet 指令&lt;/p&gt;
+&lt;p&gt;Swap 指令&lt;/p&gt;
+&lt;h5 id=&#34;信号量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#信号量&#34;&gt;#&lt;/a&gt; 信号量&lt;/h5&gt;
+&lt;p&gt;整形信号量&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;wait&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;S&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;S&lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    S&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;S&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;记录信号量&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;wait&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;S&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    S&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;value&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;S&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;value&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 注意 &amp; lt;0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        S&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;list&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;P&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;P&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 阻塞&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;signal&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;S&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 注意 &amp; lt;=0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    S&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;value&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;S&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;value&lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        S&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;list&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;remove&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;P&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;wakeup&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;P&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;管程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#管程&#34;&gt;#&lt;/a&gt; 管程&lt;/h4&gt;
+&lt;p&gt;（1）管程的名称。&lt;br&gt;
+（2）局部于管程的共享结构数据说明。&lt;br&gt;
+（3）对该数据结构进行操作的一组过程 (函数)。&lt;br&gt;
+（4）对局部于管程内部的共享数据设置初始值的语句。&lt;/p&gt;
+&lt;p&gt;管程把对共享资源的操作封装起来，管程内的共享数据结构只能被管程内的过程所访问。&lt;/p&gt;
+&lt;p&gt;每次仅允许一个进程进入管程，从而实现进程互斥。&lt;/p&gt;
+&lt;h5 id=&#34;条件变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#条件变量&#34;&gt;#&lt;/a&gt; 条件变量&lt;/h5&gt;
+&lt;p&gt;x.wait：当 x 对应的条件不满足时，正在调用管程的进程调用 x.wait 将自己插入到 x 条件的等待队列，并释放管程，此时其他进程可以使用该管程。&lt;br&gt;
+x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一个因 x 条件而阻塞的进程。&lt;br&gt;
+条件变量与信号量的比较：&lt;br&gt;
+相似点：条件变量的 wait/signal 操作类似于信号量的 P/V 操作，可以实现进程的阻塞和唤醒。&lt;br&gt;
+不同点：条件变量是 “没有值的”，仅实现了 “排队等待” 的功能；而信号量是 “有值的”，信号量反映了剩余资源的数目，而在管程中剩余资源数用共享数据结构记录。&lt;/p&gt;
+&lt;h4 id=&#34;经典同步问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经典同步问题&#34;&gt;#&lt;/a&gt; 经典同步问题&lt;/h4&gt;
+&lt;h5 id=&#34;生产者与消费者模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生产者与消费者模型&#34;&gt;#&lt;/a&gt; 生产者与消费者模型&lt;/h5&gt;
+&lt;p&gt;注意 mutex 和 empty（或 full）的先后顺序，会造成死锁&lt;/p&gt;
+&lt;h5 id=&#34;读者与写者问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#读者与写者问题&#34;&gt;#&lt;/a&gt; 读者与写者问题&lt;/h5&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;semaphore rmutex &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; wmutex &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 互斥锁&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; readcount &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;reader&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token keyword&#34;&gt;do&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token comment&#34;&gt;//P(w);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;rmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 关锁&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;readcount &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;wait&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;wmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 把写操作锁住，只需要在第一次读时&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          readcount&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 读者数目 + 1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;rmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 开锁&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token comment&#34;&gt;//V(w);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;rmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 关锁&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          readcount&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 读者数目 - 1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;readcount &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;wmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 没有读者，执行写操作&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;rmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 开锁&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;TRUE&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;writer&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token keyword&#34;&gt;do&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token comment&#34;&gt;//P(w);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;rmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;write&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token function&#34;&gt;V&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;rmutex&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token comment&#34;&gt;//V(w);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;TRUE&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;会造成饥饿问题，加上注释部分可实现&lt;strong&gt;相对公平&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&#34;哲学家进餐问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#哲学家进餐问题&#34;&gt;#&lt;/a&gt; 哲学家进餐问题&lt;/h5&gt;
+&lt;p&gt;会造成死锁&lt;/p&gt;
+&lt;p&gt;解决方案：1. 同时拿起左右两根筷子&lt;/p&gt;
+&lt;p&gt;2. 偶数哲学家先拿左筷子，奇数哲学家先拿右筷子&lt;/p&gt;
+&lt;p&gt;3. 只允许 n-1 个人拿筷子&lt;/p&gt;
+&lt;h5 id=&#34;吸烟者问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#吸烟者问题&#34;&gt;#&lt;/a&gt; 吸烟者问题&lt;/h5&gt;
+&lt;p&gt;将不同材料整合为一个材料的思想&lt;/p&gt;
+&lt;p&gt;其他实现比较简单&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107233843200.png&#34; alt=&#34;image-20211107233843200&#34;&gt;&lt;span class=&#34;rainbow&#34;&gt; 互斥信号量初值为 1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;多个进程在任意时刻可共享的代码为可重入代码（纯码）（不可修改的代码）&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107233806315.png&#34; alt=&#34;image-20211107233806315&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234055791.png&#34; alt=&#34;image-20211107234055791&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234025816.png&#34; alt=&#34;image-20211107234025816&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234208255.png&#34; alt=&#34;image-20211107234208255&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234235556.png&#34; alt=&#34;image-20211107234235556&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234257386.png&#34; alt=&#34;image-20211107234257386&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234316820.png&#34; alt=&#34;image-20211107234316820&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211107234336105.png&#34; alt=&#34;image-20211107234336105&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;死锁&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#死锁&#34;&gt;#&lt;/a&gt; 死锁&lt;/h2&gt;
+&lt;p&gt;死锁产生的原因有：1. 系统资源的竞争。2. 进程推进顺序非法。&lt;br&gt;
+死锁产生的必要条件：1. 互斥条件：2. 不可剥夺条件 3. 请求并保持条件 4. 循环等待条件&lt;br&gt;
+::info&lt;/p&gt;
+&lt;p&gt;死锁检测，死锁避免，死锁预防&lt;/p&gt;
+&lt;p&gt;对死锁的处理从宽到严，并发性从大到小&lt;/p&gt;
+&lt;p&gt;::&lt;/p&gt;
+&lt;h4 id=&#34;死锁预防&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#死锁预防&#34;&gt;#&lt;/a&gt; 死锁预防&lt;/h4&gt;
+&lt;h5 id=&#34;破坏互斥条件使临界资源共享不现实&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#破坏互斥条件使临界资源共享不现实&#34;&gt;#&lt;/a&gt; 破坏互斥条件 (使临界资源共享，不现实)&lt;/h5&gt;
+&lt;h5 id=&#34;破坏不剥夺条件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#破坏不剥夺条件&#34;&gt;#&lt;/a&gt; 破坏不剥夺条件&lt;/h5&gt;
+&lt;p&gt;实现比较复杂，反复剥夺会增加系统开销，降低系统吞吐量，适合 cpu，寄存器等容易回复的资源&lt;/p&gt;
+&lt;h5 id=&#34;破坏请求并保持条件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#破坏请求并保持条件&#34;&gt;#&lt;/a&gt; 破坏请求并保持条件&lt;/h5&gt;
+&lt;p&gt;采用预先静态分配方法，即进程在运行前就一次性申请完所有资源。&lt;br&gt;
+特点：实现简单，但是资源被严重浪费，甚至可能导致进程饥饿。&lt;/p&gt;
+&lt;h5 id=&#34;破坏循环等待条件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#破坏循环等待条件&#34;&gt;#&lt;/a&gt; 破坏循环等待条件&lt;/h5&gt;
+&lt;p&gt;采用顺序资源分配法，首先给系统资源进行编号，规定每个进程按照编号递增的顺序对资源进行申请，同类资源一次性申请完。&lt;/p&gt;
+&lt;p&gt;当使用资源顺序和规定顺序不同，会造成浪费&lt;/p&gt;
+&lt;h4 id=&#34;死锁避免&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#死锁避免&#34;&gt;#&lt;/a&gt; 死锁避免&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;并非所有不安全状态都为死锁状态&lt;/span&gt;&lt;/p&gt;
+&lt;h5 id=&#34;银行家算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#银行家算法&#34;&gt;#&lt;/a&gt; 银行家算法&lt;/h5&gt;
+&lt;p&gt;要注意先判断&lt;strong&gt;所需资源数&lt;/strong&gt;和&lt;strong&gt;申请资源数&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;还有&lt;strong&gt;安全性算法&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;死锁检测和解除&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#死锁检测和解除&#34;&gt;#&lt;/a&gt; 死锁检测和解除&lt;/h4&gt;
+&lt;h5 id=&#34;资源分配图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#资源分配图&#34;&gt;#&lt;/a&gt; 资源分配图&lt;/h5&gt;
+&lt;p&gt;请求边，分配边&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108000010609.png&#34; alt=&#34;image-20211108000010609&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;死锁定理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#死锁定理&#34;&gt;#&lt;/a&gt; 死锁定理&lt;/h5&gt;
+&lt;p&gt;在资源分配图中找到分配满足的进程，然后消去其请求边与分配边，如果最后所有边都可以被消除，那么就是可以简化的，不存在死锁，否则存在死锁。&lt;/p&gt;
+&lt;h5 id=&#34;死锁解除&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#死锁解除&#34;&gt;#&lt;/a&gt; 死锁解除&lt;/h5&gt;
+&lt;p&gt;资源剥夺法：挂起某些死锁进程，抢占资源，将这些资源分配给其他死锁进程，但是要防止挂起时间过长。&lt;br&gt;
+撤销进程法：强制撤销部分甚至全部死锁进程，并且剥夺他们的资源，撤销原则可以根据优先级和撤销进程的代价进行。&lt;br&gt;
+进程回退法：让一个或者多个进程回退到足以回避死锁的地步，进程回退时，自动释放资源而非剥夺，要求系统保持进程历史信息，设置还原点。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;银行家算法不能检测死锁（哎）&lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li class=&#34;quiz&#34;&gt;引入多道程序技术的前提之一是系统具有 {.gap} 
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;多个 cpu&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;中断功能&lt;/li&gt;
+&lt;li&gt;多个终端&lt;/li&gt;
+&lt;li&gt;不分时功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001058938.png&#34; alt=&#34;image-20211108001058938&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001112463.png&#34; alt=&#34;image-20211108001112463&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001501032.png&#34; alt=&#34;image-20211108001501032&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001524691.png&#34; alt=&#34;image-20211108001524691&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211108001542686.png&#34; alt=&#34;image-20211108001542686&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/10/29/%E7%BB%9F%E8%AE%A1%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83/</guid>
             <title>统计量及其分布</title>
@@ -826,20 +1071,6 @@
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;莱布尼兹公式和展开式比较重要&lt;/p&gt;
 &lt;/div&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2021/08/16/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</guid>
-            <title>一元函数微分学</title>
-            <link>http://example.com/2021/08/16/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</link>
-            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-            <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-            <pubDate>Mon, 16 Aug 2021 10:48:17 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;image-20210816123540362.png&#34; alt=&#34;image-20210816123540362&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210816123553393.png&#34; alt=&#34;image-20210816123553393&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210816195659032.png&#34; alt=&#34;image-20210816195659032&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210816195727290.png&#34; alt=&#34;image-20210816195727290&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210816203821766.png&#34; alt=&#34;image-20210816203821766&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
