@@ -7,6 +7,55 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2021/11/12/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/",
+            "url": "http://example.com/2021/11/12/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/",
+            "title": "数据链路层",
+            "date_published": "2021-11-12T10:17:54.000Z",
+            "content_html": "<h2 id=\"数据链路层的功能\"><a class=\"anchor\" href=\"#数据链路层的功能\">#</a> 数据链路层的功能</h2>\n<h4 id=\"概要\"><a class=\"anchor\" href=\"#概要\">#</a> 概要</h4>\n<p><strong>将物理层提供的可能出错的物理连接改造为逻辑上无差错的数据链路，使之对网络层表现为一条无差错的链路</strong>。</p>\n<h4 id=\"为网络层提供的服务\"><a class=\"anchor\" href=\"#为网络层提供的服务\">#</a> 为网络层提供的服务</h4>\n<p>无确认的无连接服务：适用于实时通信或误码率低的通信信道。如：以太网。</p>\n<p>有确认的无连接服务：该服务适用于误码率较高的通信信道无线通信。</p>\n<p>有确认的面向连接服务：帧传翰过程分为三个阶段：<strong>数据链路、传输帧、释放数据链路</strong>，目的计算机对收到的每一帧都要给出确认，</p>\n<p><span class=\"label info\">没有无确认的面向连接服务</span></p>\n<h4 id=\"帧定界-帧同步与透明传输\"><a class=\"anchor\" href=\"#帧定界-帧同步与透明传输\">#</a> 帧定界、帧同步与透明传输</h4>\n<p><strong>帧定界</strong>：首部尾部的控制信息，它们的一个重要作用就是确定帧的界限。<br>\n<strong>帧同步</strong>：接收方应能从接受到的二进制比特流中区分出帧的起始和终止。<br>\n<strong>透明传输</strong>：采取有效的措施解决误认为 “传输结束” 而丢弃后面数据的问题。就是不管所传数据是什么样的比特组合，都应当能在链路上传送。</p>\n<h4 id=\"流量控制\"><a class=\"anchor\" href=\"#流量控制\">#</a> 流量控制</h4>\n<p><strong>问题引入</strong>：收发双方各自的工作速率和缓存空间的差异，出现发送方的发送能力大于接收方的接收能力的现象，如不对其进行流量控制就会导致数据丢失。<strong>流量控制</strong>就是通过控制发送方的发送速度，从而实现流量控制。</p>\n<p><span class=\"label info\">数据链路层控制相邻两点之间的流量，运输层控制源端到目的端的流量</span></p>\n<h4 id=\"差错控制\"><a class=\"anchor\" href=\"#差错控制\">#</a> 差错控制</h4>\n<p><strong>差错控制</strong>就是使发送方确定接收方是否正确收到由其发送的数据的方法。</p>\n<p>位错（数据中的某些位出现错误） CRC 循环冗余码（解决位错）</p>\n<p>帧错（帧的丢失、重复或时序等错误） 自动重传请求 ARQ（解决帧错）。</p>\n<ol start=\"3\">\n<li class=\"quiz\">数据链路层的协议不包括 {.gap} 。\n<ul class=\"options\">\n<li>定义数据格式</li>\n<li class=\"correct\">为终端节点隐藏物理传输的细节</li>\n<li>提供节点之间的可靠传输</li>\n<li>控制对物理传输介质的访问</li>\n</ul>\n</li>\n</ol>\n<h2 id=\"组帧\"><a class=\"anchor\" href=\"#组帧\">#</a> 组帧</h2>\n<p><strong>字符计数法</strong>就是指在帧头部使用一个计数字段来标明帧内字符数</p>\n<p>该方法的缺点就是如果计数字段出错，收发双方将失去同步从而导致错误。</p>\n<p>计数值要加上自身的一位</p>\n<p><strong>字符填充法使用特定字符来定界一帧的开始和结束</strong>。例如：控制字符<strong> SOH</strong> 放在帧的最前面，表示帧的首部开始，控制字符<strong> EOT</strong> 表示帧的结束。当信息位出现特殊字符时可以在特殊字符前添加一个转义字符<strong> ESC</strong> 加以区分。</p>\n<p>复杂，不兼容</p>\n<p><strong>零比特填充的首尾标志法（目前常用）：使用一个特定的比特模式，即 01111110 来标志一帧的开始和结束</strong>。在发送信息时，遇到 5 个连续的 1 就自动在后面加 0。当收到信息时，遇到 5 个连续的 1 就自动在后面减 0。</p>\n<p>优点：零比特填充法很容易由硬件来实现，性能优于字符填充法。</p>\n<p><strong>违规编码法</strong>（目前常用）：在<strong>物理层进行比特编码时</strong>，曼彻斯特编码中比特 ”1&quot;编码成 “高－高 “ 电平，比特”0&quot; 编码成 “低－低 “ 电平（由于正常情况下不会出现这种情况，所以可以用这个办法来进行定界）</p>\n<h2 id=\"差错控制-2\"><a class=\"anchor\" href=\"#差错控制-2\">#</a> 差错控制</h2>\n<h3 id=\"检错编码\"><a class=\"anchor\" href=\"#检错编码\">#</a> 检错编码</h3>\n<h4 id=\"奇偶检验码\"><a class=\"anchor\" href=\"#奇偶检验码\">#</a> 奇偶检验码</h4>\n<p>奇偶校验码由 n-1 位数据和 1 位校验位组成，校验位用于调节发送信息中的 1 的个数是偶数还是奇数。</p>\n<h4 id=\"循环冗余码\"><a class=\"anchor\" href=\"#循环冗余码\">#</a> 循环冗余码</h4>\n<p><img data-src=\"C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211112195334860.png\" alt=\"image-20211112195334860\"></p>\n<p><span class=\"rainbow\">除数最高位和最低位必须为 1</span></p>\n<p><span class=\"rainbow\">凡是接收端数据链路层接受的帧都没有差错</span></p>\n<p>CRC 有纠错功能，只是数据链路层仅使用它的检错功能</p>\n<h3 id=\"纠错编码\"><a class=\"anchor\" href=\"#纠错编码\">#</a> 纠错编码</h3>\n<p>在数据通信的过程中，有一个方法就是添加<strong>足够的冗余信息</strong>，使得接收方能够推理出发送方实际传送的比特串。<strong>常见的纠错编码就是海明码</strong>。</p>\n<p>（1）确定海明码的位数：<br>\n设 n 为有效信息的位数，k 为校验位的位数，则信息位 n 和校验位 k 应满足 n+k&lt;=2^k-1（若要检测两位错，则需再增加 1 位检验位，即 k+1 位）</p>\n<p><img data-src=\"https://img-blog.csdnimg.cn/20210216095428952.png#pic_center\" alt=\"在这里插入图片描述\"></p>\n<p>（2）确定校验位的分布<br>\n规定校验位在海明位号为 2^（i-1）位詈上，其余各位为信息位。</p>\n<p><img data-src=\"https://img-blog.csdnimg.cn/20210216095543512.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center\" alt=\"在这里插入图片描述\"></p>\n<p>（3）分组形成校验关系<br>\n被校验数据位的海明位号等于校验该数位的各校验位海明位号之和。</p>\n<p><img data-src=\"https://img-blog.csdnimg.cn/20210216095731114.png#pic_center\" alt=\"在这里插入图片描述\"></p>\n<p>（4）校验位取值</p>\n<p><img data-src=\"https://img-blog.csdnimg.cn/20210216095920301.png#pic_center\" alt=\"在这里插入图片描述\">    校验位的值为对应组的所有位求异或。</p>\n<p>（5）海明码的校验原理<br>\n每个校验组分别利用校验位和参与形成该校验位的信息位进行奇偶校验检查，构成 k 个校验方程：</p>\n<p><img data-src=\"https://img-blog.csdnimg.cn/20210216095935551.png#pic_center\" alt=\"在这里插入图片描述\"></p>\n<pre><code>若s3s2s1的值为0000，则说明无措，否则说明有错，而且这个数就是错误的位号，如0001，就说明第一位出错即H1出错。\n</code></pre>\n",
+            "tags": [
+                "考研",
+                "计算机网络"
+            ]
+        },
+        {
+            "id": "http://example.com/2021/11/12/%E6%94%BF%E6%B2%BB%E9%80%89%E6%8B%A9%E9%A2%98%E9%94%99%E9%A2%98/",
+            "url": "http://example.com/2021/11/12/%E6%94%BF%E6%B2%BB%E9%80%89%E6%8B%A9%E9%A2%98%E9%94%99%E9%A2%98/",
+            "title": "政治选择题错题",
+            "date_published": "2021-11-12T09:36:25.000Z",
+            "content_html": "",
+            "tags": [
+                "考研",
+                "政治"
+            ]
+        },
+        {
+            "id": "http://example.com/2021/11/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E5%8F%99/",
+            "url": "http://example.com/2021/11/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E5%8F%99/",
+            "title": "计算机网络概叙",
+            "date_published": "2021-11-11T06:17:17.000Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2021/11/10/%E6%95%B0%E5%AD%A6%E7%9C%9F%E9%A2%98/",
+            "url": "http://example.com/2021/11/10/%E6%95%B0%E5%AD%A6%E7%9C%9F%E9%A2%98/",
+            "title": "数学真题",
+            "date_published": "2021-11-10T11:11:16.000Z",
+            "content_html": "",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2021/11/08/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/",
+            "url": "http://example.com/2021/11/08/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/",
+            "title": "内存管理",
+            "date_published": "2021-11-08T15:47:10.000Z",
+            "content_html": "<h2 id=\"内存管理概念\"><a class=\"anchor\" href=\"#内存管理概念\">#</a> 内存管理概念</h2>\n<h4 id=\"内存管理的功能\"><a class=\"anchor\" href=\"#内存管理的功能\">#</a> 内存管理的功能</h4>\n<p>（1）内存空间的分配与回收。<br>\n（2）地址转换。<br>\n（3）内存空间的扩充。<br>\n（4）存储保护。</p>\n<p>（1）编译。由编译程序将用户源代码变异成若干目标模块。<br>\n（2）链接（<strong>生成逻辑地址</strong>）。由链接程序将编译后形成的一组目标模块及所需的库函数链接在一起，形成一个完成的装入模块。<br>\n（3）装入。由装入程序将装入模块装入内存中运行。<br>\n程序的链接有以下三种方式：<br>\n（1）静态链接。<br>\n（2）装入时动态链接。<br>\n（3）运行时动态链接。其优点是便于修改和更新，便于实现对目标模块的共享。<br>\n内存的装入模块在装入内存时，同样有以下三种方式：<br>\n（1）绝对装入。只适用于单道程序环境。<br>\n（2）可重定位装入（静态重定位）。<br>\n静态重定位的特点是：一个作业装入内存时，必须给它分配要求的全部内存空间，若没有足够的内存，则不能装入该作业，此外，作业一旦进入内存，整个运行期间就不能在内存中移动，也不能再申请内存空间。<br>\n（3）动态运行时装入。也称动态重定位。<br>\n动态重定位特点：需要重定位寄存器，可以将程序分配到不连续的存储区中，便于程序段的共享，可以向用户提供更大的地址空间（地址空间大于存储空间）。</p>\n<h4 id=\"内存保护\"><a class=\"anchor\" href=\"#内存保护\">#</a> 内存保护</h4>\n<p>设置一对上、下限寄存器</p>\n<p>重定位寄存器（基址寄存器）和界地址寄存器（限长寄存器）</p>\n<h4 id=\"连续分配管理\"><a class=\"anchor\" href=\"#连续分配管理\">#</a> 连续分配管理</h4>\n<h5 id=\"单一连续分配\"><a class=\"anchor\" href=\"#单一连续分配\">#</a> 单一连续分配</h5>\n<p>内存分为系统区和用户区</p>\n<p>优点是简单、无外部碎片，可以采用覆盖技术，不需要额外的技术支持。缺点是只能用于单用户、单任务的操作系统中，有内部碎片，存储器的利用率低。</p>\n<h5 id=\"固定分区分配\"><a class=\"anchor\" href=\"#固定分区分配\">#</a> 固定分区分配</h5>\n<p>适用于多道程序的存储，无外部碎片；</p>\n<p>主存利用率第，有内部碎片，而且可能太大，放不进去</p>\n<h5 id=\"动态分区分配\"><a class=\"anchor\" href=\"#动态分区分配\">#</a> 动态分区分配</h5>\n<p>1）首次适用算法：最简单，最快，最好<br>\n（2）最佳适应算法：性能差，会产生很多小内部碎片<br>\n（3）最坏适应算法：性能差，很容易导致大内存块没了<br>\n（4）邻近适应算法：又称循环首次适应算法，性能比首次适应算法差</p>\n<h4 id=\"非连续分配管理\"><a class=\"anchor\" href=\"#非连续分配管理\">#</a> 非连续分配管理</h4>\n",
+            "tags": [
+                "考研",
+                "操作系统"
+            ]
+        },
+        {
             "id": "http://example.com/2021/11/04/%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86/",
             "url": "http://example.com/2021/11/04/%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86/",
             "title": "进程管理",
@@ -129,7 +178,7 @@
             "url": "http://example.com/2021/08/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/",
             "title": "多元函数微分学",
             "date_published": "2021-08-30T07:48:52.000Z",
-            "content_html": "<p><img data-src=\"image-20211021092335232.png\" alt=\"image-20211021092335232\"></p>\n<hr>\n<p><img data-src=\"C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211021095258450.png\" alt=\"image-20211021095258450\"></p>\n<p><span class=\"rainbow\">第 2 问要有，凑导数的思想，之后将要求的值放在另一边，还有洛必达别忘了</span></p>\n<hr>\n<div class=\"note info\">\n<p>主要可微的证明，偏导数的连续，链式求导法则，方程组求导，多元函数的极值，泰勒公式</p>\n<p>给出偏微分方程，求原函数，与一元函数微分方程类似</p>\n</div>\n<p><img data-src=\"image-20210901160326160.png\" alt=\"image-20210901160326160\"></p>\n<p><img data-src=\"image-20210901160343851.png\" alt=\"image-20210901160343851\"></p>\n<p><span class=\"rainbow\">设 y=kx</span></p>\n<p><img data-src=\"image-20210830203707186.png\" alt=\"image-20210830203707186\"></p>\n<p><img data-src=\"image-20210830203727627.png\" alt=\"image-20210830203727627\"></p>\n<p><img data-src=\"image-20210830155251953.png\" alt=\"image-20210830155251953\"></p>\n<p><img data-src=\"image-20210830155316602.png\" alt=\"image-20210830155316602\"></p>\n<p><img data-src=\"image-20210830171807028.png\" alt=\"image-20210830171807028\"></p>\n<p><img data-src=\"image-20210830165709631.png\" alt=\"image-20210830165709631\"></p>\n<p><img data-src=\"image-20210830180241718.png\" alt=\"image-20210830180241718\"></p>\n<p><img data-src=\"image-20210830180251882.png\" alt=\"image-20210830180251882\"></p>\n<p><img data-src=\"image-20210830200210184.png\" alt=\"image-20210830200210184\"></p>\n<p><img data-src=\"image-20210830235203627.png\" alt=\"image-20210830235203627\"></p>\n",
+            "content_html": "<p><img data-src=\"image-20211021092335232.png\" alt=\"image-20211021092335232\"></p>\n<hr>\n<p><img data-src=\"C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211021095258450.png\" alt=\"image-20211021095258450\"></p>\n<p><span class=\"rainbow\">第 2 问要有，凑导数的思想，之后将要求的值放在另一边，还有洛必达别忘了</span></p>\n<hr>\n<div class=\"note info\">\n<p>主要可微的证明，偏导数的连续，链式求导法则，方程组求导，多元函数的极值，泰勒公式</p>\n<p>给出偏微分方程，求原函数，与一元函数微分方程类似</p>\n</div>\n<p><img data-src=\"image-20210901160326160.png\" alt=\"image-20210901160326160\"></p>\n<p><img data-src=\"image-20210901160343851.png\" alt=\"image-20210901160343851\"></p>\n<p><span class=\"rainbow\">设 y=kx</span></p>\n<p><img data-src=\"image-20210830203707186.png\" alt=\"image-20210830203707186\"></p>\n<p><img data-src=\"image-20210830203727627.png\" alt=\"image-20210830203727627\"></p>\n<p><img data-src=\"image-20210830155251953.png\" alt=\"image-20210830155251953\"></p>\n<p><img data-src=\"image-20210830155316602.png\" alt=\"image-20210830155316602\"></p>\n<p><img data-src=\"image-20210830171807028.png\" alt=\"image-20210830171807028\"></p>\n<p><img data-src=\"image-20211109153739130.png\" alt=\"image-20211109153739130\"></p>\n<p><img data-src=\"image-20210830165709631.png\" alt=\"image-20210830165709631\"></p>\n<p><img data-src=\"image-20210830180241718.png\" alt=\"image-20210830180241718\"></p>\n<p><img data-src=\"image-20210830180251882.png\" alt=\"image-20210830180251882\"></p>\n<p><img data-src=\"image-20210830200210184.png\" alt=\"image-20210830200210184\"></p>\n<p><img data-src=\"image-20210830235203627.png\" alt=\"image-20210830235203627\"></p>\n",
             "tags": [
                 "考研",
                 "高等数学"
@@ -163,61 +212,6 @@
             "title": "一元函数积分学的计算",
             "date_published": "2021-08-24T14:29:06.000Z",
             "content_html": "<p><img data-src=\"image-20210824223158917.png\" alt=\"image-20210824223158917\"></p>\n<p><img data-src=\"image-20210825223733318.png\" alt=\"image-20210825223733318\"></p>\n<p><img data-src=\"image-20210825144019973.png\" alt=\"image-20210825144019973\"></p>\n<p><img data-src=\"image-20210824223307915.png\" alt=\"image-20210824223307915\"></p>\n<p><img data-src=\"image-20210824224426847.png\" alt=\"image-20210824224426847\"></p>\n<hr>\n<p><img data-src=\"image-20210824225229422.png\" alt=\"image-20210824225229422\"></p>\n<p><img data-src=\"image-20210824231104587.png\" alt=\"image-20210824231104587\"></p>\n<p><img data-src=\"image-20210825003535421.png\" alt=\"image-20210825003535421\"></p>\n<div class=\"note info\">\n<p>求原函数注意绝对值，如 1/x --&gt; ln|x|</p>\n</div>\n<p><img data-src=\"image-20210825143818673.png\" alt=\"image-20210825143818673\"></p>\n<p><img data-src=\"image-20210825011045536.png\" alt=\"image-20210825011045536\"></p>\n<hr>\n<p><img data-src=\"image-20210901232322790.png\" alt=\"image-20210901232322790\"></p>\n<p><img data-src=\"image-20210901232342204.png\" alt=\"image-20210901232342204\"></p>\n<p><img data-src=\"image-20210901232345457.png\" alt=\"image-20210901232345457\"></p>\n<p><img data-src=\"image-20210825151404514.png\" alt=\"image-20210825151404514\"></p>\n<p><img data-src=\"image-20210825153406349.png\" alt=\"image-20210825153406349\"></p>\n<p><span class=\"rainbow\">第一反应是用三角函数代换，如果积分范围比较难处理，应该想到对称性，区间化简公式</span></p>\n<hr>\n<p><img data-src=\"image-20210825171209822.png\" alt=\"image-20210825171209822\"></p>\n<p><img data-src=\"image-20210825193828987.png\" alt=\"image-20210825193828987\"></p>\n<hr>\n<p><img data-src=\"image-20210901231719829.png\" alt=\"image-20210901231719829\"></p>\n<hr>\n<p><img data-src=\"image-20210902104422418.png\" alt=\"image-20210902104422418\"></p>\n<p><img data-src=\"image-20210825195747873.png\" alt=\"image-20210825195747873\"></p>\n<div class=\"note info\">\n<p>一步到位</p>\n</div>\n<p><img data-src=\"image-20210825204231753.png\" alt=\"image-20210825204231753\"></p>\n<hr>\n<p><img data-src=\"image-20210825233158242.png\" alt=\"image-20210825233158242\"></p>\n<p><img data-src=\"image-20210825233222761.png\" alt=\"image-20210825233222761\"></p>\n<hr>\n<p><img data-src=\"image-20210902131052228.png\" alt=\"image-20210902131052228\"></p>\n<p><img data-src=\"image-20210902131505436.png\" alt=\"image-20210902131505436\"></p>\n",
-            "tags": [
-                "考研",
-                "高等数学"
-            ]
-        },
-        {
-            "id": "http://example.com/2021/08/23/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/",
-            "url": "http://example.com/2021/08/23/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6/",
-            "title": "一元函数积分学",
-            "date_published": "2021-08-23T14:24:06.000Z",
-            "content_html": "<p><img data-src=\"image-20210823223228819.png\" alt=\"image-20210823223228819\"></p>\n<p><img data-src=\"image-20210823223244965.png\" alt=\"image-20210823223244965\"></p>\n<div class=\"note info\">\n<p>f (x) 为周期函数，f (x) 的导也为周期函数</p>\n</div>\n<p><img data-src=\"image-20210901213115571.png\" alt=\"image-20210901213115571\"></p>\n<hr>\n<p><img data-src=\"image-20210824003219519.png\" alt=\"image-20210824003219519\"></p>\n<p><img data-src=\"image-20210824143452310.png\" alt=\"image-20210824143452310\"></p>\n<p><img data-src=\"image-20210824143529644.png\" alt=\"image-20210824143529644\"></p>\n",
-            "tags": [
-                "考研",
-                "高等数学"
-            ]
-        },
-        {
-            "id": "http://example.com/2021/08/19/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%EF%BC%8C%E5%BE%AE%E5%88%86%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F/",
-            "url": "http://example.com/2021/08/19/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%EF%BC%8C%E5%BE%AE%E5%88%86%E7%AD%89%E5%BC%8F%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F/",
-            "title": "一元函数微分学的应用--中值定理，微分等式与不等式",
-            "date_published": "2021-08-19T11:27:06.000Z",
-            "content_html": "<p><span class=\"rainbow\">拉格朗日，泰勒，最大值最小值的运用是难点</span></p>\n<p><img data-src=\"image-20210819193036058.png\" alt=\"image-20210819193036058\"></p>\n<p><img data-src=\"image-20210819194054894.png\" alt=\"image-20210819194054894\"></p>\n<p><img data-src=\"image-20210819194112998.png\" alt=\"image-20210819194112998\"></p>\n<p><img data-src=\"image-20210819194125218.png\" alt=\"image-20210819194125218\"></p>\n<hr>\n<p><img data-src=\"image-20210819194414179.png\" alt=\"image-20210819194414179\"></p>\n<div class=\"note info\">\n<p>商的逆用是重点</p>\n</div>\n<p><img data-src=\"image-20210819194427845.png\" alt=\"image-20210819194427845\"></p>\n<p><img data-src=\"image-20210819194443841.png\" alt=\"image-20210819194443841\"></p>\n<p><img data-src=\"image-20210819204119292.png\" alt=\"image-20210819204119292\"></p>\n<p><img data-src=\"image-20210819204231366.png\" alt=\"image-20210819204231366\"></p>\n<p><img data-src=\"image-20210819210821695.png\" alt=\"image-20210819210821695\"></p>\n<p><img data-src=\"image-20210819210836050.png\" alt=\"image-20210819210836050\"></p>\n<p><img data-src=\"image-20210819210848138.png\" alt=\"image-20210819210848138\"></p>\n<p><span class=\"rainbow\">将 F (X) 设为 f (x) 的积分是难点</span></p>\n<hr>\n<p><img data-src=\"image-20210819223316473.png\" alt=\"image-20210819223316473\"></p>\n<p><span class=\"rainbow\">想不到啊，心累</span></p>\n<p><img data-src=\"image-20210820103108200.png\" alt=\"image-20210820103108200\"></p>\n<hr>\n<p><img data-src=\"image-20210820110232758.png\" alt=\"image-20210820110232758\"></p>\n<p><img data-src=\"image-20210820110248624.png\" alt=\"image-20210820110248624\"></p>\n<p><img data-src=\"image-20210821214017674.png\" alt=\"image-20210821214017674\"></p>\n<p><img data-src=\"image-20210821224448272.png\" alt=\"image-20210821224448272\"></p>\n<p><img data-src=\"image-20210821232747835.png\" alt=\"image-20210821232747835\"></p>\n<p><img data-src=\"image-20210822163307541.png\" alt=\"image-20210822163307541\"></p>\n<p><img data-src=\"image-20210822163324667.png\" alt=\"image-20210822163324667\"></p>\n",
-            "tags": [
-                "考研",
-                "高等数学"
-            ]
-        },
-        {
-            "id": "http://example.com/2021/08/18/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E5%87%A0%E4%BD%95%E5%BA%94%E7%94%A8/",
-            "url": "http://example.com/2021/08/18/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E5%BA%94%E7%94%A8-%E5%87%A0%E4%BD%95%E5%BA%94%E7%94%A8/",
-            "title": "一元函数微分学的应用--几何应用",
-            "date_published": "2021-08-18T06:44:53.000Z",
-            "content_html": "<p><img data-src=\"image-20210818151345018.png\" alt=\"image-20210818151345018\"></p>\n<p><img data-src=\"image-20210818151307677.png\" alt=\"image-20210818151307677\"></p>\n<p><img data-src=\"image-20210818153127464.png\" alt=\"image-20210818153127464\"></p>\n<hr>\n<p><img data-src=\"image-20210818171313640.png\" alt=\"image-20210818171313640\"></p>\n<p><img data-src=\"image-20210819172338492.png\" alt=\"image-20210819172338492\"></p>\n<hr>\n<p><img data-src=\"image-20210819135522624.png\" alt=\"image-20210819135522624\"></p>\n<p><span class=\"rainbow\">不要局限在一种想法里，当前想法行不通时，要果断放弃，及时止损 QWQ</span></p>\n<p><img data-src=\"image-20210819135911268.png\" alt=\"image-20210819135911268\"></p>\n<p><span class=\"rainbow\">不要害怕复杂的求导</span></p>\n<p><img data-src=\"image-20210819171934320.png\" alt=\"image-20210819171934320\"></p>\n",
-            "tags": [
-                "考研",
-                "高等数学"
-            ]
-        },
-        {
-            "id": "http://example.com/2021/08/17/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/",
-            "url": "http://example.com/2021/08/17/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/",
-            "title": "指令系统",
-            "date_published": "2021-08-17T13:40:41.000Z",
-            "content_html": "<h2 id=\"指令格式\"><a class=\"anchor\" href=\"#指令格式\">#</a> 指令格式</h2>\n<p>零地址（仅用在堆栈计算机中，操作数隐含在栈顶和次站顶中）</p>\n<p>一地址（隐含操作数由 ACC 累加器提供，结果页保存在 ACC 中）</p>\n<p>二地址（常用于算数和逻辑运算指令，给出目的操作数，源操作数，结果保存在目的操作数）</p>\n<p>三地址（op--A1--A2--A3 (结果)）</p>\n<p>四地址（op--A1--A2--A3 (结果)--A4 (下址)）</p>\n<h5 id=\"扩展操作码指令格式\"><a class=\"anchor\" href=\"#扩展操作码指令格式\">#</a> 扩展操作码指令格式</h5>\n<p>1. 不允许短码是长码的前缀，</p>\n<p>2. 各指令的操作码一定不能重复</p>\n<p>使用频率高用短码，低用长码</p>\n<h5 id=\"指令的操作类型\"><a class=\"anchor\" href=\"#指令的操作类型\">#</a> 指令的操作类型</h5>\n<p>数据传输</p>\n<p>算数和逻辑运算</p>\n<p>移位操作</p>\n<p>转移操作（无条件转移 jmp，条件转移 branch，调用 call，返回 ret，陷阱 trap）</p>\n<p>输入输出操作</p>\n<ol start=\"3\">\n<li class=\"quiz\">下面不属于程序控制指令的是<span class=\"gap\"></span> 。\n<ul class=\"options\">\n<li>无条件转移指令</li>\n<li>条件转移指令</li>\n<li>循环指令</li>\n<li class=\"correct\">中断隐指令</li>\n</ul>\n</li>\n</ol>\n<h2 id=\"指令寻址方式\"><a class=\"anchor\" href=\"#指令寻址方式\">#</a> 指令寻址方式</h2>\n<p>指令寻址</p>\n<p>1. 顺序寻址（程序计数器 PC+1）</p>\n<p>2. 跳跃寻址（通过转移类指令实现）</p>\n<h5 id=\"常见的数据寻址方式\"><a class=\"anchor\" href=\"#常见的数据寻址方式\">#</a> 常见的数据寻址方式</h5>\n<p>1. 隐含寻址（累加器 ACC）</p>\n<p>2. 立即寻址</p>\n<p>3. 直接寻址</p>\n<p>4. 间接寻址（可扩大寻址范围，一般问到扩大寻址范围时，通常指的时寄存器间接寻址）</p>\n<p>5. 寄存器寻址</p>\n<p>6. 寄存器间接寻址</p>\n<p>7. 相对寻址（EA=(PC)+A【(PC)=X+2】，广泛应用与转移指令）</p>\n<p>8. 基址寻址（可采用专用寄存器或通用寄存器，使用通用寄存器需要指定。基址寄存器面向操作系统，内容无法改变）</p>\n<p>基址寻址有利于多道程序设计，可用于编制浮动程序</p>\n<p>9. 变址寻址（可采用专用寄存器或通用寄存器，变址寄存器面向用户，内容可变，形式地址 A 不变）</p>\n<p>适合编制循环程序</p>\n<p>10. 堆栈寻址</p>\n<p><img data-src=\"image-20210817235821784.png\" alt=\"image-20210817235821784\"></p>\n<p><img data-src=\"image-20210817235910008.png\" alt=\"image-20210817235910008\"></p>\n<p><img data-src=\"image-20210817235933213.png\" alt=\"image-20210817235933213\"></p>\n<p><img data-src=\"image-20210817235952367.png\" alt=\"image-20210817235952367\"></p>\n<p><span class=\"rainbow\">先间址后变址 = 先对 A 进行间址</span></p>\n<h2 id=\"cisc和risc的概念\"><a class=\"anchor\" href=\"#cisc和risc的概念\">#</a> CISC 和 RISC 的概念</h2>\n<p><img data-src=\"image-20210818001938656.png\" alt=\"image-20210818001938656\"></p>\n<p><img data-src=\"image-20210818001958688.png\" alt=\"image-20210818001958688\"></p>\n<p><span class=\"rainbow\">CISC 增强指令的功能</span></p>\n<hr>\n<p><img data-src=\"image-20210818002639969.png\" alt=\"image-20210818002639969\"></p>\n",
-            "tags": [
-                "考研",
-                "计算机组成原理"
-            ]
-        },
-        {
-            "id": "http://example.com/2021/08/17/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E8%AE%A1%E7%AE%97/",
-            "url": "http://example.com/2021/08/17/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6%E7%9A%84%E8%AE%A1%E7%AE%97/",
-            "title": "一元函数微分学的计算",
-            "date_published": "2021-08-17T06:53:22.000Z",
-            "content_html": "<p><img data-src=\"image-20210817145426174.png\" alt=\"image-20210817145426174\"></p>\n<p><img data-src=\"image-20210817145914772.png\" alt=\"image-20210817145914772\"></p>\n<p><img data-src=\"image-20210817162031706.png\" alt=\"image-20210817162031706\"></p>\n<p><img data-src=\"image-20210817164339564.png\" alt=\"image-20210817164339564\"></p>\n<p><img data-src=\"image-20210817203709156.png\" alt=\"image-20210817203709156\"></p>\n<p><img data-src=\"image-20210817164420278.png\" alt=\"image-20210817164420278\"></p>\n<p><img data-src=\"image-20210817164436613.png\" alt=\"image-20210817164436613\"></p>\n<p><img data-src=\"image-20210817164308953.png\" alt=\"image-20210817164308953\"></p>\n<p><img data-src=\"image-20210817170011994.png\" alt=\"image-20210817170011994\"></p>\n<div class=\"note info\">\n<p>莱布尼兹公式和展开式比较重要</p>\n</div>\n",
             "tags": [
                 "考研",
                 "高等数学"

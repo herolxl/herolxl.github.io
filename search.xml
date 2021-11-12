@@ -810,6 +810,7 @@
 <h4 id="参数估计和假设验证"><a class="anchor" href="#参数估计和假设验证">#</a> 参数估计和假设验证</h4>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030184757018.png" alt="image-20211030184757018"></p>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030184811279.png" alt="image-20211030184811279"></p>
+<p><span class="rainbow">简单假设：假设成立时，分布可完全确定</span></p>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193818210.png" alt="image-20211030193818210"></p>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193837161.png" alt="image-20211030193837161"></p>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193844638.png" alt="image-20211030193844638"></p>
@@ -820,6 +821,12 @@
 <p><span class="rainbow">有点绕啊</span></p>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211031162636318.png" alt="image-20211031162636318"></p>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211031162658843.png" alt="image-20211031162658843"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109083837945.png" alt="image-20211109083837945"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109083914604.png" alt="image-20211109083914604"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109083931307.png" alt="image-20211109083931307"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109092932393.png" alt="image-20211109092932393"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109093004917.png" alt="image-20211109093004917"></p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109093023077.png" alt="image-20211109093023077"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -1187,6 +1194,7 @@
 <p><img data-src="image-20210830155251953.png" alt="image-20210830155251953"></p>
 <p><img data-src="image-20210830155316602.png" alt="image-20210830155316602"></p>
 <p><img data-src="image-20210830171807028.png" alt="image-20210830171807028"></p>
+<p><img data-src="image-20211109153739130.png" alt="image-20211109153739130"></p>
 <p><img data-src="image-20210830165709631.png" alt="image-20210830165709631"></p>
 <p><img data-src="image-20210830180241718.png" alt="image-20210830180241718"></p>
 <p><img data-src="image-20210830180251882.png" alt="image-20210830180251882"></p>
@@ -1973,5 +1981,148 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
       <tags>
         <tag>操作系统</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>内存管理</title>
+    <url>/2021/11/08/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h2 id="内存管理概念"><a class="anchor" href="#内存管理概念">#</a> 内存管理概念</h2>
+<h4 id="内存管理的功能"><a class="anchor" href="#内存管理的功能">#</a> 内存管理的功能</h4>
+<p>（1）内存空间的分配与回收。<br>
+（2）地址转换。<br>
+（3）内存空间的扩充。<br>
+（4）存储保护。</p>
+<p>（1）编译。由编译程序将用户源代码变异成若干目标模块。<br>
+（2）链接（<strong>生成逻辑地址</strong>）。由链接程序将编译后形成的一组目标模块及所需的库函数链接在一起，形成一个完成的装入模块。<br>
+（3）装入。由装入程序将装入模块装入内存中运行。<br>
+程序的链接有以下三种方式：<br>
+（1）静态链接。<br>
+（2）装入时动态链接。<br>
+（3）运行时动态链接。其优点是便于修改和更新，便于实现对目标模块的共享。<br>
+内存的装入模块在装入内存时，同样有以下三种方式：<br>
+（1）绝对装入。只适用于单道程序环境。<br>
+（2）可重定位装入（静态重定位）。<br>
+静态重定位的特点是：一个作业装入内存时，必须给它分配要求的全部内存空间，若没有足够的内存，则不能装入该作业，此外，作业一旦进入内存，整个运行期间就不能在内存中移动，也不能再申请内存空间。<br>
+（3）动态运行时装入。也称动态重定位。<br>
+动态重定位特点：需要重定位寄存器，可以将程序分配到不连续的存储区中，便于程序段的共享，可以向用户提供更大的地址空间（地址空间大于存储空间）。</p>
+<h4 id="内存保护"><a class="anchor" href="#内存保护">#</a> 内存保护</h4>
+<p>设置一对上、下限寄存器</p>
+<p>重定位寄存器（基址寄存器）和界地址寄存器（限长寄存器）</p>
+<h4 id="连续分配管理"><a class="anchor" href="#连续分配管理">#</a> 连续分配管理</h4>
+<h5 id="单一连续分配"><a class="anchor" href="#单一连续分配">#</a> 单一连续分配</h5>
+<p>内存分为系统区和用户区</p>
+<p>优点是简单、无外部碎片，可以采用覆盖技术，不需要额外的技术支持。缺点是只能用于单用户、单任务的操作系统中，有内部碎片，存储器的利用率低。</p>
+<h5 id="固定分区分配"><a class="anchor" href="#固定分区分配">#</a> 固定分区分配</h5>
+<p>适用于多道程序的存储，无外部碎片；</p>
+<p>主存利用率第，有内部碎片，而且可能太大，放不进去</p>
+<h5 id="动态分区分配"><a class="anchor" href="#动态分区分配">#</a> 动态分区分配</h5>
+<p>1）首次适用算法：最简单，最快，最好<br>
+（2）最佳适应算法：性能差，会产生很多小内部碎片<br>
+（3）最坏适应算法：性能差，很容易导致大内存块没了<br>
+（4）邻近适应算法：又称循环首次适应算法，性能比首次适应算法差</p>
+<h4 id="非连续分配管理"><a class="anchor" href="#非连续分配管理">#</a> 非连续分配管理</h4>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>政治选择题错题</title>
+    <url>/2021/11/12/%E6%94%BF%E6%B2%BB%E9%80%89%E6%8B%A9%E9%A2%98%E9%94%99%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>政治</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据链路层</title>
+    <url>/2021/11/12/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</url>
+    <content><![CDATA[<h2 id="数据链路层的功能"><a class="anchor" href="#数据链路层的功能">#</a> 数据链路层的功能</h2>
+<h4 id="概要"><a class="anchor" href="#概要">#</a> 概要</h4>
+<p><strong>将物理层提供的可能出错的物理连接改造为逻辑上无差错的数据链路，使之对网络层表现为一条无差错的链路</strong>。</p>
+<h4 id="为网络层提供的服务"><a class="anchor" href="#为网络层提供的服务">#</a> 为网络层提供的服务</h4>
+<p>无确认的无连接服务：适用于实时通信或误码率低的通信信道。如：以太网。</p>
+<p>有确认的无连接服务：该服务适用于误码率较高的通信信道无线通信。</p>
+<p>有确认的面向连接服务：帧传翰过程分为三个阶段：<strong>数据链路、传输帧、释放数据链路</strong>，目的计算机对收到的每一帧都要给出确认，</p>
+<p><span class="label info">没有无确认的面向连接服务</span></p>
+<h4 id="帧定界-帧同步与透明传输"><a class="anchor" href="#帧定界-帧同步与透明传输">#</a> 帧定界、帧同步与透明传输</h4>
+<p><strong>帧定界</strong>：首部尾部的控制信息，它们的一个重要作用就是确定帧的界限。<br>
+<strong>帧同步</strong>：接收方应能从接受到的二进制比特流中区分出帧的起始和终止。<br>
+<strong>透明传输</strong>：采取有效的措施解决误认为 “传输结束” 而丢弃后面数据的问题。就是不管所传数据是什么样的比特组合，都应当能在链路上传送。</p>
+<h4 id="流量控制"><a class="anchor" href="#流量控制">#</a> 流量控制</h4>
+<p><strong>问题引入</strong>：收发双方各自的工作速率和缓存空间的差异，出现发送方的发送能力大于接收方的接收能力的现象，如不对其进行流量控制就会导致数据丢失。<strong>流量控制</strong>就是通过控制发送方的发送速度，从而实现流量控制。</p>
+<p><span class="label info">数据链路层控制相邻两点之间的流量，运输层控制源端到目的端的流量</span></p>
+<h4 id="差错控制"><a class="anchor" href="#差错控制">#</a> 差错控制</h4>
+<p><strong>差错控制</strong>就是使发送方确定接收方是否正确收到由其发送的数据的方法。</p>
+<p>位错（数据中的某些位出现错误） CRC 循环冗余码（解决位错）</p>
+<p>帧错（帧的丢失、重复或时序等错误） 自动重传请求 ARQ（解决帧错）。</p>
+<ol start="3">
+<li class="quiz">数据链路层的协议不包括 {.gap} 。
+<ul class="options">
+<li>定义数据格式</li>
+<li class="correct">为终端节点隐藏物理传输的细节</li>
+<li>提供节点之间的可靠传输</li>
+<li>控制对物理传输介质的访问</li>
+</ul>
+</li>
+</ol>
+<h2 id="组帧"><a class="anchor" href="#组帧">#</a> 组帧</h2>
+<p><strong>字符计数法</strong>就是指在帧头部使用一个计数字段来标明帧内字符数</p>
+<p>该方法的缺点就是如果计数字段出错，收发双方将失去同步从而导致错误。</p>
+<p>计数值要加上自身的一位</p>
+<p><strong>字符填充法使用特定字符来定界一帧的开始和结束</strong>。例如：控制字符<strong> SOH</strong> 放在帧的最前面，表示帧的首部开始，控制字符<strong> EOT</strong> 表示帧的结束。当信息位出现特殊字符时可以在特殊字符前添加一个转义字符<strong> ESC</strong> 加以区分。</p>
+<p>复杂，不兼容</p>
+<p><strong>零比特填充的首尾标志法（目前常用）：使用一个特定的比特模式，即 01111110 来标志一帧的开始和结束</strong>。在发送信息时，遇到 5 个连续的 1 就自动在后面加 0。当收到信息时，遇到 5 个连续的 1 就自动在后面减 0。</p>
+<p>优点：零比特填充法很容易由硬件来实现，性能优于字符填充法。</p>
+<p><strong>违规编码法</strong>（目前常用）：在<strong>物理层进行比特编码时</strong>，曼彻斯特编码中比特 ”1&quot;编码成 “高－高 “ 电平，比特”0&quot; 编码成 “低－低 “ 电平（由于正常情况下不会出现这种情况，所以可以用这个办法来进行定界）</p>
+<h2 id="差错控制-2"><a class="anchor" href="#差错控制-2">#</a> 差错控制</h2>
+<h3 id="检错编码"><a class="anchor" href="#检错编码">#</a> 检错编码</h3>
+<h4 id="奇偶检验码"><a class="anchor" href="#奇偶检验码">#</a> 奇偶检验码</h4>
+<p>奇偶校验码由 n-1 位数据和 1 位校验位组成，校验位用于调节发送信息中的 1 的个数是偶数还是奇数。</p>
+<h4 id="循环冗余码"><a class="anchor" href="#循环冗余码">#</a> 循环冗余码</h4>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211112195334860.png" alt="image-20211112195334860"></p>
+<p><span class="rainbow">除数最高位和最低位必须为 1</span></p>
+<p><span class="rainbow">凡是接收端数据链路层接受的帧都没有差错</span></p>
+<p>CRC 有纠错功能，只是数据链路层仅使用它的检错功能</p>
+<h3 id="纠错编码"><a class="anchor" href="#纠错编码">#</a> 纠错编码</h3>
+<p>在数据通信的过程中，有一个方法就是添加<strong>足够的冗余信息</strong>，使得接收方能够推理出发送方实际传送的比特串。<strong>常见的纠错编码就是海明码</strong>。</p>
+<p>（1）确定海明码的位数：<br>
+设 n 为有效信息的位数，k 为校验位的位数，则信息位 n 和校验位 k 应满足 n+k&lt;=2^k-1（若要检测两位错，则需再增加 1 位检验位，即 k+1 位）</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210216095428952.png#pic_center" alt="在这里插入图片描述"></p>
+<p>（2）确定校验位的分布<br>
+规定校验位在海明位号为 2^（i-1）位詈上，其余各位为信息位。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210216095543512.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>（3）分组形成校验关系<br>
+被校验数据位的海明位号等于校验该数位的各校验位海明位号之和。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210216095731114.png#pic_center" alt="在这里插入图片描述"></p>
+<p>（4）校验位取值</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210216095920301.png#pic_center" alt="在这里插入图片描述">    校验位的值为对应组的所有位求异或。</p>
+<p>（5）海明码的校验原理<br>
+每个校验组分别利用校验位和参与形成该校验位的信息位进行奇偶校验检查，构成 k 个校验方程：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210216095935551.png#pic_center" alt="在这里插入图片描述"></p>
+<pre><code>若s3s2s1的值为0000，则说明无措，否则说明有错，而且这个数就是错误的位号，如0001，就说明第一位出错即H1出错。
+</code></pre>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学真题</title>
+    <url>/2021/11/10/%E6%95%B0%E5%AD%A6%E7%9C%9F%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>计算机网络概叙</title>
+    <url>/2021/11/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E5%8F%99/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
