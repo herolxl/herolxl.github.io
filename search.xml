@@ -2035,6 +2035,8 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 <p>可能有两种形式，即现实的可能和抽象（非现实）的可能，二者的区别在于，现实中的根据和 条件是否充分。而可能性和不可能性的区别在于，在现实中有无根据和条件。这里要注意区别抽象的可能与不可能。</p>
 <p>否承认对立统一学说是唯物辩证法和形而上学对立的实质。</p>
 <p>唯物辩证法所说的矛盾是辩证矛盾（事物本身所固有的对立统一关系），而逻辑矛盾是指人们思维过程中由于违反形式逻辑规则所造成的自相矛盾。</p>
+<p>主观辩证法是客观辩证法的反映。它们不是决定与被</p>
+<p>决定的关系，也不是源与流的关系。</p>
 <h3 id="多选"><a class="anchor" href="#多选">#</a> 多选</h3>
 <p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211114131356343.png" alt="image-20211114131356343"></p>
 <p>ABD</p>
@@ -2095,7 +2097,7 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 <h4 id="奇偶检验码"><a class="anchor" href="#奇偶检验码">#</a> 奇偶检验码</h4>
 <p>奇偶校验码由 n-1 位数据和 1 位校验位组成，校验位用于调节发送信息中的 1 的个数是偶数还是奇数。</p>
 <h4 id="循环冗余码"><a class="anchor" href="#循环冗余码">#</a> 循环冗余码</h4>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211112195334860.png" alt="image-20211112195334860"></p>
+<p><img data-src="image-20211112195334860.png" alt="image-20211112195334860"></p>
 <p><span class="rainbow">除数最高位和最低位必须为 1</span></p>
 <p><span class="rainbow">凡是接收端数据链路层接受的帧都没有差错</span></p>
 <p>CRC 有纠错功能，只是数据链路层仅使用它的检错功能</p>
@@ -2184,7 +2186,7 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 <p>+++</p>
 <p>（先听后发，边听边发，冲突停发，随机重发）</p>
 <p><strong>CSMA/CD 协议，适用于总线形网络或半双工网络环境，采用 CSMA/CD 协议的以太网只能进行半双工通信</strong></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211113214055854.png" alt="image-20211113214055854"></p>
+<p><img data-src="image-20211113214055854.png" alt="image-20211113214055854"></p>
 <p><strong>争用期</strong>指以太网端到端的<strong>往返时间</strong></p>
 <p>最小帧长＝总线传播时延＊数据传输率＊2（即争用期乘以数据传输速率）</p>
 <p><span class="rainbow">以太网规定的最短帧长为 64B</span></p>
@@ -2203,7 +2205,7 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 <p>**RTS/CTS 帧（可选） **：可选的碰撞避免机制，主要用于解决无线网中的隐蔽站问题。</p>
 <p>实现碰撞避免机制：<strong>预约信道</strong>：发送方在发送数据的同时向其他站点通知自己传输数据需要的时间长度，让其他站点在这段时间内不发送数据，避免碰撞。<strong>ACK 帧</strong>：所有站点在正确接收到发给自己的数据帧（除广播帧和组播帧）后，都需要向发送方发回一个 ACK 帧，如果 ACK 帧接收失败，不采取任何行动。在规定的时间内如果未收到 ACK 帧，那么认为发送失败，此时进行该数据帧的重发，直到收到 ACK 帧或达到规定重发次数为止。同时 CSMA/CA 协议也是采用<strong>二进制指数退避算法</strong>解决碰撞问题的。</p>
 <p><strong>帧间间隔</strong>：每次发完帧要等一会，<strong>SIFS（短）</strong>：用于 ACK,CTS, 数据帧。<strong>DIFS</strong>（长）：用于异步帧竞争访问的延时</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211113214036389.png" alt="image-20211113214036389"></p>
+<p><img data-src="image-20211113214036389.png" alt="image-20211113214036389"></p>
 <h4 id="csmacd与csmaca区别"><a class="anchor" href="#csmacd与csmaca区别">#</a> CSMA/CD 与 CSMA/CA 区别</h4>
 <pre><code>（1）CSMA/CD可以检测冲突，但无法避免；CSMA/CA发送包的同时不能检测到信道上有无冲突。
 （2）CSMA/CD用于总线形以太网CSMA/CA用于无线局域网802.1 la/b/g/n等。
@@ -2267,7 +2269,7 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 <h3 id="广域网"><a class="anchor" href="#广域网">#</a> 广域网</h3>
 <p>其通信子网主要采用<strong>分组交换</strong>技术</p>
 <p>局域网可以通过广域网与另一个相隔很远的局域网通信</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211113214015721.png" alt="image-20211113214015721"></p>
+<p><img data-src="image-20211113214015721.png" alt="image-20211113214015721"></p>
 <h4 id="ppp协议"><a class="anchor" href="#ppp协议">#</a> ppp 协议</h4>
 <p><strong>PPP 协议</strong>是使用<strong>串行线路通信</strong>的<strong>面向字节</strong>的协议，该协议应用在之间连接两个结点的链路上。PPP 协议是在 SLIP 协议的基础上发展而来的，它既可以在一部线路上传输，又可在同步线路上使用，不仅用于 Modem 链路，也可用于租用的路由器到路由器的线路。</p>
 <p>PPP 协议由三部分组成：<br>
@@ -2291,11 +2293,11 @@ PPP 协议是面向字节，的当信息字段出现和标志字段一致的比�
 <h3 id="局域网交换机交换方式"><a class="anchor" href="#局域网交换机交换方式">#</a> 局域网交换机交换方式</h3>
 <p><strong>直通式交换机</strong>：只检查帧的目的地址，数据帧可以马上就被传输出去。优点：速度快。缺点：缺乏智能性和安全性， 也无法支持具有不同速率的端口的交换。</p>
 <p><strong>存储转发式交换机</strong>：先将接收到的帧缓存，然后并检查数据是否正确，如果帧正确就发送出去。如果发现帧有错，那么就将其丢弃。优点：可靠性 高，并能支持不同速率端口间的转换。缺点：延迟较大。</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211113221934357.png" alt="image-20211113221934357"></p>
+<p><img data-src="image-20211113221934357.png" alt="image-20211113221934357"></p>
 <hr>
 <p><span class="rainbow">从互联网的角度看，广域网和局域网是平等的</span></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211114095405825.png" alt="image-20211114095405825"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211114095503401.png" alt="image-20211114095503401"></p>
+<p><img data-src="image-20211114095405825.png" alt="image-20211114095405825"></p>
+<p><img data-src="image-20211114095503401.png" alt="image-20211114095503401"></p>
 </div></details>
 ]]></content>
       <categories>
@@ -2339,14 +2341,22 @@ PPP 协议是面向字节，的当信息字段出现和标志字段一致的比�
 <h3 id="ip数据报分片"><a class="anchor" href="#ip数据报分片">#</a> IP 数据报分片</h3>
 <p><strong>最大传送单元（MTU）</strong>：一个链路层数据报所能承载在的最大数据量。以太网：1500B，广域网：一般不超过 576B.<strong>IP 数据报分片</strong>：当数据报长度大于链路 MTU 时，就要对其进行分片传输。分片会在目的地进行组装，不会在中间路由处进行组装。</p>
 <p>标志位含义：<strong>MF (more fragment )</strong> ：为 1 代表进行了分片。<strong>DF (don’t fragment)</strong>：为 0 时才可以进行分片。</p>
+<h3 id="网络层转发分组的流程"><a class="anchor" href="#网络层转发分组的流程">#</a> 网络层转发分组的流程</h3>
+<p>(1) 直接交付</p>
+<p>（2）1 不成功，则间接交付</p>
+<p>（3）2 不成功，找特定路由（通常为了控制和测试网络，如<strong>域名服务器</strong>）</p>
+<p>（4）3 不成功，则交由默认路由（如<strong>互联网</strong>）</p>
 <h2 id="ipv4地址"><a class="anchor" href="#ipv4地址">#</a> IPV4 地址</h2>
 <p><img data-src="https://img-blog.csdnimg.cn/20210219164153297.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <p><img data-src="https://img-blog.csdnimg.cn/20210219164231920.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <h4 id="网络地址转换nat"><a class="anchor" href="#网络地址转换nat">#</a> 网络地址转换（NAT）</h4>
 <p><span class="rainbow">普通路由器仅工作在网络层，NAT 路由器还要查看和转换传输层的端口号</span></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211114165914831.png" alt="image-20211114165914831"></p>
+<p><span class="rainbow">只有管理员能添加 NAT 表，在 NET 找不到对应端口后就要抛弃分组</span></p>
+<p><img data-src="image-20211114165914831.png" alt="image-20211114165914831"></p>
 <h4 id="子网划分与子网掩码cidr"><a class="anchor" href="#子网划分与子网掩码cidr">#</a> 子网划分与子网掩码，CIDR</h4>
-<p><strong>子网号全为 0 为本网络号，全为 1 为子网的广播地址</strong></p>
+<p><span class="rainbow">子网划分可平均划分，和变长划分</span></p>
+<p><strong>默认路由，路由聚合可用于路由器表项合并</strong></p>
+<p><strong>子网不能全 0 和全 1，子网号全为 0 为本网络号，全为 1 为子网的广播地址</strong></p>
 <p>在使用子网掩码的情况下：<br>
 （1）一台主机设置 IP 地址的同时必须设置子网掩码。<br>
 （2）同属于一个子网的所有主机及路由器的相应端口，必须设置相同的子网掩码。<br>
@@ -2356,9 +2366,10 @@ PPP 协议是面向字节，的当信息字段出现和标志字段一致的比�
 <p><strong>最长前缀匹配</strong></p>
 <h4 id="ip地址与硬件地址"><a class="anchor" href="#ip地址与硬件地址">#</a> IP 地址与硬件地址</h4>
 <p>IP 地址是网络层使用的地址，它是分层次等级的。硬件地址是数据链路层使用的地址，它是平面式的。在网络层及网络层之上使用 IP 地址，IP 地址放在 IP 数据报的首部，而 MAC 地址放在 MAC 帧的首部，数据链路层看不见数据报分组中的 IP 地址。<strong>在网络层中的路由器相互传输时使用 IP 地址，当到达目标网络后，使用 MAC 地址查找目标物理主机</strong>。（路由器由于互联多个网络，因此他不仅有多个 IP 地址，也有多个 MAC 地址。）</p>
-<h4 id="地址解析协议arp"><a class="anchor" href="#地址解析协议arp">#</a> 地址解析协议（ARP</h4>
-<p><strong>地址解析协议（ARP）实现了 IP 地址到 MAC 地址的映射</strong>。每台主机都设有一个 ARP 高速缓存，用来存放本局域网上各主机和路由器的 IP 地址到 MAC 地址的映射表，称为 ARP 表。<br>
-<strong>ARP 的 4 种典型情况总结如下：</strong></p>
+<h4 id="地址解析协议arp"><a class="anchor" href="#地址解析协议arp">#</a> 地址解析协议（ARP）</h4>
+<p><strong>地址解析协议（ARP）实现了 IP 地址到 MAC 地址的映射</strong>。每台主机都设有一个 ARP 高速缓存，用来存放本局域网上各主机和路由器的 IP 地址到 MAC 地址的映射表，称为 ARP 表。</p>
+<p><span class="rainbow">ARP 表上没有找到物理地址，目的 MAC 地址就用 ff-ff-ff-ff</span></p>
+<p><strong>ARP 的 4 种典型情况总结如下：</strong></p>
 <p>（1）发送方是主机时，要把 IP 数据报发送到本网络上的另一台主机：这时用 ARP 找到目的主机的硬件地址<br>
 （2）发送方是主机时，要把 IP 数据报发送到另一个网络上的一台主机 这时用 ARP 找到本网络上的一个路由器的硬件地址，剩下的工作由这个路由器来完成。<br>
 （3）发送方是路由器时，要把 IP 数据报转发到本网络上的 — 台主机，这时用 ARP 找到目的主机的硬件地址<br>
@@ -2387,13 +2398,171 @@ DHCP 服务器分配给 DHCP 客户的 IP 地址是<strong>临时的</strong>，
 <p><strong>ICMP 常见的两个应用是分组网间探测 PING 和 Traceroute</strong>.<br>
 <strong> 分组网间探测 PING</strong>（工作在应用层）：使用了 ICMP 回送请求和回答报文，用来测试两台主机之间的连通性。<br>
 <strong>Traceroute</strong>（在网络层）：使用了 ICMP 时间超过报文，用来跟踪分组经过的路由。</p>
+<h2 id="ipv6"><a class="anchor" href="#ipv6">#</a> IPV6</h2>
+<p>（1）<strong>更大的地址空间 IPv6 将地址从 IPv4 的 32 位增大到了 128 位</strong>。<br>
+（2）扩展的地址层次结构。<br>
+（3）<strong>扩展首部</strong><br>
+（4）改进的选项。<br>
+（5）允许协议继续扩充。<br>
+（6）支持<strong>即插即用</strong>（即自动配置）。<br>
+（7）支持资源的预分配。<br>
+（8）<strong>IPv6 只有在包的源结点才能分片，是端到端的，传输路径中的路由器不能分片。</strong><br>
+（9）<strong>IPv6 首部长度必须是 8B 的整数倍，而 IPv4 首部是 4B 的整数倍。</strong><br>
+（10）增大了安全性。 身份验证和保密功能是 IPv6 的关键特征。</p>
+<p><strong>IPV6 地址缩写</strong>：当 16 位域的开头由一些 0 时，可以采用一种缩写表示法，但在域中必须至少有一个数字。当有相继的 0 值域时，还可以进一部缩写，将这些域可以用双冒号进行缩写（::）.</p>
+<hr>
+<p>IPV6 数据报的目的地址可以是以下三种基本类型地址之一：</p>
+<p>（1）<strong>单播</strong>。单播就是传统的点对点通信。<br>
+（2）<strong>多播</strong>。多播是一点对多点的通信，分组被交付到一组计算机的每台计算机。<br>
+（3）<strong>任播</strong>。这是 IPV6 新增加的一种类型。任播的目的站是一组计算机，但数据报在交付时只交付其中的一台计算机，通常是距离最近的一台计算机。</p>
+<hr>
+<p>IPV4 向 IPV6 过渡可以采用双协议栈和隧道技术两种策略。</p>
+<p><strong>双协议栈</strong>：双协议栈技术是指在一台设备上同时装有 IPV4 和 IPV6 协议栈，那么这台设备既能和 IPV4 网络通信，又能和 IPV6 网络通信。<br>
+<strong>隧道技术</strong>：将整个 IPv6 数据报封装到 IPv4 数据报的数据部分，使得 IPv6 数据报可以在 IPv4 网络的隧道中传输。</p>
+<h2 id="路由协议"><a class="anchor" href="#路由协议">#</a> 路由协议</h2>
+<p><strong>自治系统（AS）</strong>：单一技术管理下的一组路由器，这些路由器使用一种 AS 内部的路由选择协议和共同度量来确定分组在该 AS 内的路由。同时还使用一种 AS 之间的路由选择协议来确定分组在 AS 之间的路由。</p>
+<pre><code>内部网关协议(IGP，域内路由选择，AS内）:在一个自治系统内部使用的路由选择协议，目前这类路由选择协议使用得最多，如RIP和OSPF.
+外部网关协议(EGP，域间路由选择，AS外）:源站和目的站处在不同的自治系统中，当数据报传到一个自治系统的边界时需要使用一种协议将路由选择信息传递到另一个自治系统中。目前使用最多的外部网关协议是BGP-4.
+</code></pre>
+<h3 id="路由信息协议rip应用层"><a class="anchor" href="#路由信息协议rip应用层">#</a> 路由信息协议（RIP）（应用层）</h3>
+<p><strong>路由信息协议（RIP）</strong>：内部网关协议 (IGP) 中最先得到广泛应用的协议。RIP 是一种分布式的，基于距离向量的路由选择协议，其最大的优点就是简单。</p>
+<p><strong>RIP 的规定：</strong><br>
+1. 网络中的每个路由器都要维护从他自身到其他每个目的网络的距离记录。<br>
+2. 距离也称跳数，规定从一个路由器到直接连接网络的距离（跳数）为 1。<br>
+3.RIP 认为好的路由就是它通过的路由器的数目少，即优先选择跳数小的路径。<br>
+4.<strong>RIP 允许一条路径最多只能包含 15 个路由器，因此距离等于 16 时，它表示网络不可达</strong>。<br>
+5.RIP 默认在任意两个使用 RIP 的路由器<strong>每 30 秒广播 — 次</strong> RIP 路由更新信息，以便自动建立并维护路由表，<strong>超过 180 秒没收到更新，则直接更新</strong>。<br>
+6. 在 RIP 中不支持子网掩码的 RIP 广播，所以 RIP 中每个网络的子网掩码必须相同。</p>
+<p><strong>RIP 的特点</strong>：<br>
+（1）实现简单，开销小，收敛过程快。<br>
+（2）网络规模小，16<br>
+（3）坏消息传的慢</p>
+<p><strong>RIP 是应用层协议，他使用 UDP 传送数据（端口 520）。RIP 选择的路径不一定是时间最短的，但一定是具有最少路由器的路径</strong>。</p>
+<h3 id="距离向量算法"><a class="anchor" href="#距离向量算法">#</a> 距离向量算法</h3>
+<p>关键点：1. 原来路由表有目的地址 N，且下一跳路由器地址是 X，则替换（不管变大变小，都以实时为准 c）</p>
+<p>2. 只有收到的距离<strong>小于</strong>原来的距离才替换，<strong>等于</strong>不替换</p>
+<h3 id="放最短路径优先协议ospf网络层"><a class="anchor" href="#放最短路径优先协议ospf网络层">#</a> 放最短路径优先协议（OSPF）（网络层）</h3>
+<p>使用分布式链路状态路由算法</p>
+<p><strong>OSPF 的特点</strong><br>
+（1）OSPF 对不同的链路可根据 IP 分组的不同服务类型 (TOS) 而设置成不同的代价。<br>
+（2）OSPF 对于不同类型的业务可计算出不同的路由，十分灵活。<br>
+（3）多路径间负载平衡：如果到同 — 个目的网络有多条相同代价的路径，那么可以将通信量分配给这几条路径。<br>
+（4）所有在 OSPF 路由器之间交换的分组都具有鉴别功能，因而保证了仅在可信赖的路由器之间交换链路状态信息。<br>
+（5）支持可变长度的子网划分和无分类编址 CIDR。<br>
+（6）每个链路状态都带上 — 个 32 位的序号，序号越大，状态就越新。</p>
+<p>​	（7）每隔一段时间刷新数据库中的链路状态</p>
+<p>.<strong>OSPF 的五种分组类型</strong><br>
+（HELLO）问候分组：用来发现和维持邻站的可达性。<br>
+数据库描述分组：向邻站给出自己的链路状态数据库中的所有链路状态项目的摘要信息。<br>
+链路状态请求分组：向对方请求发送某些链路状态项目的详细信息。<br>
+链路状态更新分组：用洪泛法对全网更新链路状态。<br>
+链路状态确认分组：对链路更新分组的确认。</p>
+<h3 id="边界网关协议bgp"><a class="anchor" href="#边界网关协议bgp">#</a> 边界网关协议（BGP）</h3>
+<p>** 边界网关协议（BGP）** 是不同自治系统的路由器之间交换路由信息的协议，是 — 种外部网关协议边界网关协议常用于互联网的网关之间，BGP 采用的是路径向量路由选择协议，它是一个应用层协议，<strong>基于 TCP</strong>。</p>
+<p><strong>打开 (Open) 报文</strong>：用来与相邻的另 — 个 BGP 发言人建立关系。<br>
+<strong>更新 (Update) 报文</strong>：用来发送某一路由的信息，以及列出要撤销的多条路由。</p>
+<p><strong>保活 (Keepalive) 报文</strong>：用来确认打开报文并周期性地证实邻站关系。<br>
+<strong>通知 (Notification) 报文</strong>：用来发送检测到的差错。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210220105520173.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <h2 id="路由算法"><a class="anchor" href="#路由算法">#</a> 路由算法</h2>
 <p><strong>静态路由算法</strong>：由网络管理员手工配置的路由信息。对于简单的小型网络可以采用静态路由。</p>
 <p><strong>动态路由算法</strong>：改善网络的性能并有助于流量控制，但是算法过于复杂，会增加网络的负担，对动态变化的反应太快而引起振荡，或反应太慢而影晌网络路由的一致性。</p>
-<h3 id="距离-向量路由算法"><a class="anchor" href="#距离-向量路由算法">#</a> 距离 - 向量路由算法</h3>
-<p>（1）被通告一条新的路由，该路由在本结点的路由表中不存在，此时本地系统加入这条新的路由。<br>
-（2）发来的路由信息中有一条到达某个目的地的路由，该路由与当前使用的路由相比，有较短的距离（较小的代价）。</p>
-<p>最常见的距离 - 向量路由算法是<strong> RIP 算法</strong>，它采用 “跳数” 作为距离的度量。</p>
+<h2 id="ip组播屁都没讲清楚真的笑了"><a class="anchor" href="#ip组播屁都没讲清楚真的笑了">#</a> IP 组播（屁都没讲清楚，真的笑了）</h2>
+<p>组播机制是让源计算机一次发送的单个分组可以抵达用一个组地址标识的若干目标主机，并被他们正确接收。组播仅应用于 UDP。<strong>组播需要路由器的支持才能实现，能够运行组播协议的路由器称为组播路由器</strong>。</p>
+<p>播实现过程：主机使用一个称为 IGMP 的协议加入组播组，使用该协议通知本地网络上的路由器关于要接收发送给某个组播组的分组的愿望，通过扩展路由器的路由选择和转发功能，可以在许多路由器互联的支持硬件组播的网络上面实现因特网组播。组播技术使得数据只需发送一次就可发送到所有接收者，大大减轻了网络的负载和发送者的负担。</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210220111938490.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="ip组播地址"><a class="anchor" href="#ip组播地址">#</a> IP 组播地址</h3>
+<p>IP 组播地址使用<strong> D 类地址格式</strong>，D 类地址的前四位是 1110，因此 D 类地址范围是 224.0.0.0~239.255.255.255，每个 D 类 IP 地址标志一个组播组。<strong>并不是所有 D 类地址都可以用，有些用于永久组播</strong></p>
+<p>组播数据报和一般的 IP 数据报的区别是，<strong>前者使用 D 类 IP 地址作为目的地址，并且首部中的协议字段值为 2，表明使用 IGMP</strong>。需要注意的是：</p>
+<p>1. 组播数据报也是 “尽最大努力交付”，不提供可靠交付。<br>
+2. 组播地址只能用于目的地址，不能用于源地址。<br>
+3. 对组播数据报不产生 ICMP 差错报文，因此若在 PING 命令后面键入组播地址，将永远不会收到回应。<br>
+4. 并非所有的 D 类地址都可以用作组播地址。</p>
+<p><strong>IP 组播可以分为两种一种在本局域网上进行硬件组播，另一种则在因特网的范围内进行组播</strong>。在因特网上进行组播的最后阶段，还是要把组播数据报在局域网上用硬件组播交付给组播组内的所有成员。</p>
+<p><img data-src="image-20211115191927230.png" alt="image-20211115191927230"></p>
+<p><strong>后 23 位进行映射</strong>硬件地址的映射关系不是唯一的，因此收到组播数据报的主机，还要在 IP 层利用软件进行过滤，把不是本主机要接收的数据报丢弃。</p>
+<h3 id="igmp与组播路由算法"><a class="anchor" href="#igmp与组播路由算法">#</a> IGMP 与组播路由算法</h3>
+<p>IGMP 为 TCP/IP 协议栈的一部分其工作可以分为两个阶段：<br>
+<strong>第一个阶段</strong>：主机加入新的组播组时，该主机向组播组的组播地址发送一个 IGMP 报文，声明要成为该组的成员。本地的组播路由器收到 IGMP 报文后，将组成员关系转发给因特网上的其他组播路由器。<br>
+<strong>第二个阶段</strong>：本地组播路由器周期性地探询本地局域网上的主机，以便知道这些主机是否仍继续是组的成员。只要对某个组有一台主机响应，那么组播路由器就认为这个组是活跃的。一个组在经过几次的探询后仍然没有一台主机响应时，则不再将该组的成 员关系转发给其他的组播路由器。<br>
+<strong>实现因特网组播的路由算法</strong>：第一种是基于链路状态的路由选择，第二种是基于距离 - 向量的路由选择，第三种可以建立在任何路由器协议之上，因此成为协议无关的组播（PIM）。<br>
+<strong>为了避免环路，构建组播转发树</strong></p>
+<h2 id="移动ip"><a class="anchor" href="#移动ip">#</a> 移动 IP</h2>
+<p>基于 IPV4 定义的三种功能实体：移动节点、本地代理和外部代理。<br>
+<strong>移动结点</strong> ：具有永久 IP 地址的移动结点。<br>
+<strong>本地代理</strong>：在 — 个网络环境中，— 个移动结点的永久 “居所” 被称为归属网络，在归属网络中代表移动结点执行移动管理功能的实体称为归属。<br>
+<strong>外部代理</strong>：在外部网络中帮助移动结点完成移动管理功能的实体称为外部代理。</p>
+<h3 id="移动ip通信过程"><a class="anchor" href="#移动ip通信过程">#</a> 移动 IP 通信过程</h3>
+<p>1. 移动结点在本地网时，按传统的 TCP/IP 方式进行通信（在本地网中有固有的地址 ）。<br>
+2. 移动结点到一个外地网络时，移动结点向本地代理注册当前的位置地址，即转交地址。<br>
+3. 本地代理接收来自转交地址的注册后，会构建一条通向转交地址的隧道，本地地址会将截获的信息通过隧道发送给转交地址处<br>
+ 4. 在转交地址处解除隧道封装，恢复成原来 IP 分组，最后送到移动结点。<br>
+5. 移动结点在外网通过外网的路由器或外部代理向通信对端发送 IP 数据包。<br>
+6. 移动结点来到另 — 个外网时，只需向本地代理更新注册的转交地址，就可继续通信。<br>
+7. 移动结点回到本地网时，移动结点向本地代理注销转交地址，这时移动结点又将使用传统的 TCP/IP 方式进行通信。</p>
+<h2 id="网络层设备"><a class="anchor" href="#网络层设备">#</a> 网络层设备</h2>
+<h3 id="路由器工作过程"><a class="anchor" href="#路由器工作过程">#</a> 路由器工作过程</h3>
+<p>当源主机和目标主机在同一个网络上时，直接交付无需经过路由器。<br>
+源主机和目标主机不在同一个网络上时，路由器按照转发表将数据报转发给下一个路由器，即间接交付。</p>
+<h3 id="路由器功能组成"><a class="anchor" href="#路由器功能组成">#</a> 路由器功能组成</h3>
+<p>从结构上看，路由器由路由选择部分和分组转发部分组成。<br>
+路由选择部分也称控制部分，<strong>其核心构件是路由选择处理机</strong>。路由选择处理机的任务是：根据选定的路由选择协议构造出路由表和其他相邻路由器交换路由信息然后更新和维护路由表。</p>
+<p><strong>分组转发部分由三部分组成：交换结构、一组输入端口和一组输出端口</strong>。输入端口从物理层接收到的比特流中提取出链路层帧，进而从帧中提取出网络层数据报。输出端口则将数据报变为比特流发送到物理层。<strong>交换结构是路由器的关键部件</strong>，它根据转发表对分组进行处理，将从输入口进入的分组从一个合适的输出端口转发出去。<strong>有三种常用的交换方法：通过存储器进行交换、通过总线进行交换和通过互联网络进行交换</strong>。</p>
+<p>路由器主要完成两个功能：<strong>一是分组转发，二是路由计算</strong>。</p>
+<h3 id="路由器与网桥的-区别"><a class="anchor" href="#路由器与网桥的-区别">#</a> 路由器与网桥的 区别</h3>
+<p>路由器与网桥的重要区别是：网桥与高层协议无关，路由器是面向协议的，依据网络地址进行操作，并进行路径选择、分段帧格式转换、对数据报的生存时间和流量进行控制等。</p>
+<h3 id="路由表与路由转发"><a class="anchor" href="#路由表与路由转发">#</a> 路由表与路由转发</h3>
+<p>路由表（<strong>软件</strong>）是根据路由选择算法得出的，主要用途是路由选择。标准的路由表有 4 个部分：目的网络的 IP 地址、子网掩码、下一跳 IP 地址和接口。</p>
+<p>转发与路由选择的区别：转发（<strong>硬件或软件</strong>）指路由器根据转发表把收到的 IP 数据报从合适的端口转发出去，仅涉及一个路由器。而路由选择涉及很多路由器，路由表是许多路由器协同工作的结果。</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>传输层</title>
+    <url>/2021/11/16/%E4%BC%A0%E8%BE%93%E5%B1%82/</url>
+    <content><![CDATA[<h1 id="传输层提供的服务"><a class="anchor" href="#传输层提供的服务">#</a> 传输层提供的服务</h1>
+<h3 id="传输层的功能"><a class="anchor" href="#传输层的功能">#</a> 传输层的功能</h3>
+<p>​    （1）传输层提供了应用进程之间的逻辑通信（即端到端的通信）。<br>
+​    （2）<strong>复用和分用。复用是指发送方不同的应用进程，都可使用同一个传输层协议传送数据。分用是指接收方的传输层在剥去报文的首部后，能够把这些数据正确交付到目的应用进程</strong>。<br>
+​    （3）传输层还要对收到的报文进行差错检测（首部和数据部分）而网络层只检查 IP 数据报的首部，不检验数据部分是否出错。<br>
+​    （4）提供两种不同的传输协议，即面向连接的 TCP 和无连接的 UDP。而网络层无法同时实现两种协议（即在网络层要么只提供面向连接的服务，要么只提供无连接服务）。<br>
+​    传输层向高层用户屏蔽低层网络核心的细节（如网络拓扑、路由协议等），使应用进程好像在两个传输层实体之间有一条端到端的逻辑通信信道。</p>
+<h3 id="端口号"><a class="anchor" href="#端口号">#</a> 端口号</h3>
+<p>应用进程通过进程号进行标识，端口号长度为 64bit，能够表示 65536（2^16）个不同的端口号。<strong>端口号只有本地意义，在因特网中不同计算机的相同端口是没有联系的</strong>。根据端口号范围可将端口号分为两类：</p>
+<p>1）<strong>服务端使用的端口号</strong>。它又分为两类，最重要的一类是熟知端口号，数值为 0~1023. 另一类是登记端口号。使用这类端口号必须在 IANA 登记，以防止重复。一些熟知端口号如下：</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20210220161438849.png#pic_center" alt="在这里插入图片描述"></p>
+<p><strong>客户端使用的端口号（49152~65535）又称短暂端口号（也称临时端口）</strong>：这类端口号仅在客户进程运行时才动态地选择，通信结束后，刚用过的客户端口号就 不复存在，从而这个端口号就可供其他客户进程使用。</p>
+<h3 id="tcpip协议栈的传输协议"><a class="anchor" href="#tcpip协议栈的传输协议">#</a> TCP/IP 协议栈的传输协议</h3>
+<p>​    面向连接的传输控制协议 (TCP)：采用 TCP 时，传输层向上提供的是一条全双工的可靠逻辑信道。TCP 提供面向连接的可靠传输服务，主要适用于可靠性更重要的场合，如文件传输协议 (FTP)、超文本传输协议（HTTP）、远程登录（TELNET）等。但也增加了许多开销，如确认、流量控制、计时器及连接管理等。<br>
+​    无连接的用户数据报协议 (UDP) ：采用 UDP 时，传输层向上提供的是一条不可靠的逻辑通道。远程主机的传输层收到 UDP 报文后，不需要给出任何确认。UDP 简单，执行速度比较快、实时性比较好。应用于小文件传送协议（TFTP）、DNS、SNMP 和实时传输协议（RTP）。</p>
+<h3 id="ip数据报与udp数据报的区别"><a class="anchor" href="#ip数据报与udp数据报的区别">#</a> IP 数据报与 UDP 数据报的区别</h3>
+<p>​    IP 数据报在网络层要经过路由的存储转发。<br>
+​    UDP 数据报在传输层的端到端的逻辑信道中传输，封装成 IP 数据报在网络层传输时，UDP 数据报的信息对路由是不可见的。</p>
+<h3 id="tcp与网络层虚电路的区别"><a class="anchor" href="#tcp与网络层虚电路的区别">#</a> TCP 与网络层虚电路的区别</h3>
+<p>​    TCP 报文段在传输层抽象的逻辑信道中传输，对路由器不可见。虚电路所经过的交换结点都必须保存虚电路状态信息。<br>
+​    网络层若采用虚电路方式，则无法提供无连接服务，而传输层采用 TCP 不影晌网络层提供无连接服务。</p>
+<h1 id="udp协议"><a class="anchor" href="#udp协议">#</a> UDP 协议</h1>
+<p>复用和分用以及差错检测（没有流量控制）</p>
+<h3 id="udp的特点"><a class="anchor" href="#udp的特点">#</a> UDP 的特点</h3>
+<p>（1）UDP 常用于一次性传输较少数据的网络应用，如<strong> DNS、SNMP</strong> 等。<br>
+（2）UDP 提供尽最大努力的交付，即不保证可靠交付，所有维  护传输可靠性的工作需要用户在应用层来完成。<br>
+（3）UDP 是<strong>面向报文</strong>的，报文是 UDP 数据报处理的最小单位。</p>
+<h3 id="udp的首部格式"><a class="anchor" href="#udp的首部格式">#</a> UDP 的首部格式</h3>
+<p><strong>源端口</strong>：源端口号。在需要对方回信时选用，不需要时可用全 0<br>
+<strong> 目的端口</strong>：这在终点交付报文时必须使用到。<br>
+<strong>长度</strong>：UDP 数据报的长度（包括首部和数据），其最小值是 8 （仅有首部）</p>
+<p><strong>校验和</strong>：该字段是可选的，当源主机不想计算校验和时，则直接令该字段为全 0，检测 UDP 数据报在传输中是否有错．有错就丢弃。</p>
+<h2 id="udp校验"><a class="anchor" href="#udp校验">#</a> UDP 校验</h2>
+<p>UDP 的校验和只检查首部和数据部分。<br>
+校验时，<strong>若 UDP 数据报部分的长度不是偶数个字节，则需填入个全 0 字节</strong>。<br>
+如果 UDP 校验和校验出 UDP 数据报是错误的，那么可以丢弃，也可以交付给上层，但是需要附上错误报告（不能直接交给上层）。</p>
+<p>通过<strong>伪首部</strong>，不仅可以检查源端口号、目的端口号和 UDP 用户数据报的数据部分还可以检查 IP 数据报的源 IP 地址和目的地址。</p>
+<p><img data-src="image-20211116104339964.png" alt="image-20211116104339964"></p>
 ]]></content>
       <categories>
         <category>考研</category>
