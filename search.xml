@@ -2614,6 +2614,7 @@ SYN 洪泛攻击会浪费服务器的资源，在服务器上，这些 TCP 连�
 <strong>传输层与数据链路层的区别</strong>：传输层的流量控制机制定义了端到端用户之间的流量控制，数据链路层的；流量控制机制定义了两个中间的相邻结点的流量控制。而且在传输层滑动窗口可以动态变化，数据链路层的滑动窗口不能动态变化。<br>
 <span class="rainbow">滑动窗口过小，会产生过多的 ACK；滑动窗口过大，会使路由器变得拥挤，主机可能丢失分组</span></p>
 <p><span ,rainbow>发送窗口 = min {接受窗口，拥塞窗口 /}</span></p>
+<p><span class="rainbow">窗口值 1000=1000B</span></p>
 <h2 id="tcp拥塞控制"><a class="anchor" href="#tcp拥塞控制">#</a> TCP 拥塞控制</h2>
 <p><strong>接收窗口 rwnd</strong>：接收方根据目前接收缓存大小所许诺的最新窗口值 ， 反映接收方的容量<br>
 <strong>拥塞窗口 cwnd</strong> ：发送方根据自己估算的网络拥塞程度而设置的窗口值 ， 反映网络的当前容量</p>
@@ -2624,6 +2625,36 @@ SYN 洪泛攻击会浪费服务器的资源，在服务器上，这些 TCP 连�
 <strong>快恢复</strong>：发送端收到连续三个冗余 ACK （即重要确认）时 ， 执行 “乘法减小” 算法，把慢开始门限 ssthresh 设置为出现拥塞时发送方 cwnd 的一半。<br>
 <strong>网络拥塞的处理</strong>：发送方检测到超时事件的发生（未按时收到确认 ， 重传计时器超时），就要把慢开始门限 ssthresh 设置为出现拥塞时的发送方的 cwnd 值的一半（但不能小于 2) 然后把拥塞窗口 cwnd 重新设置为 L 执行慢开始算法。<br>
 <img data-src="https://img-blog.csdnimg.cn/20210220235137474.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<hr>
+<p><img data-src="image-20211117101900954.png" alt="image-20211117101900954"></p>
+<p><img data-src="image-20211117101938147.png" alt="image-20211117101938147"></p>
+<p><img data-src="image-20211117102014708.png" alt="image-20211117102014708"></p>
+<p><img data-src="image-20211117102030910.png" alt="image-20211117102030910"></p>
+<p><img data-src="image-20211117102048486.png" alt="image-20211117102048486"></p>
+<p><img data-src="image-20211117102146824.png" alt="image-20211117102146824"></p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>应用层</title>
+    <url>/2021/11/17/%E5%BA%94%E7%94%A8%E5%B1%82/</url>
+    <content><![CDATA[<h1 id="网络应用模型"><a class="anchor" href="#网络应用模型">#</a> 网络应用模型</h1>
+<h2 id="客户服务器模型"><a class="anchor" href="#客户服务器模型">#</a> 客户 / 服务器模型</h2>
+<p>在 C/S 模型中，客户是服务请求方，服务器是服务提供方。网络中各计算机的<strong>地位不平等</strong>，服务器可以通过对用户权限的限制来达到管理客户机的目的，使它们不能随意存储／删除数据，或进行其他受限的网络活动。而客户机相互之间不直接进行通信，可扩展性不佳。</p>
+<p><span class="rainbow">客户端面向用户，服务器面向任务</span></p>
+<h3 id="cs模型主要应用"><a class="anchor" href="#cs模型主要应用">#</a> C/S 模型主要应用</h3>
+<p>客户 / 服务器模型的应用：Web、文件传输协议（FTP）、远程登录和电子邮件。</p>
+<h2 id="p2p模型"><a class="anchor" href="#p2p模型">#</a> P2P 模型</h2>
+<h3 id="p2p模型概述"><a class="anchor" href="#p2p模型概述">#</a> P2P 模型概述</h3>
+<p>在 P2P 模型中，各计算机没有固定的客户和服务器划分，任意一对计算机 —— 称为 ** 对等方 **(Peer)，<strong>直接相互通信</strong>。每个结点既作为客户访问其他结点的资源，也作为服务器提供资源给其他结点访问。P2P 的应用：PPlive、Bittorrent 和电驴。</p>
+<h3 id="p2p模型的优缺点"><a class="anchor" href="#p2p模型的优缺点">#</a> P2P 模型的优缺点</h3>
+<p>​	P2P 模型的优点：减轻了服务器的计算压力，消除了对某个服务器的完全依赖，提高了系统效率和资源利用率。多个客户机之间可以直接共享文档，可扩展性好，网络健壮性强，单个结点的失效不会影响其他部分的结点。<br>
+​    P2P 模型的缺点：占用较多的内存影响整机速度，P2P 下载会对硬盘造成较大的损伤，是网络变得非常拥堵。因此，各大 isp（互联网服务提供商，如电信网通等）通常都对 P2P 应用持反对态度。</p>
 ]]></content>
       <categories>
         <category>考研</category>

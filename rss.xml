@@ -10,8 +10,29 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Tue, 16 Nov 2021 09:16:16 +0800</pubDate>
-        <lastBuildDate>Tue, 16 Nov 2021 09:16:16 +0800</lastBuildDate>
+        <pubDate>Wed, 17 Nov 2021 10:23:14 +0800</pubDate>
+        <lastBuildDate>Wed, 17 Nov 2021 10:23:14 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/11/17/%E5%BA%94%E7%94%A8%E5%B1%82/</guid>
+            <title>应用层</title>
+            <link>http://example.com/2021/11/17/%E5%BA%94%E7%94%A8%E5%B1%82/</link>
+            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+            <category term="计算机网络" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" />
+            <pubDate>Wed, 17 Nov 2021 10:23:14 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;网络应用模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络应用模型&#34;&gt;#&lt;/a&gt; 网络应用模型&lt;/h1&gt;
+&lt;h2 id=&#34;客户服务器模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#客户服务器模型&#34;&gt;#&lt;/a&gt; 客户 / 服务器模型&lt;/h2&gt;
+&lt;p&gt;在 C/S 模型中，客户是服务请求方，服务器是服务提供方。网络中各计算机的&lt;strong&gt;地位不平等&lt;/strong&gt;，服务器可以通过对用户权限的限制来达到管理客户机的目的，使它们不能随意存储／删除数据，或进行其他受限的网络活动。而客户机相互之间不直接进行通信，可扩展性不佳。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;客户端面向用户，服务器面向任务&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cs模型主要应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cs模型主要应用&#34;&gt;#&lt;/a&gt; C/S 模型主要应用&lt;/h3&gt;
+&lt;p&gt;客户 / 服务器模型的应用：Web、文件传输协议（FTP）、远程登录和电子邮件。&lt;/p&gt;
+&lt;h2 id=&#34;p2p模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#p2p模型&#34;&gt;#&lt;/a&gt; P2P 模型&lt;/h2&gt;
+&lt;h3 id=&#34;p2p模型概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#p2p模型概述&#34;&gt;#&lt;/a&gt; P2P 模型概述&lt;/h3&gt;
+&lt;p&gt;在 P2P 模型中，各计算机没有固定的客户和服务器划分，任意一对计算机 —— 称为 ** 对等方 **(Peer)，&lt;strong&gt;直接相互通信&lt;/strong&gt;。每个结点既作为客户访问其他结点的资源，也作为服务器提供资源给其他结点访问。P2P 的应用：PPlive、Bittorrent 和电驴。&lt;/p&gt;
+&lt;h3 id=&#34;p2p模型的优缺点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#p2p模型的优缺点&#34;&gt;#&lt;/a&gt; P2P 模型的优缺点&lt;/h3&gt;
+&lt;p&gt;​	P2P 模型的优点：减轻了服务器的计算压力，消除了对某个服务器的完全依赖，提高了系统效率和资源利用率。多个客户机之间可以直接共享文档，可扩展性好，网络健壮性强，单个结点的失效不会影响其他部分的结点。&lt;br&gt;
+​    P2P 模型的缺点：占用较多的内存影响整机速度，P2P 下载会对硬盘造成较大的损伤，是网络变得非常拥堵。因此，各大 isp（互联网服务提供商，如电信网通等）通常都对 P2P 应用持反对态度。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/11/16/%E4%BC%A0%E8%BE%93%E5%B1%82/</guid>
             <title>传输层</title>
@@ -108,6 +129,7 @@ SYN 洪泛攻击会浪费服务器的资源，在服务器上，这些 TCP 连�
 &lt;strong&gt;传输层与数据链路层的区别&lt;/strong&gt;：传输层的流量控制机制定义了端到端用户之间的流量控制，数据链路层的；流量控制机制定义了两个中间的相邻结点的流量控制。而且在传输层滑动窗口可以动态变化，数据链路层的滑动窗口不能动态变化。&lt;br&gt;
 &lt;span class=&#34;rainbow&#34;&gt;滑动窗口过小，会产生过多的 ACK；滑动窗口过大，会使路由器变得拥挤，主机可能丢失分组&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span ,rainbow&gt;发送窗口 = min {接受窗口，拥塞窗口 /}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;窗口值 1000=1000B&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;tcp拥塞控制&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tcp拥塞控制&#34;&gt;#&lt;/a&gt; TCP 拥塞控制&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;接收窗口 rwnd&lt;/strong&gt;：接收方根据目前接收缓存大小所许诺的最新窗口值 ， 反映接收方的容量&lt;br&gt;
 &lt;strong&gt;拥塞窗口 cwnd&lt;/strong&gt; ：发送方根据自己估算的网络拥塞程度而设置的窗口值 ， 反映网络的当前容量&lt;/p&gt;
@@ -118,6 +140,13 @@ SYN 洪泛攻击会浪费服务器的资源，在服务器上，这些 TCP 连�
 &lt;strong&gt;快恢复&lt;/strong&gt;：发送端收到连续三个冗余 ACK （即重要确认）时 ， 执行 “乘法减小” 算法，把慢开始门限 ssthresh 设置为出现拥塞时发送方 cwnd 的一半。&lt;br&gt;
 &lt;strong&gt;网络拥塞的处理&lt;/strong&gt;：发送方检测到超时事件的发生（未按时收到确认 ， 重传计时器超时），就要把慢开始门限 ssthresh 设置为出现拥塞时的发送方的 cwnd 值的一半（但不能小于 2) 然后把拥塞窗口 cwnd 重新设置为 L 执行慢开始算法。&lt;br&gt;
 &lt;img data-src=&#34;https://img-blog.csdnimg.cn/20210220235137474.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzOTgzMDEw,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211117101900954.png&#34; alt=&#34;image-20211117101900954&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211117101938147.png&#34; alt=&#34;image-20211117101938147&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211117102014708.png&#34; alt=&#34;image-20211117102014708&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211117102030910.png&#34; alt=&#34;image-20211117102030910&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211117102048486.png&#34; alt=&#34;image-20211117102048486&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211117102146824.png&#34; alt=&#34;image-20211117102146824&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -1442,52 +1471,6 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 &lt;p&gt;&lt;img data-src=&#34;image-20210830180251882.png&#34; alt=&#34;image-20210830180251882&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210830200210184.png&#34; alt=&#34;image-20210830200210184&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210830235203627.png&#34; alt=&#34;image-20210830235203627&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2021/08/27/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6-%E7%A7%AF%E5%88%86%E7%AD%89%E5%BC%8F%E5%92%8C%E4%B8%8D%E7%AD%89%E5%BC%8F/</guid>
-            <title>一元函数积分学-积分等式和不等式（包含物理应用）</title>
-            <link>http://example.com/2021/08/27/%E4%B8%80%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6-%E7%A7%AF%E5%88%86%E7%AD%89%E5%BC%8F%E5%92%8C%E4%B8%8D%E7%AD%89%E5%BC%8F/</link>
-            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-            <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-            <pubDate>Fri, 27 Aug 2021 16:38:53 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;image-20210903230400279.png&#34; alt=&#34;image-20210903230400279&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;作为结论&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210903230734498.png&#34; alt=&#34;image-20210903230734498&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;作为结论&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827181449923.png&#34; alt=&#34;image-20210827181449923&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827181506330.png&#34; alt=&#34;image-20210827181506330&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;可作为结论&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827181527508.png&#34; alt=&#34;image-20210827181527508&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827181304362.png&#34; alt=&#34;image-20210827181304362&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;数形结合，通过观察下图发现 f (x) 由两段组成，所以用两次拉格朗日&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827181718601.png&#34; alt=&#34;image-20210827181718601&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827201400634.png&#34; alt=&#34;image-20210827201400634&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827201537654.png&#34; alt=&#34;image-20210827201537654&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827204521432.png&#34; alt=&#34;image-20210827204521432&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827211231875.png&#34; alt=&#34;image-20210827211231875&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827211154379.png&#34; alt=&#34;image-20210827211154379&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905111520124.png&#34; alt=&#34;image-20210905111520124&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827211204250.png&#34; alt=&#34;image-20210827211204250&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210827232237114.png&#34; alt=&#34;image-20210827232237114&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210828145304265.png&#34; alt=&#34;image-20210828145304265&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;题解很 nt，根本不讲思路，令人望而却步，这题主要是找递推公式，想到这一点还要靠一点做题的经验&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;利用&lt;/mtext&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo separator=&#34;true&#34;&gt;,&lt;/mo&gt;&lt;mtext&gt;将原式转化为&lt;/mtext&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mtext&gt;与&lt;/mtext&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mtext&gt;的递推式，然后进行放缩即可&lt;/mtext&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;利用sec^2x=tan^2x+1,将原式转化为f(n)与f(n-2)的递推式，然后进行放缩即可
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8641079999999999em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;利&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;用&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8641079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.113em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.9474379999999999em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8641079999999999em;&#34;&gt;&lt;span style=&#34;top:-3.113em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mpunct&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.16666666666666666em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;将&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;原&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;式&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;转&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;化&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;为&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;与&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;的&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;递&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;推&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;式&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;然&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;后&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;进&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;行&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;放&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;缩&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;即&lt;/span&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;可&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210828145320865.png&#34; alt=&#34;image-20210828145320865&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;注意数形结合&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210828145352590.png&#34; alt=&#34;image-20210828145352590&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;一元函数积分学的物理应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一元函数积分学的物理应用&#34;&gt;#&lt;/a&gt; 一元函数积分学的物理应用&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210829215947489.png&#34; alt=&#34;image-20210829215947489&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
