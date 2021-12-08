@@ -2840,10 +2840,10 @@ From 是必填的关键字，但它通常由邮件系统自动填入。</p>
 ​     正确性：算法应能够正确解决问题。<br>
 ​     可读性：算法应具有良好的可读性，以便人民理解。<br>
 ​     效率与低存储量需求：效率是指算法执行的时间，存储量需求是指算法执行过程中所需要的最大存储空间，这两者都与问题的规模有关。</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211119151040856.png" alt="image-20211119151040856"></p>
+<p>![image-20211119151040856]image-20211119151040856.png)</p>
 <h1 id="线性表"><a class="anchor" href="#线性表">#</a> 线性表</h1>
 <p>线性表的顺序存储结构是一种<strong>随机存取（读写）<strong>的存储结构，不是顺序存取的存储结构，是</strong>顺序存储</strong>的村树结构</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211119151605513.png" alt="image-20211119151605513"></p>
+<p><img data-src="image-20211119151605513.png" alt="image-20211119151605513"></p>
 <p>即使带头尾指针，循环单链表页<strong>不好删除最后一个节点</strong></p>
 <h1 id="栈和队列"><a class="anchor" href="#栈和队列">#</a> 栈和队列</h1>
 <p>n 个不同元素进栈，出栈可能为</p>
@@ -2886,7 +2886,7 @@ From 是必填的关键字，但它通常由邮件系统自动填入。</p>
 <h2 id="kmp算法"><a class="anchor" href="#kmp算法">#</a> KMP 算法</h2>
 <p><strong>kmp 的进一步优化</strong>：忘记了感觉以下这个例子：主串（abaabaabca）子串（abaabc）</p>
 <p>忘记了就做几道题压压惊</p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211119205311817.png" alt="image-20211119205311817"></p>
+<p><img data-src="image-20211119205311817.png" alt="image-20211119205311817"></p>
 <h1 id="树与二叉树"><a class="anchor" href="#树与二叉树">#</a> 树与二叉树</h1>
 <p>树的路径长度时从树根道每个节点的路径长度的总和</p>
 <p>非空二叉树的叶子节点数等于度为 2 的节点数 + 1</p>
@@ -2899,12 +2899,195 @@ From 是必填的关键字，但它通常由邮件系统自动填入。</p>
 <p><strong>后序树不能完整遍历</strong>（需要栈的支持）</p>
 <p><strong>树的先根遍历</strong>与<strong>二叉树的先序遍历</strong>一样，<strong>森林先序</strong></p>
 <p>树的后根遍历与二叉树的中序遍历一样，<strong>森林中序</strong></p>
+<h2 id="平衡二叉树"><a class="anchor" href="#平衡二叉树">#</a> 平衡二叉树</h2>
+<p>结点个数最少的平衡二叉树，h 为高度:n (h)=n (h-1)+n (h-2)+1</p>
+<h2 id="哈夫曼树"><a class="anchor" href="#哈夫曼树">#</a> 哈夫曼树</h2>
+<p><strong>WPL</strong> 带权路径长度</p>
+<h1 id="图"><a class="anchor" href="#图">#</a> 图</h1>
+<p><span class="rainbow">线性表可以是空表，树可以是空树，但图不可以是空图</span></p>
+<p>联通分量就是极大联通子图</p>
+<p>带权图邻接矩阵，<strong>0 和无穷都是无边的意思</strong></p>
+<p><span class="rainbow">有公共子式的表达式，可以用有向无环图来表示，减少空间消耗</span></p>
+<p><strong>DAG 有向无环图，AOV 拓扑排序网</strong></p>
+<hr>
+<p><span class="rainbow">只要无向连通图中没有权值相同的边，则最小生成树唯一，充分条件</span></p>
+<p><span class="rainbow">只要图中每个顶点的入度出度都为 1，则拓扑序列唯一，充分条件</span></p>
+<h1 id="查找"><a class="anchor" href="#查找">#</a> 查找</h1>
+<p><strong>ASL</strong>：平均查找长度</p>
+<h3 id="有序表查找"><a class="anchor" href="#有序表查找">#</a> 有序表查找</h3>
+<p><img data-src="https://img-blog.csdnimg.cn/2019091716052376.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>查找失败 ASL= n/2+n/(n+1)。</p>
+<h3 id="折半查找法"><a class="anchor" href="#折半查找法">#</a> 折半查找法</h3>
+<p><img data-src="https://img-blog.csdnimg.cn/20190917163215574.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>
+是平衡二叉树</p>
+<h3 id="分块查找"><a class="anchor" href="#分块查找">#</a> 分块查找</h3>
+<p><img data-src="https://img-blog.csdnimg.cn/20190917164110259.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>若在块内和索引表中均采用顺序查找，则平均查找长度为 (s・s+2・s+n)/2・s</p>
+<h2 id="b树"><a class="anchor" href="#b树">#</a> B 树</h2>
+<p>1. 若根结点不是终端结点，则至少有 2 棵子树。<br>
+2. 除根节点以外的所有非叶结点至少有 M/2 **（向上取整）** 棵子树，至多有 M 个子树（关键字数为 M-1）。<br>
+3. 所有的叶子结点都位于同一层。</p>
+<h4 id="b树的插入和删除"><a class="anchor" href="#b树的插入和删除">#</a> B 树的插入和删除</h4>
+<p><img data-src="image-20211123201303622.png" alt="image-20211123201303622"></p>
+<p><img data-src="image-20211123201320269.png" alt="image-20211123201320269"></p>
+<p><img data-src="image-20211123201335181.png" alt="image-20211123201335181"></p>
+<p><img data-src="image-20211123201347019.png" alt="image-20211123201347019"></p>
+<p><img data-src="image-20211123201401855.png" alt="image-20211123201401855"></p>
+<h3 id="b树-2"><a class="anchor" href="#b树-2">#</a> B + 树</h3>
+<p>节点的子树数和关键字数相同（B 树是关键字数比子树数少一）<br>
+节点的关键字表示的是子树中的最大数，在子树中同样含有这个数据<br>
+叶子节点包含了全部数据，同时符合左小右大的顺序</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20190917174242843.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p><strong>三个特点</strong></p>
+<p>关键字数和子树相同<br>
+非叶子节点仅用作索引，它的关键字和子节点有重复元素<br>
+叶子节点用指针连在一起</p>
+<p><img data-src="https://img-blog.csdnimg.cn/20190917174347747.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p><span class="rainbow">B 树和 B + 树支持随机查找</span></p>
+<p><span class="rainbow">B 树不支持顺序查找和 B + 树支持顺序查找</span></p>
+<h2 id="散列表"><a class="anchor" href="#散列表">#</a> 散列表</h2>
+<p>散列表建立了关键字和存储地址之间的一种直接映射关系</p>
+<p><strong>常用的散列函数：</strong></p>
+<p>直接定址法</p>
+<p>除留余数法</p>
+<p>数字分析法：H（key）=key%100000</p>
+<p>平房取中法：比如 key=1234 1234^2=1522756 取 227 作 hash 地址<br>
+<strong>冲突处理</strong></p>
+<p>平方探测可避免堆积（<strong>由同义词之间或非同义词之间发生冲突</strong>）</p>
+<p>** 再散列法：** 需要使用两个散列函数，当通过第一个散列函数时 H (key) 得到的地址发生冲突时，则利用第二个散列函数 Hash2 (key) 计算该关键字的地址增量，具体散列函数如下：Hi = (H (key)+iHash2 (key))% m。<br>
+初次探测位置 H0 = H (key)% m。i 是冲突次数，初始为 0。<strong>在散列法中，最多经过 m-1 次探测就会遍历表中的所有位置，回到 H0 位置</strong>。</p>
+<p>装载因子 α=n/m (n 表示实际装载数据长度 m 为表长)</p>
+<p><span class="rainbow">平均查找长度依赖于装填因子，不直接依赖于 n 或 m</span></p>
+<p><img data-src="image-20211123204437738.png" alt="image-20211123204437738"></p>
+<p><strong>注意平均查找长度，和表长无直接关系</strong></p>
+<p><img data-src="https://img-blog.csdnimg.cn/20190917194129346.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="排序"><a class="anchor" href="#排序">#</a> 排序</h1>
+<p>拓扑排序不算在排序算法内</p>
+<p><strong>希尔排序（缩小增量排序）</strong></p>
+<p>n 在某个特定范围时，时间复杂度约为 n^1.3</p>
+<p><img data-src="https://upload-images.jianshu.io/upload_images/1156494-62f859c2ac6f95ff.png" alt="img"></p>
+<p><strong>快速排序</strong>是所有排序算法中品军性能最优的</p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211124103643158.png" alt="image-20211124103643158"></p>
+<h3 id="外部排序"><a class="anchor" href="#外部排序">#</a> 外部排序</h3>
+<p><img data-src="image-20211124125859446.png" alt="image-20211124125859446"></p>
+<p><img data-src="image-20211124125916059.png" alt="image-20211124125916059"></p>
+<p><img data-src="image-20211124125931356.png" alt="image-20211124125931356"></p>
 ]]></content>
       <categories>
         <category>考研</category>
       </categories>
       <tags>
         <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新增考点</title>
+    <url>/2021/12/01/%E6%96%B0%E5%A2%9E%E8%80%83%E7%82%B9/</url>
+    <content><![CDATA[<h1 id="机组"><a class="anchor" href="#机组">#</a> 机组</h1>
+<h2 id="多处理器"><a class="anchor" href="#多处理器">#</a> 多处理器</h2>
+<h4 id="sisd单指令流单数据流"><a class="anchor" href="#sisd单指令流单数据流">#</a> SISD (单指令流单数据流)</h4>
+<p>一段时间内仅执行一条指令，有些采用流水线方式，设置多个功能部件，并采用多模块交叉方式</p>
+<h4 id="simd单指令多数据流"><a class="anchor" href="#simd单指令多数据流">#</a> SIMD 单指令多数据流</h4>
+<p>一个指令控制部件，多个处理单元，每个单元有自己的地址寄存器，所有有不同的数据地址，因此，不同处理单元执行同一条指令所处理的数据时不同的</p>
+<p>在使用 for 循处理数组最有效，在使用 case 或 switch 时效率最低</p>
+<h4 id="misd多指令单流水不存在"><a class="anchor" href="#misd多指令单流水不存在">#</a> MISD 多指令单流水（不存在）</h4>
+<h4 id="mimd多指令多数据流"><a class="anchor" href="#mimd多指令多数据流">#</a> MIMD 多指令多数据流</h4>
+<p>每个计算机节点都有字节的私有存储器，具有独立的主存地址空间，不能够通过存取指令来访问不同节点的私有存储器，而是通过消息传递进行数据传送，也称为消息传递 MIMD</p>
+<p><strong>多处理器系统时共享存储多处理器 SMP 的简称</strong></p>
+<h4 id="向量处理器时simd的变种"><a class="anchor" href="#向量处理器时simd的变种">#</a> 向量处理器时 SIMD 的变种</h4>
+<p>实现了直接操作一维数组指令集的 cpu，在数值模拟和相似领域性能极高</p>
+<h2 id="硬件多线程的基本概念"><a class="anchor" href="#硬件多线程的基本概念">#</a> 硬件多线程的基本概念</h2>
+<p>在支持硬件多线程的 cpu 中，必须为每个线程提供单独的通用寄存器和程序计数器</p>
+<h3 id="细粒度多线程"><a class="anchor" href="#细粒度多线程">#</a> 细粒度多线程</h3>
+<h3 id="粗粒度多线程"><a class="anchor" href="#粗粒度多线程">#</a> 粗粒度多线程</h3>
+<p>尽在一个线程出现较大开销的阻塞时才切换进程，如 Cache 缺失，新线程的开销比细粒度多</p>
+<h3 id="同时多线程intel处理器"><a class="anchor" href="#同时多线程intel处理器">#</a> 同时多线程（Intel 处理器）</h3>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211201192640838.png" alt="image-20211201192640838"></p>
+<h2 id="多核处理器的基本概念"><a class="anchor" href="#多核处理器的基本概念">#</a> 多核处理器的基本概念</h2>
+<p>每个核可以有独自的 Cache，也可以共享同一 Cache</p>
+<h2 id="共享内存多处理器smp"><a class="anchor" href="#共享内存多处理器smp">#</a> 共享内存多处理器 SMP</h2>
+<p>共享同一物理地址空间，但仍然可以有自己的虚拟地址空间</p>
+<p><strong>统一存储器访问 UMA</strong>：每个处理器访问存储单元的时间大致相同，即访问时间于哪个处理器提出访存请求及访问哪个字无关。（分为，基于总线，基于交叉开关网络，基于多级交换网络连接等处理器）</p>
+<p><strong>非统一存储访问 NUMA</strong>：不带告诉缓存 - NC-NUMA，否则 CC-NUMA</p>
+<h2 id="总线事务和定时"><a class="anchor" href="#总线事务和定时">#</a> 总线事务和定时</h2>
+<p><img data-src="https://mmbiz.qpic.cn/mmbiz_png/7TLHdp5rq7giaDPgLks3icxSmFibODwLoKmz3QR1oZlXHibxwdIkZ97R4XBTPOot7gFRiaInnEmbq9V7FoNcoxPW9bg/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h2 id="固态硬盘"><a class="anchor" href="#固态硬盘">#</a> 固态硬盘</h2>
+<p>基于闪存技术的存储器，和 U 盘没有本质差别。由多个闪存芯片和闪存翻译层组成</p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211201204531891.png" alt="image-20211201204531891"></p>
+<p>只有在一页所属的整个块被擦除后才能写着一页。</p>
+<p>随机写很慢，随机访问比机械磁盘快，易磨损</p>
+<h2 id="程序的机器级表示"><a class="anchor" href="#程序的机器级表示">#</a> 程序的机器级表示</h2>
+<h1 id="操作系统"><a class="anchor" href="#操作系统">#</a> 操作系统</h1>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204210513357.png" alt="image-20211204210513357"></p>
+<h3 id="操作系统结构"><a class="anchor" href="#操作系统结构">#</a> 操作系统结构</h3>
+<h4 id="分层法"><a class="anchor" href="#分层法">#</a> 分层法</h4>
+<p>第 0 层是硬件，第 N 层是用户接口</p>
+<p>便于调式和验证，容易扩充和维护</p>
+<p>不灵活，系统效率低下</p>
+<h4 id="模块化"><a class="anchor" href="#模块化">#</a> 模块化</h4>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204210946939.png" alt="image-20211204210946939"></p>
+<h4 id="宏内核"><a class="anchor" href="#宏内核">#</a> 宏内核</h4>
+<p>现在主流的操作系统都是宏内核</p>
+<h4 id="微内核"><a class="anchor" href="#微内核">#</a> 微内核</h4>
+<p>主要解决操作系统内核代码难以维护的问题</p>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204211620389.png" alt="image-20211204211620389"></p>
+<p>一个模块的错误只会使这个模块奔溃，不会使整个系统崩溃，宏内核反之</p>
+<p><strong>优点</strong>：扩展性和灵活性，可靠性和安全性，可移植性，分布式计算</p>
+<p><strong>缺点</strong>：频繁切换和心态和用户态，系统开销大</p>
+<h4 id="外核"><a class="anchor" href="#外核">#</a> 外核</h4>
+<p>减少映射层，不用维护表格来重映像磁盘地址</p>
+<h3 id="操作系统引导"><a class="anchor" href="#操作系统引导">#</a> 操作系统引导</h3>
+<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204212311229.png" alt="image-20211204212311229"></p>
+]]></content>
+      <tags>
+        <tag>新增考点</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语</title>
+    <url>/2021/12/08/%E8%8B%B1%E8%AF%AD/</url>
+    <content><![CDATA[<p>resume 简历</p>
+<p>hire  租用，招聘</p>
+<p>insure 确保，投保</p>
+<p>insurance 保险</p>
+<p>community of scholar 学术团体</p>
+<p>consequence 结果</p>
+<p>admit 允许... 加入，承认</p>
+<p>marked 明显的</p>
+<p>arrangement 筹备</p>
+<p>norm 准则</p>
+<p>administration 管理</p>
+<p>peculiar 特殊的</p>
+<p>stability 稳定</p>
+<p>innovation 创新</p>
+<p>manifest 显现，使注意到</p>
+<p>institution 机构</p>
+<p>proportion 比例</p>
+<p>entry 进入</p>
+<p>watershed 转折点，分水岭</p>
+<p>arise 由... 引起</p>
+<p>unevenly 不均衡地</p>
+<p>contract 合同</p>
+<p>access 进入，获取，通道通路</p>
+<p>optimize 优化</p>
+<p>premium 保险费</p>
+<p>revenue 收入</p>
+<p>market 集市，营销</p>
+<p>outprefrom 超过</p>
+<p>bias 偏心  biased</p>
+<p>unconscious 无意识的</p>
+<p>experiment 实验</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>计算机系统概叙</title>
+    <url>/2021/11/24/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%8F%99/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>计算机组成原理</tag>
       </tags>
   </entry>
 </search>

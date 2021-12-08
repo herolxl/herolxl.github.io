@@ -10,8 +10,118 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Fri, 19 Nov 2021 14:30:36 +0800</pubDate>
-        <lastBuildDate>Fri, 19 Nov 2021 14:30:36 +0800</lastBuildDate>
+        <pubDate>Wed, 08 Dec 2021 08:19:02 +0800</pubDate>
+        <lastBuildDate>Wed, 08 Dec 2021 08:19:02 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/12/08/%E8%8B%B1%E8%AF%AD/</guid>
+            <title>英语</title>
+            <link>http://example.com/2021/12/08/%E8%8B%B1%E8%AF%AD/</link>
+            <pubDate>Wed, 08 Dec 2021 08:19:02 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;resume 简历&lt;/p&gt;
+&lt;p&gt;hire  租用，招聘&lt;/p&gt;
+&lt;p&gt;insure 确保，投保&lt;/p&gt;
+&lt;p&gt;insurance 保险&lt;/p&gt;
+&lt;p&gt;community of scholar 学术团体&lt;/p&gt;
+&lt;p&gt;consequence 结果&lt;/p&gt;
+&lt;p&gt;admit 允许... 加入，承认&lt;/p&gt;
+&lt;p&gt;marked 明显的&lt;/p&gt;
+&lt;p&gt;arrangement 筹备&lt;/p&gt;
+&lt;p&gt;norm 准则&lt;/p&gt;
+&lt;p&gt;administration 管理&lt;/p&gt;
+&lt;p&gt;peculiar 特殊的&lt;/p&gt;
+&lt;p&gt;stability 稳定&lt;/p&gt;
+&lt;p&gt;innovation 创新&lt;/p&gt;
+&lt;p&gt;manifest 显现，使注意到&lt;/p&gt;
+&lt;p&gt;institution 机构&lt;/p&gt;
+&lt;p&gt;proportion 比例&lt;/p&gt;
+&lt;p&gt;entry 进入&lt;/p&gt;
+&lt;p&gt;watershed 转折点，分水岭&lt;/p&gt;
+&lt;p&gt;arise 由... 引起&lt;/p&gt;
+&lt;p&gt;unevenly 不均衡地&lt;/p&gt;
+&lt;p&gt;contract 合同&lt;/p&gt;
+&lt;p&gt;access 进入，获取，通道通路&lt;/p&gt;
+&lt;p&gt;optimize 优化&lt;/p&gt;
+&lt;p&gt;premium 保险费&lt;/p&gt;
+&lt;p&gt;revenue 收入&lt;/p&gt;
+&lt;p&gt;market 集市，营销&lt;/p&gt;
+&lt;p&gt;outprefrom 超过&lt;/p&gt;
+&lt;p&gt;bias 偏心  biased&lt;/p&gt;
+&lt;p&gt;unconscious 无意识的&lt;/p&gt;
+&lt;p&gt;experiment 实验&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/12/01/%E6%96%B0%E5%A2%9E%E8%80%83%E7%82%B9/</guid>
+            <title>新增考点</title>
+            <link>http://example.com/2021/12/01/%E6%96%B0%E5%A2%9E%E8%80%83%E7%82%B9/</link>
+            <category term="新增考点" scheme="http://example.com/tags/%E6%96%B0%E5%A2%9E%E8%80%83%E7%82%B9/" />
+            <pubDate>Wed, 01 Dec 2021 18:36:38 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;机组&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#机组&#34;&gt;#&lt;/a&gt; 机组&lt;/h1&gt;
+&lt;h2 id=&#34;多处理器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多处理器&#34;&gt;#&lt;/a&gt; 多处理器&lt;/h2&gt;
+&lt;h4 id=&#34;sisd单指令流单数据流&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sisd单指令流单数据流&#34;&gt;#&lt;/a&gt; SISD (单指令流单数据流)&lt;/h4&gt;
+&lt;p&gt;一段时间内仅执行一条指令，有些采用流水线方式，设置多个功能部件，并采用多模块交叉方式&lt;/p&gt;
+&lt;h4 id=&#34;simd单指令多数据流&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#simd单指令多数据流&#34;&gt;#&lt;/a&gt; SIMD 单指令多数据流&lt;/h4&gt;
+&lt;p&gt;一个指令控制部件，多个处理单元，每个单元有自己的地址寄存器，所有有不同的数据地址，因此，不同处理单元执行同一条指令所处理的数据时不同的&lt;/p&gt;
+&lt;p&gt;在使用 for 循处理数组最有效，在使用 case 或 switch 时效率最低&lt;/p&gt;
+&lt;h4 id=&#34;misd多指令单流水不存在&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#misd多指令单流水不存在&#34;&gt;#&lt;/a&gt; MISD 多指令单流水（不存在）&lt;/h4&gt;
+&lt;h4 id=&#34;mimd多指令多数据流&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mimd多指令多数据流&#34;&gt;#&lt;/a&gt; MIMD 多指令多数据流&lt;/h4&gt;
+&lt;p&gt;每个计算机节点都有字节的私有存储器，具有独立的主存地址空间，不能够通过存取指令来访问不同节点的私有存储器，而是通过消息传递进行数据传送，也称为消息传递 MIMD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;多处理器系统时共享存储多处理器 SMP 的简称&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;向量处理器时simd的变种&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#向量处理器时simd的变种&#34;&gt;#&lt;/a&gt; 向量处理器时 SIMD 的变种&lt;/h4&gt;
+&lt;p&gt;实现了直接操作一维数组指令集的 cpu，在数值模拟和相似领域性能极高&lt;/p&gt;
+&lt;h2 id=&#34;硬件多线程的基本概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#硬件多线程的基本概念&#34;&gt;#&lt;/a&gt; 硬件多线程的基本概念&lt;/h2&gt;
+&lt;p&gt;在支持硬件多线程的 cpu 中，必须为每个线程提供单独的通用寄存器和程序计数器&lt;/p&gt;
+&lt;h3 id=&#34;细粒度多线程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#细粒度多线程&#34;&gt;#&lt;/a&gt; 细粒度多线程&lt;/h3&gt;
+&lt;h3 id=&#34;粗粒度多线程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#粗粒度多线程&#34;&gt;#&lt;/a&gt; 粗粒度多线程&lt;/h3&gt;
+&lt;p&gt;尽在一个线程出现较大开销的阻塞时才切换进程，如 Cache 缺失，新线程的开销比细粒度多&lt;/p&gt;
+&lt;h3 id=&#34;同时多线程intel处理器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#同时多线程intel处理器&#34;&gt;#&lt;/a&gt; 同时多线程（Intel 处理器）&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211201192640838.png&#34; alt=&#34;image-20211201192640838&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;多核处理器的基本概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多核处理器的基本概念&#34;&gt;#&lt;/a&gt; 多核处理器的基本概念&lt;/h2&gt;
+&lt;p&gt;每个核可以有独自的 Cache，也可以共享同一 Cache&lt;/p&gt;
+&lt;h2 id=&#34;共享内存多处理器smp&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#共享内存多处理器smp&#34;&gt;#&lt;/a&gt; 共享内存多处理器 SMP&lt;/h2&gt;
+&lt;p&gt;共享同一物理地址空间，但仍然可以有自己的虚拟地址空间&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;统一存储器访问 UMA&lt;/strong&gt;：每个处理器访问存储单元的时间大致相同，即访问时间于哪个处理器提出访存请求及访问哪个字无关。（分为，基于总线，基于交叉开关网络，基于多级交换网络连接等处理器）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;非统一存储访问 NUMA&lt;/strong&gt;：不带告诉缓存 - NC-NUMA，否则 CC-NUMA&lt;/p&gt;
+&lt;h2 id=&#34;总线事务和定时&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总线事务和定时&#34;&gt;#&lt;/a&gt; 总线事务和定时&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://mmbiz.qpic.cn/mmbiz_png/7TLHdp5rq7giaDPgLks3icxSmFibODwLoKmz3QR1oZlXHibxwdIkZ97R4XBTPOot7gFRiaInnEmbq9V7FoNcoxPW9bg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&amp;amp;wx_co=1&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;固态硬盘&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#固态硬盘&#34;&gt;#&lt;/a&gt; 固态硬盘&lt;/h2&gt;
+&lt;p&gt;基于闪存技术的存储器，和 U 盘没有本质差别。由多个闪存芯片和闪存翻译层组成&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211201204531891.png&#34; alt=&#34;image-20211201204531891&#34;&gt;&lt;/p&gt;
+&lt;p&gt;只有在一页所属的整个块被擦除后才能写着一页。&lt;/p&gt;
+&lt;p&gt;随机写很慢，随机访问比机械磁盘快，易磨损&lt;/p&gt;
+&lt;h2 id=&#34;程序的机器级表示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程序的机器级表示&#34;&gt;#&lt;/a&gt; 程序的机器级表示&lt;/h2&gt;
+&lt;h1 id=&#34;操作系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#操作系统&#34;&gt;#&lt;/a&gt; 操作系统&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204210513357.png&#34; alt=&#34;image-20211204210513357&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;操作系统结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#操作系统结构&#34;&gt;#&lt;/a&gt; 操作系统结构&lt;/h3&gt;
+&lt;h4 id=&#34;分层法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分层法&#34;&gt;#&lt;/a&gt; 分层法&lt;/h4&gt;
+&lt;p&gt;第 0 层是硬件，第 N 层是用户接口&lt;/p&gt;
+&lt;p&gt;便于调式和验证，容易扩充和维护&lt;/p&gt;
+&lt;p&gt;不灵活，系统效率低下&lt;/p&gt;
+&lt;h4 id=&#34;模块化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#模块化&#34;&gt;#&lt;/a&gt; 模块化&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204210946939.png&#34; alt=&#34;image-20211204210946939&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;宏内核&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#宏内核&#34;&gt;#&lt;/a&gt; 宏内核&lt;/h4&gt;
+&lt;p&gt;现在主流的操作系统都是宏内核&lt;/p&gt;
+&lt;h4 id=&#34;微内核&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#微内核&#34;&gt;#&lt;/a&gt; 微内核&lt;/h4&gt;
+&lt;p&gt;主要解决操作系统内核代码难以维护的问题&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204211620389.png&#34; alt=&#34;image-20211204211620389&#34;&gt;&lt;/p&gt;
+&lt;p&gt;一个模块的错误只会使这个模块奔溃，不会使整个系统崩溃，宏内核反之&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优点&lt;/strong&gt;：扩展性和灵活性，可靠性和安全性，可移植性，分布式计算&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;缺点&lt;/strong&gt;：频繁切换和心态和用户态，系统开销大&lt;/p&gt;
+&lt;h4 id=&#34;外核&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#外核&#34;&gt;#&lt;/a&gt; 外核&lt;/h4&gt;
+&lt;p&gt;减少映射层，不用维护表格来重映像磁盘地址&lt;/p&gt;
+&lt;h3 id=&#34;操作系统引导&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#操作系统引导&#34;&gt;#&lt;/a&gt; 操作系统引导&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211204212311229.png&#34; alt=&#34;image-20211204212311229&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/11/24/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%8F%99/</guid>
+            <title>计算机系统概叙</title>
+            <link>http://example.com/2021/11/24/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%8F%99/</link>
+            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
+            <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
+            <pubDate>Wed, 24 Nov 2021 15:26:46 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/11/19/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9/</guid>
             <title>数据结构需要注意的点</title>
@@ -63,10 +173,10 @@
 ​     正确性：算法应能够正确解决问题。&lt;br&gt;
 ​     可读性：算法应具有良好的可读性，以便人民理解。&lt;br&gt;
 ​     效率与低存储量需求：效率是指算法执行的时间，存储量需求是指算法执行过程中所需要的最大存储空间，这两者都与问题的规模有关。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211119151040856.png&#34; alt=&#34;image-20211119151040856&#34;&gt;&lt;/p&gt;
+&lt;p&gt;![image-20211119151040856]image-20211119151040856.png)&lt;/p&gt;
 &lt;h1 id=&#34;线性表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#线性表&#34;&gt;#&lt;/a&gt; 线性表&lt;/h1&gt;
 &lt;p&gt;线性表的顺序存储结构是一种&lt;strong&gt;随机存取（读写）&lt;strong&gt;的存储结构，不是顺序存取的存储结构，是&lt;/strong&gt;顺序存储&lt;/strong&gt;的村树结构&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211119151605513.png&#34; alt=&#34;image-20211119151605513&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211119151605513.png&#34; alt=&#34;image-20211119151605513&#34;&gt;&lt;/p&gt;
 &lt;p&gt;即使带头尾指针，循环单链表页&lt;strong&gt;不好删除最后一个节点&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;栈和队列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#栈和队列&#34;&gt;#&lt;/a&gt; 栈和队列&lt;/h1&gt;
 &lt;p&gt;n 个不同元素进栈，出栈可能为&lt;/p&gt;
@@ -109,7 +219,7 @@
 &lt;h2 id=&#34;kmp算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#kmp算法&#34;&gt;#&lt;/a&gt; KMP 算法&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;kmp 的进一步优化&lt;/strong&gt;：忘记了感觉以下这个例子：主串（abaabaabca）子串（abaabc）&lt;/p&gt;
 &lt;p&gt;忘记了就做几道题压压惊&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211119205311817.png&#34; alt=&#34;image-20211119205311817&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211119205311817.png&#34; alt=&#34;image-20211119205311817&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;树与二叉树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#树与二叉树&#34;&gt;#&lt;/a&gt; 树与二叉树&lt;/h1&gt;
 &lt;p&gt;树的路径长度时从树根道每个节点的路径长度的总和&lt;/p&gt;
 &lt;p&gt;非空二叉树的叶子节点数等于度为 2 的节点数 + 1&lt;/p&gt;
@@ -122,6 +232,79 @@
 &lt;p&gt;&lt;strong&gt;后序树不能完整遍历&lt;/strong&gt;（需要栈的支持）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;树的先根遍历&lt;/strong&gt;与&lt;strong&gt;二叉树的先序遍历&lt;/strong&gt;一样，&lt;strong&gt;森林先序&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;树的后根遍历与二叉树的中序遍历一样，&lt;strong&gt;森林中序&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;平衡二叉树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#平衡二叉树&#34;&gt;#&lt;/a&gt; 平衡二叉树&lt;/h2&gt;
+&lt;p&gt;结点个数最少的平衡二叉树，h 为高度:n (h)=n (h-1)+n (h-2)+1&lt;/p&gt;
+&lt;h2 id=&#34;哈夫曼树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#哈夫曼树&#34;&gt;#&lt;/a&gt; 哈夫曼树&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;WPL&lt;/strong&gt; 带权路径长度&lt;/p&gt;
+&lt;h1 id=&#34;图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图&#34;&gt;#&lt;/a&gt; 图&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;线性表可以是空表，树可以是空树，但图不可以是空图&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;联通分量就是极大联通子图&lt;/p&gt;
+&lt;p&gt;带权图邻接矩阵，&lt;strong&gt;0 和无穷都是无边的意思&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;有公共子式的表达式，可以用有向无环图来表示，减少空间消耗&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DAG 有向无环图，AOV 拓扑排序网&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;只要无向连通图中没有权值相同的边，则最小生成树唯一，充分条件&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;只要图中每个顶点的入度出度都为 1，则拓扑序列唯一，充分条件&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;查找&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查找&#34;&gt;#&lt;/a&gt; 查找&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ASL&lt;/strong&gt;：平均查找长度&lt;/p&gt;
+&lt;h3 id=&#34;有序表查找&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#有序表查找&#34;&gt;#&lt;/a&gt; 有序表查找&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/2019091716052376.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;查找失败 ASL= n/2+n/(n+1)。&lt;/p&gt;
+&lt;h3 id=&#34;折半查找法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#折半查找法&#34;&gt;#&lt;/a&gt; 折半查找法&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190917163215574.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;br&gt;
+是平衡二叉树&lt;/p&gt;
+&lt;h3 id=&#34;分块查找&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分块查找&#34;&gt;#&lt;/a&gt; 分块查找&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190917164110259.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;若在块内和索引表中均采用顺序查找，则平均查找长度为 (s・s+2・s+n)/2・s&lt;/p&gt;
+&lt;h2 id=&#34;b树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树&#34;&gt;#&lt;/a&gt; B 树&lt;/h2&gt;
+&lt;p&gt;1. 若根结点不是终端结点，则至少有 2 棵子树。&lt;br&gt;
+2. 除根节点以外的所有非叶结点至少有 M/2 **（向上取整）** 棵子树，至多有 M 个子树（关键字数为 M-1）。&lt;br&gt;
+3. 所有的叶子结点都位于同一层。&lt;/p&gt;
+&lt;h4 id=&#34;b树的插入和删除&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树的插入和删除&#34;&gt;#&lt;/a&gt; B 树的插入和删除&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211123201303622.png&#34; alt=&#34;image-20211123201303622&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211123201320269.png&#34; alt=&#34;image-20211123201320269&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211123201335181.png&#34; alt=&#34;image-20211123201335181&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211123201347019.png&#34; alt=&#34;image-20211123201347019&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211123201401855.png&#34; alt=&#34;image-20211123201401855&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;b树-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树-2&#34;&gt;#&lt;/a&gt; B + 树&lt;/h3&gt;
+&lt;p&gt;节点的子树数和关键字数相同（B 树是关键字数比子树数少一）&lt;br&gt;
+节点的关键字表示的是子树中的最大数，在子树中同样含有这个数据&lt;br&gt;
+叶子节点包含了全部数据，同时符合左小右大的顺序&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190917174242843.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三个特点&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;关键字数和子树相同&lt;br&gt;
+非叶子节点仅用作索引，它的关键字和子节点有重复元素&lt;br&gt;
+叶子节点用指针连在一起&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190917174347747.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;B 树和 B + 树支持随机查找&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;B 树不支持顺序查找和 B + 树支持顺序查找&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;散列表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#散列表&#34;&gt;#&lt;/a&gt; 散列表&lt;/h2&gt;
+&lt;p&gt;散列表建立了关键字和存储地址之间的一种直接映射关系&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;常用的散列函数：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;直接定址法&lt;/p&gt;
+&lt;p&gt;除留余数法&lt;/p&gt;
+&lt;p&gt;数字分析法：H（key）=key%100000&lt;/p&gt;
+&lt;p&gt;平房取中法：比如 key=1234 1234^2=1522756 取 227 作 hash 地址&lt;br&gt;
+&lt;strong&gt;冲突处理&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;平方探测可避免堆积（&lt;strong&gt;由同义词之间或非同义词之间发生冲突&lt;/strong&gt;）&lt;/p&gt;
+&lt;p&gt;** 再散列法：** 需要使用两个散列函数，当通过第一个散列函数时 H (key) 得到的地址发生冲突时，则利用第二个散列函数 Hash2 (key) 计算该关键字的地址增量，具体散列函数如下：Hi = (H (key)+iHash2 (key))% m。&lt;br&gt;
+初次探测位置 H0 = H (key)% m。i 是冲突次数，初始为 0。&lt;strong&gt;在散列法中，最多经过 m-1 次探测就会遍历表中的所有位置，回到 H0 位置&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;装载因子 α=n/m (n 表示实际装载数据长度 m 为表长)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;平均查找长度依赖于装填因子，不直接依赖于 n 或 m&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211123204437738.png&#34; alt=&#34;image-20211123204437738&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意平均查找长度，和表长无直接关系&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190917194129346.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpX2plcmVteQ==,size_16,color_FFFFFF,t_70&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;排序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#排序&#34;&gt;#&lt;/a&gt; 排序&lt;/h1&gt;
+&lt;p&gt;拓扑排序不算在排序算法内&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;希尔排序（缩小增量排序）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;n 在某个特定范围时，时间复杂度约为 n^1.3&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://upload-images.jianshu.io/upload_images/1156494-62f859c2ac6f95ff.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;快速排序&lt;/strong&gt;是所有排序算法中品军性能最优的&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211124103643158.png&#34; alt=&#34;image-20211124103643158&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;外部排序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#外部排序&#34;&gt;#&lt;/a&gt; 外部排序&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211124125859446.png&#34; alt=&#34;image-20211124125859446&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211124125916059.png&#34; alt=&#34;image-20211124125916059&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;image-20211124125931356.png&#34; alt=&#34;image-20211124125931356&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -1543,144 +1726,6 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;转化为参数方程&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210925195158836.png&#34; alt=&#34;image-20210925195158836&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210925200545374.png&#34; alt=&#34;image-20210925200545374&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2021/09/18/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</guid>
-            <title>多元函数积分学预备知识</title>
-            <link>http://example.com/2021/09/18/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</link>
-            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-            <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-            <pubDate>Sat, 18 Sep 2021 13:15:27 +0800</pubDate>
-            <description><![CDATA[ &lt;h4 id=&#34;空间曲线的切线与法平面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#空间曲线的切线与法平面&#34;&gt;#&lt;/a&gt; 空间曲线的切线与法平面&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918135647271.png&#34; alt=&#34;image-20210918135647271&#34;&gt;&lt;/p&gt;
-&lt;p&gt;可直接转化为参数方程&lt;/p&gt;
-&lt;h4 id=&#34;空间曲面的切平面和法向量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#空间曲面的切平面和法向量&#34;&gt;#&lt;/a&gt; 空间曲面的切平面和法向量&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918135837687.png&#34; alt=&#34;image-20210918135837687&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;2 维参数方程可直接转化为隐式方程&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;空间曲线在平面上的投影&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#空间曲线在平面上的投影&#34;&gt;#&lt;/a&gt; 空间曲线在平面上的投影&lt;/h4&gt;
-&lt;p&gt;1. 在坐标面上：直接消去对应的值&lt;/p&gt;
-&lt;p&gt;2. 在任意面上投影的方向向量：与投影平面的法向量做外积等&lt;/p&gt;
-&lt;h4 id=&#34;旋转曲面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#旋转曲面&#34;&gt;#&lt;/a&gt; 旋转曲面&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918140206768.png&#34; alt=&#34;image-20210918140206768&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;向量的运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#向量的运算&#34;&gt;#&lt;/a&gt; 向量的运算&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918140314286.png&#34; alt=&#34;image-20210918140314286&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;平面直线及位置关系&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#平面直线及位置关系&#34;&gt;#&lt;/a&gt; 平面直线及位置关系&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918140501959.png&#34; alt=&#34;image-20210918140501959&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918140520685.png&#34; alt=&#34;image-20210918140520685&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918140646053.png&#34; alt=&#34;image-20210918140646053&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;平面与直线的夹角小于 90°&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;场论初步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#场论初步&#34;&gt;#&lt;/a&gt; 场论初步&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918140857494.png&#34; alt=&#34;image-20210918140857494&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918140913130.png&#34; alt=&#34;image-20210918140913130&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918141032116.png&#34; alt=&#34;image-20210918141032116&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;偏导与微分&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918143116391.png&#34; alt=&#34;image-20210918143116391&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918143421790.png&#34; alt=&#34;image-20210918143421790&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;绕 x 轴旋转，y²=y²+z²&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918143600498.png&#34; alt=&#34;image-20210918143600498&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210918143616611.png&#34; alt=&#34;image-20210918143616611&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;这样操作简化计算&lt;/span&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/</guid>
-            <title>中央处理器</title>
-            <link>http://example.com/2021/09/07/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8/</link>
-            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-            <category term="计算机组成原理" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/" />
-            <pubDate>Tue, 07 Sep 2021 09:16:53 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;cpu的功能和结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cpu的功能和结构&#34;&gt;#&lt;/a&gt; CPU 的功能和结构&lt;/h2&gt;
-&lt;h5 id=&#34;运算器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算器&#34;&gt;#&lt;/a&gt; 运算器&lt;/h5&gt;
-&lt;p&gt;算数逻辑单元&lt;/p&gt;
-&lt;p&gt;暂存寄存器（对应用程序员透明）&lt;/p&gt;
-&lt;p&gt;累加寄存器&lt;/p&gt;
-&lt;p&gt;通用寄存器，程序状态字寄存器（用户可见）&lt;/p&gt;
-&lt;p&gt;移位器，计数器&lt;/p&gt;
-&lt;h5 id=&#34;控制器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#控制器&#34;&gt;#&lt;/a&gt; 控制器&lt;/h5&gt;
-&lt;p&gt;程序计数器（汇编语言程序员可见）&lt;/p&gt;
-&lt;p&gt;指令寄存器，存储器地址寄存器，存储器数据寄存器（，用户汇编语言程序员不可见）&lt;/p&gt;
-&lt;p&gt;指令译码器，时序系统，位操作控制信号发生器&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;n 位 cpu 是指数据总线 n 条&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;指令执行过程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#指令执行过程&#34;&gt;#&lt;/a&gt; 指令执行过程&lt;/h2&gt;
-&lt;p&gt;定长，不定长机器周期&lt;/p&gt;
-&lt;p&gt;取值周期（包含对指令译码），间址周期，执行周期，中断周期&lt;/p&gt;
-&lt;p&gt;4 个标志触发器 FE,IND,EX,INT（控制信号：1-&amp;gt;FE,1-&amp;gt;IND....）&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;中断周期的进栈操作是将 sp-1&lt;/span&gt;&lt;/p&gt;
-&lt;h5 id=&#34;指令执行方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#指令执行方案&#34;&gt;#&lt;/a&gt; 指令执行方案&lt;/h5&gt;
-&lt;p&gt;单指令周期，多指令周期，流水线方案&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;从时间上，cpu 通过指令周期的不同阶段区分指令与数据&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;从空间上，cpu 通过数据流向判断，指令从内存流向控制器，数据从内存流向运算器&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210912102623183.png&#34; alt=&#34;image-20210912102623183&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;数据通路的功能和基本机构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据通路的功能和基本机构&#34;&gt;#&lt;/a&gt; 数据通路的功能和基本机构&lt;/h2&gt;
-&lt;p&gt;单总线方式：结构简单，但数据传输存在较多的冲突问题，一个时钟周期内可以完成多个相兼容的位操作&lt;/p&gt;
-&lt;p&gt;三总线方式&lt;/p&gt;
-&lt;p&gt;专用数据通路方式&lt;/p&gt;
-&lt;p&gt;cpu 内部总线：实现容易，内部简单，性能低，有交多冲突&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;使能状态 = 允许&lt;/span&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li class=&#34;quiz&#34;&gt;单周期处理器中所有的指令的指令周期位一个时钟周期，下列关于单周期处理器的叙述错误的是&lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。
-&lt;ul class=&#34;options&#34;&gt;
-&lt;li&gt;处理器时钟频率低&lt;/li&gt;
-&lt;li&gt;在指令执行过程中控制信号不变&lt;/li&gt;
-&lt;li&gt;每条指令的 cpi 为 1&lt;/li&gt;
-&lt;li class=&#34;correct&#34;&gt;可采用单总线结构数据通路&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;p&gt;。。题目&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;控制器的功能和原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#控制器的功能和原理&#34;&gt;#&lt;/a&gt; 控制器的功能和原理&lt;/h2&gt;
-&lt;h4 id=&#34;硬布线控制器一般用于risc执行速度快扩充指令困难&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#硬布线控制器一般用于risc执行速度快扩充指令困难&#34;&gt;#&lt;/a&gt; 硬布线控制器（一般用于 RISC，执行速度快，扩充指令困难）&lt;/h4&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2021/09/05/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</guid>
-            <title>微分方程</title>
-            <link>http://example.com/2021/09/05/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</link>
-            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-            <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-            <pubDate>Sun, 05 Sep 2021 16:43:36 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;重点是换元&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905170302528.png&#34; alt=&#34;image-20210905170302528&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905170313250.png&#34; alt=&#34;image-20210905170313250&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905170341667.png&#34; alt=&#34;image-20210905170341667&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905170453887.png&#34; alt=&#34;image-20210905170453887&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905170515042.png&#34; alt=&#34;image-20210905170515042&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905170710011.png&#34; alt=&#34;image-20210905170710011&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;dy 前面有 x 的话，可以先解 dx/dy&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210905225645731.png&#34; alt=&#34;image-20210905225645731&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210907100113164.png&#34; alt=&#34;image-20210907100113164&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210907100124879.png&#34; alt=&#34;image-20210907100124879&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210907100135038.png&#34; alt=&#34;image-20210907100135038&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210907100956222.png&#34; alt=&#34;image-20210907100956222&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908134309483.png&#34; alt=&#34;image-20210908134309483&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908134436881.png&#34; alt=&#34;image-20210908134436881&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;没学明白&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908134558622.png&#34; alt=&#34;image-20210908134558622&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908135134707.png&#34; alt=&#34;image-20210908135134707&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908135151463.png&#34; alt=&#34;image-20210908135151463&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908135829969.png&#34; alt=&#34;image-20210908135829969&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908135910159.png&#34; alt=&#34;image-20210908135910159&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908140053526.png&#34; alt=&#34;image-20210908140053526&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908140750330.png&#34; alt=&#34;image-20210908140750330&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908140824017.png&#34; alt=&#34;image-20210908140824017&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908144038903.png&#34; alt=&#34;image-20210908144038903&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210908144132513.png&#34; alt=&#34;image-20210908144132513&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;积分时别忘了 C&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
