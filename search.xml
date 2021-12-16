@@ -3131,98 +3131,193 @@ From 是必填的关键字，但它通常由邮件系统自动填入。</p>
 <p>journal 期刊</p>
 <p>licence 许可证，放纵      a licence to print money 一本万利</p>
 <p>perform  履行  preform 预制体</p>
-<p>acquisition 获得</p>
-<p>secure  （经过努力）获得</p>
-<p>routinely 通常的</p>
-<p>paper 论文</p>
-<p>despite 即使</p>
-<p>desperate 绝望的，不顾一切</p>
-<p>strategy 策略</p>
-<p>concern 忧心忡忡</p>
-<p>release 释放，放出</p>
-<p>charge 要价，收费</p>
-<p>inflation 通货膨胀</p>
-<p>resemble  相似</p>
-<p>insincere 虚伪的</p>
-<p>diversity 多样化</p>
-<p>thrive 发展</p>
-<p>claim 宣称，断言</p>
-<p>existential crisis 关乎存亡的危机</p>
-<p>illegal 不合法的</p>
-<p>emergence  出现，兴起</p>
-<p>photocopier  复印机</p>
-<p>legitimacy 合理性</p>
-<p>lobour 工人，劳动</p>
-<p>status 地位</p>
-<p>triunphs  战胜</p>
-<p>feed on  依靠</p>
-<p>sponsor  倡议，提交</p>
-<p>parity  平等</p>
-<p>commit  犯罪，承诺</p>
-<p>commissions  委员会</p>
-<p>elite  精英</p>
-<p>opportunity 机会</p>
-<p>propose 提议</p>
-<p>impose 强制</p>
-<p>quotas 定额</p>
-<p>bill 法案</p>
-<p>pose a threat to 造成威胁</p>
-<p>boraden career option  拓宽职业选择</p>
-<p>adopt 领养，采用</p>
-<p>adapt 适应</p>
-<p>expressly 明确的</p>
-<p>design 设计</p>
-<p>constitutional  宪法</p>
-<p>discrimination  歧视</p>
-<p>irritate 激怒</p>
-<p>controversy  争议</p>
-<p>mandate  指令</p>
-<p>mirror 反映，镜子</p>
-<p>board 董事会，船上，火车上</p>
-<p>qualification 资历，资格</p>
-<p>variety  不同种类，多样</p>
-<p>scoop 勺，铲， scoop up 占据</p>
-<p>tension  紧张局势</p>
-<p>candidate  候选人</p>
-<p>object 反对</p>
-<p>feasibility  可行性</p>
-<p>legislation 法规</p>
-<p>tax  禾兑</p>
-<p>multinational 跨国公司</p>
-<p>media 媒体</p>
-<p>levy  征税</p>
-<p>curb 遏制</p>
-<p>signation  签署</p>
-<p>sanction  制裁</p>
-<p>be apt to  易于</p>
-<p>propose  提议</p>
-<p>provision 条款</p>
-<p>contemplate  考虑</p>
-<p>put in place  实施</p>
-<p>giant 巨头</p>
-<p>distribution  分配 redistribution 再分配</p>
-<p>consensus  一直的意见，共识</p>
-<p>prove  证明</p>
-<p>burdensome  繁重的</p>
-<p>a cascade of 一连串的</p>
-<p>rude 无礼</p>
-<p>Personality 个性</p>
-<p>biological 生物学</p>
-<p>aggressive 侵略性的</p>
-<p>antagonistic  敌对的</p>
-<p>hostility 敌意</p>
-<p>attachment  依恋</p>
-<p>notion 概念</p>
-<p>attach  重视</p>
-<p>hormone 和尔蒙</p>
-<p>dominance  支配</p>
-<p>intimidation  恐吓</p>
+<p>acquisition</p>
+<p>获得</p>
+<p>secure</p>
+<p>（经过努力）获得</p>
+<p>routinely</p>
+<p>通常的</p>
+<p>paper</p>
+<p>论文</p>
+<p>despite</p>
+<p>即使</p>
+<p>desperate</p>
+<p>绝望的，不顾一切</p>
+<p>strategy</p>
+<p>策略</p>
+<p>concern</p>
+<p>忧心忡忡</p>
+<p>release</p>
+<p>释放，放出</p>
+<p>charge</p>
+<p>要价，收费</p>
+<p>inflation</p>
+<p>通货膨胀</p>
+<p>resemble</p>
+<p>相似</p>
+<p>insincere</p>
+<p>虚伪的</p>
+<p>diversity</p>
+<p>多样化</p>
+<p>thrive</p>
+<p>发展</p>
+<p>claim</p>
+<p>宣称，断言</p>
+<p>existential crisis</p>
+<p>关乎存亡的危机</p>
+<p>illegal</p>
+<p>不合法的</p>
+<p>emergence</p>
+<p>出现，兴起</p>
+<p>photocopier</p>
+<p>复印机</p>
+<p>legitimacy</p>
+<p>合理性</p>
+<p>lobour</p>
+<p>工人，劳动</p>
+<p>status</p>
+<p>地位</p>
+<p>triunphs</p>
+<p>战胜</p>
+<p>feed on</p>
+<p>依靠</p>
+<p>sponsor</p>
+<p>倡议，提交</p>
+<p>parity</p>
+<p>平等</p>
+<p>commit</p>
+<p>犯罪，承诺</p>
+<p>commissions</p>
+<p>委员会</p>
+<p>elite</p>
+<p>精英</p>
+<p>opportunity</p>
+<p>机会</p>
+<p>propose</p>
+<p>提议</p>
+<p>impose</p>
+<p>强制</p>
+<p>quotas</p>
+<p>定额</p>
+<p>bill</p>
+<p>法案</p>
+<p>pose a threat to</p>
+<p>造成威胁</p>
+<p>boraden career option</p>
+<p>拓宽职业选择</p>
+<p>adopt</p>
+<p>领养，采用</p>
+<p>adapt</p>
+<p>适应</p>
+<p>expressly</p>
+<p>明确的</p>
+<p>design</p>
+<p>设计</p>
+<p>constitutional</p>
+<p>宪法</p>
+<p>discrimination</p>
+<p>歧视</p>
+<p>irritate</p>
+<p>激怒</p>
+<p>controversy</p>
+<p>争议</p>
+<p>mandate</p>
+<p>指令</p>
+<p>mirror</p>
+<p>反映，镜子</p>
+<p>board</p>
+<p>董事会，船上，火车上</p>
+<p>qualification</p>
+<p>资历，资格</p>
+<p>variety</p>
+<p>不同种类，多样</p>
+<p>scoop</p>
+<p>勺，铲，</p>
+<p>scoop up</p>
+<p>占据</p>
+<p>tension</p>
+<p>紧张局势</p>
+<p>candidate</p>
+<p>候选人</p>
+<p>object</p>
+<p>反对</p>
+<p>feasibility</p>
+<p>可行性</p>
+<p>legislation</p>
+<p>法规</p>
+<p>tax</p>
+<p>禾兑</p>
+<p>multinational</p>
+<p>跨国公司</p>
+<p>media</p>
+<p>媒体</p>
+<p>levy</p>
+<p>征税</p>
+<p>curb</p>
+<p>遏制</p>
+<p>signation</p>
+<p>签署</p>
+<p>sanction</p>
+<p>制裁</p>
+<p>be apt to</p>
+<p>易于</p>
+<p>propose</p>
+<p>提议</p>
+<p>provision</p>
+<p>条款</p>
+<p>contemplate</p>
+<p>考虑</p>
+<p>put in place</p>
+<p>实施</p>
+<p>giant</p>
+<p>巨头</p>
+<p>distribution</p>
+<p>分配</p>
+<p>redistribution</p>
+<p>再分配</p>
+<p>consensus</p>
+<p>一直的意见，共识</p>
+<p>prove</p>
+<p>证明</p>
+<p>burdensome</p>
+<p>繁重的</p>
+<p>a cascade of</p>
+<p>一连串的</p>
+<p>rude</p>
+<p>无礼</p>
+<p>Personality</p>
+<p>个性</p>
+<p>biological</p>
+<p>生物学</p>
+<p>aggressive</p>
+<p>侵略性的</p>
+<p>antagonistic</p>
+<p>敌对的</p>
+<p>hostility</p>
+<p>敌意</p>
+<p>attachment</p>
+<p>依恋</p>
+<p>notion</p>
+<p>概念</p>
+<p>attach</p>
+<p>重视</p>
+<p>hormone</p>
+<p>和尔蒙</p>
+<p>dominance</p>
+<p>支配</p>
+<p>intimidation</p>
+<p>恐吓</p>
 <p>adversarial 对立的</p>
-<p>backfire  事与愿违</p>
-<p>occur 发生</p>
-<p>assembled  集合，组装</p>
-<p>perceive  感知，觉察</p>
-<p>anxiety 焦虑</p>
+<p>backfire</p>
+<p>事与愿违</p>
+<p>occur</p>
+<p>发生</p>
+<p>assembled</p>
+<p>集合，组装</p>
+<p>perceive</p>
+<p>感知，觉察</p>
+<p>anxiety</p>
+<p>焦虑</p>
 <hr>
 <p>willpower</p>
 <p>意志力</p>
@@ -3352,6 +3447,71 @@ From 是必填的关键字，但它通常由邮件系统自动填入。</p>
 <p>紧急情况</p>
 <p>cherish</p>
 <p>珍视</p>
+<hr>
+<p>battery</p>
+<p>电池</p>
+<p>compass</p>
+<p>指南针</p>
+<p>relatively</p>
+<p>相对地</p>
+<p>literally</p>
+<p>的确</p>
+<p>tirck</p>
+<p>诀窍</p>
+<p>navigation</p>
+<p>导航</p>
+<p>trail</p>
+<p>追踪，踪迹，小径</p>
+<p>downhill</p>
+<p>下坡</p>
+<p>overwhelmingly</p>
+<p>压倒性的</p>
+<p>site</p>
+<p>场所</p>
+<p>beside</p>
+<p>除此之外</p>
+<p>intentionally</p>
+<p>故意的，有打算的</p>
+<p>unexpectedly</p>
+<p>出人意料的</p>
+<p>annoyed</p>
+<p>恼怒的</p>
+<p>confuse</p>
+<p>混淆，使糊涂</p>
+<p>frightened</p>
+<p>受惊的</p>
+<p>distinctive</p>
+<p>独特的</p>
+<p>bearing</p>
+<p>方位</p>
+<p>option</p>
+<p>选项</p>
+<p>dense</p>
+<p>茂密的</p>
+<p>spot</p>
+<p>发现</p>
+<p>bridge</p>
+<p>弥合，消除</p>
+<p>gap</p>
+<p>缺口，间隔</p>
+<p>shades</p>
+<p>阴影</p>
+<p>posts</p>
+<p>工作，职位，柱</p>
+<p>artifical</p>
+<p>人造的</p>
+<p>glow</p>
+<p>光亮</p>
+<p>habitation</p>
+<p>住宅</p>
+<p>restrict</p>
+<p>限制</p>
+<p>consequently</p>
+<p>因此</p>
+<p>incidentally</p>
+<p>顺带一提，偶然地</p>
+<p>tire tracks</p>
+<p>轮胎痕迹</p>
 ]]></content>
   </entry>
   <entry>
