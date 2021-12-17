@@ -800,33 +800,33 @@
 <hr>
 <h2 id="第2轮复习"><a class="anchor" href="#第2轮复习">#</a> 第 2 轮复习</h2>
 <h4 id="统计量及其分布"><a class="anchor" href="#统计量及其分布">#</a> 统计量及其分布</h4>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155615785.png" alt="image-20211029155615785"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155627759.png" alt="image-20211029155627759"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029181016411.png" alt="image-20211029181016411"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155727590.png" alt="image-20211029155727590"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029155739271.png" alt="image-20211029155739271"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029184106914.png" alt="image-20211029184106914"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211029184126659.png" alt="image-20211029184126659"></p>
+<p><img data-src="image-20211029155615785.png" alt="image-20211029155615785"></p>
+<p><img data-src="image-20211029155627759.png" alt="image-20211029155627759"></p>
+<p><img data-src="mage-20211029181016411.png" alt="image-20211029181016411"></p>
+<p><img data-src="image-20211029155727590.png" alt="image-20211029155727590"></p>
+<p><img data-src="image-20211029155739271.png" alt="image-20211029155739271"></p>
+<p><img data-src="image-20211029184106914.png" alt="image-20211029184106914"></p>
+<p><img data-src="image-20211029184126659.png" alt="image-20211029184126659"></p>
 <h4 id="参数估计和假设验证"><a class="anchor" href="#参数估计和假设验证">#</a> 参数估计和假设验证</h4>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030184757018.png" alt="image-20211030184757018"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030184811279.png" alt="image-20211030184811279"></p>
+<p><img data-src="image-20211030184757018.png" alt="image-20211030184757018"></p>
+<p><img data-src="image-20211030184811279.png" alt="image-20211030184811279"></p>
 <p><span class="rainbow">简单假设：假设成立时，分布可完全确定</span></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193818210.png" alt="image-20211030193818210"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193837161.png" alt="image-20211030193837161"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030193844638.png" alt="image-20211030193844638"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030205631213.png" alt="image-20211030205631213"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030205643587.png" alt="image-20211030205643587"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211030205658306.png" alt="image-20211030205658306"></p>
+<p><img data-src="image-20211030193818210.png" alt="image-20211030193818210"></p>
+<p><img data-src="image-20211030193837161.png" alt="image-20211030193837161"></p>
+<p><img data-src="image-20211030193844638.png" alt="image-20211030193844638"></p>
+<p><img data-src="image-20211030205631213.png" alt="image-20211030205631213"></p>
+<p><img data-src="image-20211030205643587.png" alt="image-20211030205643587"></p>
+<p><img data-src="image-20211030205658306.png" alt="image-20211030205658306"></p>
 <hr>
 <p><span class="rainbow">有点绕啊</span></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211031162636318.png" alt="image-20211031162636318"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211031162658843.png" alt="image-20211031162658843"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109083837945.png" alt="image-20211109083837945"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109083914604.png" alt="image-20211109083914604"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109083931307.png" alt="image-20211109083931307"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109092932393.png" alt="image-20211109092932393"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109093004917.png" alt="image-20211109093004917"></p>
-<p><img data-src="C:%5CUsers%5Czz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20211109093023077.png" alt="image-20211109093023077"></p>
+<p><img data-src="image-20211031162636318.png" alt="image-20211031162636318"></p>
+<p><img data-src="image-20211031162658843.png" alt="image-20211031162658843"></p>
+<p><img data-src="image-20211109083837945.png" alt="image-20211109083837945"></p>
+<p><img data-src="image-20211109083914604.png" alt="image-20211109083914604"></p>
+<p><img data-src="image-20211109083931307.png" alt="image-20211109083931307"></p>
+<p><img data-src="image-20211109092932393.png" alt="image-20211109092932393"></p>
+<p><img data-src="image-20211109093004917.png" alt="image-20211109093004917"></p>
+<p><img data-src="image-20211109093023077.png" alt="image-20211109093023077"></p>
 ]]></content>
       <categories>
         <category>考研</category>
@@ -3046,91 +3046,187 @@ From 是必填的关键字，但它通常由邮件系统自动填入。</p>
   <entry>
     <title>英语</title>
     <url>/2021/12/08/%E8%8B%B1%E8%AF%AD/</url>
-    <content><![CDATA[<p>resume 简历</p>
-<p>hire  租用，招聘</p>
-<p>insure 确保，投保</p>
-<p>insurance 保险</p>
-<p>community of scholar 学术团体</p>
-<p>consequence 结果</p>
-<p>admit 允许... 加入，承认</p>
-<p>marked 明显的</p>
-<p>arrangement 筹备</p>
-<p>norm 准则</p>
-<p>administration 管理</p>
-<p>peculiar 特殊的</p>
-<p>stability 稳定</p>
-<p>innovation 创新</p>
-<p>manifest 显现，使注意到</p>
-<p>institution 机构</p>
-<p>proportion 比例</p>
-<p>entry 进入</p>
-<p>watershed 转折点，分水岭</p>
-<p>arise 由... 引起</p>
-<p>unevenly 不均衡地</p>
-<p>contract 合同</p>
-<p>access 进入，获取，通道通路</p>
-<p>optimize 优化</p>
-<p>premium 保险费</p>
-<p>revenue 收入</p>
-<p>market 集市，营销</p>
-<p>outprefrom 超过</p>
-<p>bias 偏心  biased</p>
-<p>unconscious 无意识的</p>
-<p>experiment 实验</p>
-<p>guilty 有罪的</p>
-<p>render  宣布</p>
-<p>roast 烤肉  toast 烤</p>
-<p>nonetheless 然鹅</p>
-<p>towards 接近（某时刻）</p>
-<p>till 直到</p>
-<p>match 相匹敌</p>
-<p>patience 耐心，坚忍</p>
-<p>concern 关心</p>
-<p>intensified 加强的</p>
-<p>privileged 有特权的</p>
-<p>compell 强迫</p>
-<p>while 尽管   Since 既然，由于</p>
-<p>advisable 明智的</p>
-<p>urgent 紧急的</p>
-<p>forunate 幸运的</p>
-<p>in constrast to 与... 形成对比</p>
-<p>in particular 尤其</p>
-<p>after all 毕竟，终究</p>
-<p>principle 原理，原则</p>
-<p>to be brief 简言之</p>
-<p>reluctantly 不情愿的</p>
-<p>entirely 完全的</p>
-<p>gradually 渐渐的</p>
-<p>cut out 戒除</p>
-<p>came across 给人以... 印象</p>
-<p>scar 惊吓</p>
-<p>pushy 强势的，急于求成的</p>
+    <content><![CDATA[<p>resume</p>
+<p>简历</p>
+<p>hire</p>
+<p>租用，招聘</p>
+<p>insure</p>
+<p>确保，投保</p>
+<p>insurance</p>
+<p>保险</p>
+<p>community of scholar</p>
+<p>学术团体</p>
+<p>consequence</p>
+<p>结果</p>
+<p>admit</p>
+<p>允许... 加入，承认</p>
+<p>marked</p>
+<p>明显的</p>
+<p>arrangement</p>
+<p>筹备</p>
+<p>norm</p>
+<p>准则</p>
+<p>administration</p>
+<p>管理</p>
+<p>peculiar</p>
+<p>特殊的</p>
+<p>stability</p>
+<p>稳定</p>
+<p>innovation</p>
+<p>创新</p>
+<p>manifest</p>
+<p>显现，使注意到</p>
+<p>institution</p>
+<p>机构</p>
+<p>proportion</p>
+<p>比例</p>
+<p>entry</p>
+<p>进入</p>
+<p>watershed</p>
+<p>转折点，分水岭</p>
+<p>arise</p>
+<p>由... 引起</p>
+<p>unevenly</p>
+<p>不均衡地</p>
+<p>contract</p>
+<p>合同</p>
+<p>access</p>
+<p>进入，获取，通道通路</p>
+<p>optimize</p>
+<p>优化</p>
+<p>premium</p>
+<p>保险费</p>
+<p>revenue</p>
+<p>收入</p>
+<p>market</p>
+<p>集市，营销</p>
+<p>outprefrom</p>
+<p>超过</p>
+<p>bias</p>
+<p>偏心  biased</p>
+<p>unconscious</p>
+<p>无意识的</p>
+<p>experiment</p>
+<p>实验</p>
+<p>guilty</p>
+<p>有罪的</p>
+<p>render</p>
+<p>宣布</p>
+<p>roast</p>
+<p>烤肉</p>
+<p>toast</p>
+<p>烤</p>
+<p>nonetheless</p>
+<p>然鹅</p>
+<p>towards</p>
+<p>接近（某时刻）</p>
+<p>till</p>
+<p>直到</p>
+<p>match</p>
+<p>相匹敌</p>
+<p>patience</p>
+<p>耐心，坚忍</p>
+<p>concern</p>
+<p>关心</p>
+<p>intensified</p>
+<p>加强的</p>
+<p>privileged</p>
+<p>有特权的</p>
+<p>compell</p>
+<p>强迫</p>
+<p>while</p>
+<p>尽管</p>
+<p>Since</p>
+<p>既然，由于</p>
+<p>advisable</p>
+<p>明智的</p>
+<p>urgent</p>
+<p>紧急的</p>
+<p>forunate</p>
+<p>幸运的</p>
+<p>in constrast to</p>
+<p>与... 形成对比</p>
+<p>in particular</p>
+<p>尤其</p>
+<p>after all</p>
+<p>毕竟，终究</p>
+<p>principle</p>
+<p>原理，原则</p>
+<p>to be brief</p>
+<p>简言之</p>
+<p>reluctantly</p>
+<p>不情愿的</p>
+<p>entirely</p>
+<p>完全的</p>
+<p>gradually</p>
+<p>渐渐的</p>
+<p>cut out</p>
+<p>戒除</p>
+<p>came across</p>
+<p>给人以... 印象</p>
+<p>scar</p>
+<p>惊吓</p>
+<p>pushy</p>
+<p>强势的，急于求成的</p>
 <hr>
-<p>institue 建立</p>
-<p>confine 限定，限制</p>
-<p>bid  尝试</p>
-<p>an avalanche of	突然大量到来的某物</p>
-<p>lack  缺乏</p>
-<p>consolidate  加强</p>
-<p>prestigous 有声望的</p>
-<p>bag 抢占</p>
-<p>cynic 悲观者，怀疑者</p>
-<p>speculate 推测</p>
-<p>desperation 极度渴望</p>
-<p>booby prize  安慰奖</p>
-<p>on the verge of  濒于.....</p>
-<p>spell 持续的一段时间</p>
-<p>press 新闻界</p>
-<p>aspritaion  愿景</p>
-<p>a contrasting case  反例  contrasting 对比</p>
-<p>peculiarities  特色</p>
-<p>celebrate  赞美</p>
-<p>Skeptical  质疑</p>
-<p>Objective 客观  Subjective</p>
-<p>pessimism 悲观 optimistic</p>
-<p>journal 期刊</p>
-<p>licence 许可证，放纵      a licence to print money 一本万利</p>
-<p>perform  履行  preform 预制体</p>
+<p>institue</p>
+<p>建立</p>
+<p>confine</p>
+<p>限定，限制</p>
+<p>bid</p>
+<p>尝试</p>
+<p>an avalanche of</p>
+<p>​	突然大量到来的某物</p>
+<p>lack</p>
+<p>缺乏</p>
+<p>consolidate</p>
+<p>加强</p>
+<p>prestigous</p>
+<p>有声望的</p>
+<p>bag</p>
+<p>抢占</p>
+<p>cynic</p>
+<p>悲观者，怀疑者</p>
+<p>speculate</p>
+<p>推测</p>
+<p>desperation</p>
+<p>极度渴望</p>
+<p>booby prize</p>
+<p>安慰奖</p>
+<p>on the verge of</p>
+<p>濒于.....</p>
+<p>spell</p>
+<p>持续的一段时间</p>
+<p>press</p>
+<p>新闻界</p>
+<p>aspritaion</p>
+<p>愿景</p>
+<p>a contrasting case</p>
+<p>反例</p>
+<p>contrasting</p>
+<p>对比</p>
+<p>peculiarities</p>
+<p>特色</p>
+<p>celebrate</p>
+<p>赞美</p>
+<p>Skeptical</p>
+<p>质疑</p>
+<p>Objective</p>
+<p>客观</p>
+<p>Subjective</p>
+<p>pessimism</p>
+<p>悲观</p>
+<p>optimistic</p>
+<p>journal</p>
+<p>期刊</p>
+<p>licence</p>
+<p>许可证，放纵</p>
+<p>a licence to print money</p>
+<p>一本万利</p>
+<p>perform</p>
+<p>履行</p>
+<p>preform</p>
+<p>预制体</p>
 <p>acquisition</p>
 <p>获得</p>
 <p>secure</p>
