@@ -10,8 +10,17 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 08 Dec 2021 08:19:02 +0800</pubDate>
-        <lastBuildDate>Wed, 08 Dec 2021 08:19:02 +0800</lastBuildDate>
+        <pubDate>Tue, 01 Mar 2022 20:25:45 +0800</pubDate>
+        <lastBuildDate>Tue, 01 Mar 2022 20:25:45 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/03/01/%E6%95%B0%E4%BD%8Ddp%E6%A8%A1%E6%9D%BF/</guid>
+            <title>数位dp模板</title>
+            <link>http://example.com/2022/03/01/%E6%95%B0%E4%BD%8Ddp%E6%A8%A1%E6%9D%BF/</link>
+            <category term="ACM" scheme="http://example.com/tags/ACM/" />
+            <pubDate>Tue, 01 Mar 2022 20:25:45 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;image-20220301202736310.png&#34; alt=&#34;image-20220301202736310&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/12/08/%E8%8B%B1%E8%AF%AD/</guid>
             <title>英语</title>
@@ -718,6 +727,18 @@
 &lt;p&gt;繁荣&lt;/p&gt;
 &lt;p&gt;rival&lt;/p&gt;
 &lt;p&gt;竞争对手&lt;/p&gt;
+&lt;p&gt;a great deal of&lt;/p&gt;
+&lt;p&gt;大量&lt;/p&gt;
+&lt;p&gt;dietary&lt;/p&gt;
+&lt;p&gt;饮食&lt;/p&gt;
+&lt;p&gt;generate&lt;/p&gt;
+&lt;p&gt;产生&lt;/p&gt;
+&lt;p&gt;famed&lt;/p&gt;
+&lt;p&gt;著名的&lt;/p&gt;
+&lt;p&gt;incorporate&lt;/p&gt;
+&lt;p&gt;吸收&lt;/p&gt;
+&lt;p&gt;associate&lt;/p&gt;
+&lt;p&gt;同事，合作人&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -2326,76 +2347,6 @@ x.signal：x 对应的条件发生了变化，则调用 x.signal，唤醒了一�
 &lt;p&gt;半互锁方式&lt;/p&gt;
 &lt;p&gt;全互锁方式：主设备发出 “请求” 信号后，必须在从设备 “回答” 后才撤销 “请求” 信号；从设备发出 “回答” 信号后，必须在获知主设备 “请求” 信号已撤销后，再撤销其 “回答” 信号&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;image-20210921103739428.png&#34; alt=&#34;image-20210921103739428&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2021/09/20/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%EF%BC%88%E4%BB%85%E6%95%B0%E4%B8%80%EF%BC%89/</guid>
-            <title>多元函数积分学（仅数一）</title>
-            <link>http://example.com/2021/09/20/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E5%AD%A6%EF%BC%88%E4%BB%85%E6%95%B0%E4%B8%80%EF%BC%89/</link>
-            <category term="考研" scheme="http://example.com/categories/%E8%80%83%E7%A0%94/" />
-            <category term="高等数学" scheme="http://example.com/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" />
-            <pubDate>Mon, 20 Sep 2021 13:47:48 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;要使用好对称性和轮转对称性&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;球面坐标系&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#球面坐标系&#34;&gt;#&lt;/a&gt; 球面坐标系&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210920145254164.png&#34; alt=&#34;image-20210920145254164&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922194113197.png&#34; alt=&#34;image-20210922194113197&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;第一型曲线积分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一型曲线积分&#34;&gt;#&lt;/a&gt; 第一型曲线积分&lt;/h2&gt;
-&lt;p&gt;有密度的曲线&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922195230282.png&#34; alt=&#34;image-20210922195230282&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922195644117.png&#34; alt=&#34;image-20210922195644117&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;遇到空间曲线，一般利用轮转对称性，对称性&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922195811310.png&#34; alt=&#34;image-20210922195811310&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922195825275.png&#34; alt=&#34;image-20210922195825275&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;第一型曲面积分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一型曲面积分&#34;&gt;#&lt;/a&gt; 第一型曲面积分&lt;/h2&gt;
-&lt;p&gt;带密度的曲面&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922201858567.png&#34; alt=&#34;image-20210922201858567&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;第二型曲线积分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二型曲线积分&#34;&gt;#&lt;/a&gt; 第二型曲线积分&lt;/h2&gt;
-&lt;p&gt;做功&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922204243613.png&#34; alt=&#34;image-20210922204243613&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210922204302544.png&#34; alt=&#34;image-20210922204302544&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;2，3 都是路径无关&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923142155839.png&#34; alt=&#34;image-20210923142155839&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923142210976.png&#34; alt=&#34;image-20210923142210976&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923144555252.png&#34; alt=&#34;image-20210923144555252&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;摆线方程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#摆线方程&#34;&gt;#&lt;/a&gt; 摆线方程&lt;/h4&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923151541849.png&#34; alt=&#34;image-20210923151541849&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923194637283.png&#34; alt=&#34;image-20210923194637283&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923201337416.png&#34; alt=&#34;image-20210923201337416&#34;&gt;&lt;/p&gt;
-&lt;p&gt;::info&lt;/p&gt;
-&lt;p&gt;没有理解，henfan&lt;/p&gt;
-&lt;p&gt;::&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923203524556.png&#34; alt=&#34;image-20210923203524556&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210923204806560.png&#34; alt=&#34;image-20210923204806560&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210924092052207.png&#34; alt=&#34;image-20210924092052207&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210924143010687.png&#34; alt=&#34;image-20210924143010687&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210924154609155.png&#34; alt=&#34;image-20210924154609155&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210924161815314.png&#34; alt=&#34;image-20210924161815314&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925210033435.png&#34; alt=&#34;image-20210925210033435&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;第2型曲面积分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第2型曲面积分&#34;&gt;#&lt;/a&gt; 第 2 型曲面积分&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210924175335448.png&#34; alt=&#34;image-20210924175335448&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210924181502402.png&#34; alt=&#34;image-20210924181502402&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210924183301980.png&#34; alt=&#34;image-20210924183301980&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925090027489.png&#34; alt=&#34;image-20210925090027489&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925091034432.png&#34; alt=&#34;image-20210925091034432&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925101735987.png&#34; alt=&#34;image-20210925101735987&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925102715791.png&#34; alt=&#34;image-20210925102715791&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925183232039.png&#34; alt=&#34;image-20210925183232039&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925183255492.png&#34; alt=&#34;image-20210925183255492&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925195126637.png&#34; alt=&#34;image-20210925195126637&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;转化为参数方程&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925195158836.png&#34; alt=&#34;image-20210925195158836&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;image-20210925200545374.png&#34; alt=&#34;image-20210925200545374&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
